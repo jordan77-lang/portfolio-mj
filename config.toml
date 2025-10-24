@@ -1,0 +1,27 @@
+baseURL = "https://jordan77-lang.github.io/portfolio-mj/"
+languageCode = "en-us"
+title = "Your Name"
+theme = "ananke"
+enableRobotsTXT = true
+
+[params]
+  subtitle = "Portfolio — Research / Software / Projects"
+  description = "Short 1-line elevator pitch about what you build and study."
+  author = "Your Name"
+  github = "https://github.com/your-username"
+  linkedin = "https://linkedin.com/in/your-username"
+  email = "you@example.com"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "CV"
+    url = "/files/YourName_CV.pdf"
+    weight = 3
