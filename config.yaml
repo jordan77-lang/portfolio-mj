@@ -1,0 +1,134 @@
+baseURL: https://jordan77-lang.github.io/portfolio-mj/
+languageCode: en-us
+title: Mark Jordan
+theme: aafu
+build:
+  writeStats: true
+
+ignoreLogs:
+  - 'warning-goldmark-raw-html'
+
+params:
+  author: Mark Jordan
+  description: STEM Educator & HGTV Host
+  copyright: © Mark Jordan 2025
+
+  theme:
+    mainTheme: dark
+    showAttribute: true
+    singlePage: true
+
+  profile:
+    name: "Mark Jordan"
+    tagline: Education Innovation
+    location: "Mesa, Arizona"
+    photo: profile.jpg
+
+  social:
+    title: Links
+    list:
+      - icon: fab fa-linkedin-in
+        url: "https://linkedin.com/in/mark-jordan"
+        title: LinkedIn
+      - icon: fab fa-github
+        url: "https://github.com/jordan77-lang"
+        title: GitHub
+      - icon: fas fa-envelope
+        url: "mailto:stramark@gmail.com"
+        title: Email
+      - icon: fas fa-file-pdf
+        url: "/files/Mark_Jordan_Resume.pdf"
+        title: Resume
+
+  showInAccordion:
+    - item: aboutme
+      expand: true
+    - item: experience
+    - item: education
+    - item: project
+    - item: skill
+
+  aboutme:
+    title: About Me
+    icon: fas fa-user
+    description: |
+      I'm a STEM educator with 20+ years teaching engineering, robotics, and cyber security in Arizona public schools. Currently at Hamilton High School in Chandler.
+      
+      From 2008-2010, I hosted HGTV's "Over Your Head" for three seasons, bringing hands-on construction and problem-solving to a national audience.
+
+  experience:
+    title: Experience
+    icon: fas fa-briefcase
+    list:
+      - position: STEM Teacher
+        dates: 2020 - Present
+        company: Hamilton High School, Chandler USD
+        details: |
+          - Teaching Cyber Security, Engineering, and Investigative Science
+          - Project Lead the Way certified instructor
+          - Coaching robotics and engineering competition teams
+      
+      - position: STEM Teacher
+        dates: 2000 - 2020
+        company: Mesquite High School, Gilbert Public Schools
+        details: |
+          - Taught Engineering, Robotics, Aerospace, and Manufacturing for 20 years
+          - Created Space Night, annual event with 500+ attendees
+          - Sponsored SkillsUSA and Maker's Club (50+ members)
+          - Managed CNC lab, woodshop, and engineering facilities
+          - Teacher of the Year (2019-2020)
+      
+      - position: Master Carpenter & Host
+        dates: 2008 - 2010
+        company: HGTV - "Over Your Head"
+        details: |
+          - On-camera talent for 3 seasons of nationally broadcast home improvement show
+          - Designed, constructed, and remodeled homes for weekly episodes
+          - Sponsored by Craftsman Tools and GMC
+
+  education:
+    title: Education
+    icon: fas fa-graduation-cap
+    list:
+      - degree: M.S. in Instructional Design and Technology
+        college: Walden University
+        dates: 2013 - 2016
+        details: "NEA Excellence in Public School Education Scholarship recipient"
+      
+      - degree: B.F.A. in Education
+        college: Arizona State University
+        dates: 1995 - 1999
+
+  project:
+    title: Teaching Highlights
+    icon: fas fa-project-diagram
+    list:
+      - title: Space Night
+        url: "/projects/space-night/"
+        description: Annual spring carnival celebrating space exploration with 500+ students, families, and community members.
+      
+      - title: Robotics & Competition Teams
+        description: Coached SkillsUSA, Vex Robotics, and Battlebots teams. Led Maker's Club with 50+ active members.
+      
+      - title: CNC & Manufacturing Lab
+        description: Built and managed state-of-the-art manufacturing facility training 150+ students annually with zero safety incidents over 20 years.
+
+  skill:
+    title: Skills & Certifications
+    icon: fas fa-cogs
+    list:
+      - skill: Project Lead the Way Certified
+        skillrating: 100
+      - skill: CAD/CAM (Inventor, SolidWorks)
+        skillrating: 95
+      - skill: Electronics & Arduino
+        skillrating: 90
+      - skill: CNC Operations & Manufacturing
+        skillrating: 95
+      - skill: Curriculum Development
+        skillrating: 95
+      - skill: CTE - Emerging Technologies
+        skillrating: 90
+
+menu:
+  main: []

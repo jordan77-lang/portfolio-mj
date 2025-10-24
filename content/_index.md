@@ -1,18 +1,47 @@
+﻿---
+title: "Mark Jordan"
+featured_image: ""
+description: "STEM Educator & HGTV Host"
 ---
-title: "Home"
-date: 2025-10-24
----
 
-Hi — I'm Your Name. I'm applying for PhD programs and build ML systems for reproducible experiments and scalable inference.
+## About Me
 
-Quick links
-- [Download CV (PDF)](/files/YourName_CV.pdf)
-- [Selected projects](/projects/)
-- Contact: [you@example.com](mailto:you@example.com) · [GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-username)
+I'm a STEM educator with 20+ years teaching engineering, robotics, and cyber security in Arizona public schools. Currently at Hamilton High School in Chandler.
 
-Short highlights
-- Built Project A — a library/tool that speeds X by Yx.
-- Interned at Company B (ML Infrastructure).
-- Interests: distributed systems, reproducible research, and ML for systems.
+From 2008-2010, I hosted HGTV's "Over Your Head" for three seasons, bringing hands-on construction and problem-solving to a national audience.
 
-A few lines about what kinds of roles / programs you’re applying for and what you want to study are ideal here — keep it 2–4 sentences.
+## What I Teach
+
+- Cyber Security
+- Engineering & Design
+- Robotics and Electronics
+- Aerospace Engineering (Project Lead the Way certified)
+
+## Background
+
+**Experience:**
+- Hamilton High School (2020-Present)
+- Mesquite High School (2000-2020)
+- HGTV "Over Your Head" Host (2008-2010)
+
+**Education:**
+- MS Instructional Design & Technology, Walden University
+- BFA Education, Arizona State University
+- Project Lead the Way Certified (IED, POE, AE, EDD, Cyber Security)
+
+**Recognition:**
+- Mesquite HS Teacher of the Year (2019-2020)
+- NEA Excellence in Public School Education Scholarship (2013)
+- Nominated Best Teacher in Gilbert (2018, 2019, 2020)
+
+## Notable Projects
+
+I created **Space Night**, an annual spring event celebrating space exploration that brings together 500+ students, families, and community members. I've also coached robotics teams (SkillsUSA, Vex Robotics, Battlebots) and manage our school's CNC and manufacturing labs.
+
+For more details, see my [teaching highlights](/projects/) or [full background](/about/).
+
+## Contact
+
+ stramark@gmail.com  
+ (480) 678-2737  
+ [Download Resume](/files/Mark_Jordan_Resume.pdf)

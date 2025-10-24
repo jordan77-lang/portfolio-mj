@@ -1,0 +1,15 @@
+# Reduce Copilot Chat context size and speed up responses
+.git/
+public/**
+resources/**
+node_modules/**
+**/node_modules/**
+.hugo_build.lock
+hugo_stats.json
+package-lock.json
+
+# Unused/alternate themes (keep only aafu for context)
+themes/ananke/**
+themes/PaperMod/**
+# theme node_modules (if any)
+themes/**/node_modules/**
