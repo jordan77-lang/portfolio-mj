@@ -1,6 +1,5 @@
 ---
 title: "Machine Learning Pipeline"
-date: 2024-10-15
 tags: ["python", "ml", "pytorch", "kubernetes", "mlops"]
 featured_image: ""
 description: "End-to-end ML infrastructure for training and deployment"

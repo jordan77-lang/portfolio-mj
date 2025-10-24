@@ -1,6 +1,5 @@
 ---
 title: "Space Night - Annual STEM Celebration"
-date: 2024-12-01
 tags: ["stem-education", "community-engagement", "event-planning", "space-science"]
 featured_image: ""
 description: "A community celebration of space exploration bringing together 500+ students, families, and educators annually"

@@ -5,13 +5,18 @@ theme: aafu
 build:
   writeStats: true
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 ignoreLogs:
   - 'warning-goldmark-raw-html'
 
 params:
   author: Mark Jordan
   description: STEM Educator & HGTV Host
-  copyright: © Mark Jordan 2025
+  copyright: © Mark Jordan
 
   theme:
     mainTheme: dark
@@ -60,26 +65,27 @@ params:
     title: Experience
     icon: fas fa-briefcase
     list:
-      - position: STEM Teacher
-        dates: 2020 - Present
-        company: Hamilton High School, Chandler USD
+      - position: Curriculum Designer
+        company: ASU Dreamscape Learn
         details: |
-          - Teaching Cyber Security, Engineering, and Investigative Science
-          - Project Lead the Way certified instructor
-          - Coaching robotics and engineering competition teams
+          - Designing immersive VR/AR educational experiences
+          - Developing curriculum for next-generation learning environments
+          - Collaborating with Arizona State University's innovation team
       
       - position: STEM Teacher
-        dates: 2000 - 2020
-        company: Mesquite High School, Gilbert Public Schools
+        company: Arizona Public Schools
         details: |
-          - Taught Engineering, Robotics, Aerospace, and Manufacturing for 20 years
+          - 24 years teaching Engineering, Robotics, Cyber Security, and Aerospace
+          - Currently at Hamilton High School, Chandler USD
+          - Previously at Mesquite High School, Gilbert Public Schools
+          - Project Lead the Way certified instructor
           - Created Space Night, annual event with 500+ attendees
+          - Coached robotics and engineering competition teams
           - Sponsored SkillsUSA and Maker's Club (50+ members)
           - Managed CNC lab, woodshop, and engineering facilities
-          - Teacher of the Year (2019-2020)
+          - Teacher of the Year
       
       - position: Master Carpenter & Host
-        dates: 2008 - 2010
         company: HGTV - "Over Your Head"
         details: |
           - On-camera talent for 3 seasons of nationally broadcast home improvement show
@@ -92,26 +98,42 @@ params:
     list:
       - degree: M.S. in Instructional Design and Technology
         college: Walden University
-        dates: 2013 - 2016
         details: "NEA Excellence in Public School Education Scholarship recipient"
       
       - degree: B.F.A. in Education
         college: Arizona State University
-        dates: 1995 - 1999
 
   project:
-    title: Teaching Highlights
+    title: Career Highlights
     icon: fas fa-project-diagram
     list:
+      - title: Silver Apple Award Winner
+        url: "/portfolio-mj/projects/silver-apple-award/"
+        description: Recognized by Arizona's Family (3TV/CBS 5) for excellence in STEM education and mentoring future engineers at Hamilton High School.
+      
+      - title: "HGTV: Over Your Head — Master Carpenter"
+        url: "/portfolio-mj/projects/over-your-head/"
+        description: "On‑camera master carpenter and host for HGTV’s renovation‑rescue series; rapid design/build and homeowner mentorship on set."
+      
+      - title: Project Zephyr — High Altitude Weather Balloon
+        url: "/portfolio-mj/projects/zephyr/"
+        description: Student-led stratospheric balloon mission with sensors, live tracking, and recovery.
+      
       - title: Space Night
-        url: "/projects/space-night/"
+        url: "/portfolio-mj/projects/space-night/"
         description: Annual spring carnival celebrating space exploration with 500+ students, families, and community members.
       
       - title: Robotics & Competition Teams
+        url: "/portfolio-mj/projects/robotics/"
         description: Coached SkillsUSA, Vex Robotics, and Battlebots teams. Led Maker's Club with 50+ active members.
       
       - title: CNC & Manufacturing Lab
+        url: "/portfolio-mj/projects/cnc-lab/"
         description: Built and managed state-of-the-art manufacturing facility training 150+ students annually with zero safety incidents over 20 years.
+
+      - title: Phoenix Neutrino Project — Director
+        url: "/portfolio-mj/projects/phoenix-neutrino/"
+        description: Independent science‑film project; directed production and community outreach to make particle physics accessible.
 
   skill:
     title: Skills & Certifications

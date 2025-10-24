@@ -1,6 +1,5 @@
 ---
 title: "Open Source Developer Tools"
-date: 2024-09-20
 tags: ["typescript", "javascript", "python", "devtools", "opensource"]
 featured_image: ""
 description: "A collection of developer tools improving productivity and code quality"
@@ -166,7 +165,7 @@ Contributing to open source has:
 
 ## Future Roadmap
 
-**Short-term (Q1 2026):**
+**Short-term:**
 - WebAssembly compilation for browser usage
 - VS Code extension marketplace publication
 - Enhanced AI capabilities in TestGen
