@@ -1,28 +1,39 @@
-# portfolio-mj (Hugo / Ananke theme) — starter
+# Mark Jordan - Portfolio Website
 
-This repo is a minimal Hugo portfolio using the Ananke theme.
-Replace placeholders (Your Name, links, CV) and add any extra project pages.
+This is a Hugo-based portfolio website using the aafu theme, showcasing my experience as a STEM educator and former HGTV host.
 
 ## Quick local preview
 
-1. Install Hugo if you don't have it:
+1. Install Hugo Extended if you don't have it:
    - **macOS** (Homebrew): `brew install hugo`
    - **Linux** (snap): `sudo snap install hugo --channel=extended`
-   - **Windows**: use Chocolatey (`choco install hugo-extended`) or download from https://gohugo.io/getting-started/installing/
+   - **Windows**: `choco install hugo-extended` or download from https://gohugo.io/getting-started/installing/
 
-2. Run the dev server:
+2. Install Node.js dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Build Tailwind CSS (in one terminal):
+   ```bash
+   npm run dev:css
+   ```
+
+4. Run the dev server (in another terminal):
    ```bash
    hugo server -D
    ```
 
-3. Open http://localhost:1313 in your browser to preview.
+5. Open http://localhost:1313/portfolio-mj/ in your browser to preview.
 
 ## Structure
 
-- `config.toml` — site-wide settings (title, baseURL, theme)
+- `config.yaml` — site-wide settings (title, baseURL, theme, content sections)
 - `content/` — Markdown files for pages and projects
-- `static/` — static files (images, PDFs, etc.)
-- `themes/ananke/` — the Ananke theme (added as a Git submodule)
+- `static/` — static files (images, PDFs, resume)
+- `themes/aafu/` — the aafu theme (added as a Git submodule)
+- `assets/main.css` — Tailwind CSS styles
+- `tailwind.config.js` — Tailwind configuration
 
 ## Publishing to GitHub Pages
 
@@ -30,12 +41,9 @@ The `.github/workflows/gh-pages.yml` workflow automatically builds and deploys y
 
 Your site will be live at: https://jordan77-lang.github.io/portfolio-mj/
 
-## Adding your CV
-
-Place your CV PDF in `static/files/YourName_CV.pdf` so it will be accessible at `/files/YourName_CV.pdf`.
-
 ## Customization
 
-- Edit `content/_index.md` for the homepage
-- Add new projects in `content/projects/`
-- Update `config.toml` to change site settings
+- Edit `config.yaml` to update your profile, experience, education, projects, and skills
+- Add new project pages in `content/projects/`
+- Update resume at `static/files/Mark_Jordan_Resume.pdf`
+- Customize styles in `assets/main.css` using Tailwind CSS

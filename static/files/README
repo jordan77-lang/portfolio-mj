@@ -1,4 +1,0 @@
-Add your PDF CV here. Place YourName_CV.pdf in this folder so it will be served at:
-  /files/YourName_CV.pdf
-
-When ready, commit the PDF into static/files/YourName_CV.pdf
