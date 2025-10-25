@@ -71,23 +71,31 @@ params:
     list:
       - position: Curriculum Designer
         company: ASU Dreamscape Learn
-        details: Designing immersive VR/AR educational experiences and developing curriculum for next-generation learning environments in collaboration with Arizona State University's innovation team.
+        details: Designing immersive VR/AR educational experiences and curriculum for next-generation learning environments with Arizona State University.
       
       - position: STEM Teacher
         company: Arizona Public Schools
-        details: 24 years teaching Engineering, Robotics, Cyber Security, and Aerospace at Hamilton High School (Chandler USD) and Mesquite High School (Gilbert Public Schools). Project Lead the Way certified instructor who created Space Night (annual event with 500+ attendees), coached robotics teams, and sponsored SkillsUSA and Maker's Club.
+        details: 24 years teaching Engineering, Robotics, Cyber Security, and Aerospace. PLTW certified instructor; created Space Night (500+ attendees annually); coached competition teams; sponsored SkillsUSA and Maker's Club.
       
       - position: Master Carpenter & Host
         company: HGTV - "Over Your Head"
-        details: On-camera talent for 3 seasons of nationally broadcast home improvement show, designing and constructing renovations while mentoring homeowners. Sponsored by Craftsman Tools and GMC.
+        details: On-camera talent for 3 seasons of nationally broadcast home improvement series, designing and constructing renovations while mentoring homeowners.
       
       - position: Director
         company: Phoenix Neutrino Project
-        details: Directed independent improv-film project, uniting 40+ Valley performers in time-boxed collaborative storytelling and live production.
+        details: Directed independent improv-film project uniting 40+ Valley performers in time-boxed collaborative storytelling and live production.
       
       - position: Vice President
         company: Gilbert Education Association
-        details: Advocated for educators and students, leading contract negotiations, policy development, and professional development initiatives.
+        details: Gilbert, Arizona — Led contract negotiations, policy development, and professional development initiatives while advocating for educators and students across the district.
+      
+      - position: Technical Director
+        company: The Torch Theatre
+        details: Phoenix, Arizona — Oversee technical production for live improv performances, including lighting, sound, and multimedia design in an intimate theatre setting.
+      
+      - position: Technical Director
+        company: The Phoenix Improv Festival
+        details: Phoenix, Arizona — Lead technical operations for multi-day international improv festival, coordinating stage management, lighting, and sound for hundreds of attendees.
 
   education:
     title: Education
