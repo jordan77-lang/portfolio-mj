@@ -1,0 +1,78 @@
+{{ define "main" }}
+{{ $featured := .Params.featured_image }}
+<article class="prose prose-stone dark:prose-invert max-w-none">
+  <header class="mb-6">
+    <h1 class="top-h1">{{ .Title }}</h1>
+    {{ with $featured }}
+      <img src="{{ . | relURL }}" alt="Hero image for {{ $.Title }}" class="w-full rounded shadow" loading="lazy" />
+    {{ end }}
+  </header>
+
+  {{ with .Params.role }}
+  <section class="mb-6">
+    <h2 class="text-xl font-semibold mb-2">Role</h2>
+    <p>{{ . }}</p>
+  </section>
+  {{ end }}
+
+  {{ with .Params.challenge }}
+  <section class="mb-6">
+    <h2 class="text-xl font-semibold mb-2">Challenge</h2>
+    <div class="content">{{ . | markdownify }}</div>
+  </section>
+  {{ end }}
+
+  {{ with .Params.approach }}
+  <section class="mb-6">
+    <h2 class="text-xl font-semibold mb-2">Approach</h2>
+    <div class="content">{{ . | markdownify }}</div>
+  </section>
+  {{ end }}
+
+  {{ with .Params.artifacts }}
+  <section class="mb-6">
+    <h2 class="text-xl font-semibold mb-3">Artifacts</h2>
+    <ul class="list-disc pl-5 space-y-2">
+      {{ range . }}
+        {{ $title := .title | default (.Title | default "Artifact") }}
+        {{ $file := .file | default .url }}
+        {{ $image := .image }}
+        <li>
+          {{ if and $file (strings.HasSuffix (lower $file) ".pdf") }}
+            <a class="text-blue-600 hover:underline" href="{{ $file | relURL }}" target="_blank" rel="noopener" aria-label="Download artifact PDF: {{ $title }}">Download artifact: {{ $title }}</a>
+          {{ else if $file }}
+            <a class="text-blue-600 hover:underline" href="{{ $file | relURL }}" target="_blank" rel="noopener" aria-label="Open artifact: {{ $title }}">{{ $title }}</a>
+          {{ else if $image }}
+            <img src="{{ $image | relURL }}" alt="{{ $title }} image" class="rounded border" loading="lazy" />
+          {{ else }}
+            {{ $title }}
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  {{ with .Params.outcomes }}
+  <section class="mb-6">
+    <h2 class="text-xl font-semibold mb-2">Outcomes</h2>
+    <div class="content">{{ . | markdownify }}</div>
+  </section>
+  {{ end }}
+
+  {{ with .Params.lessons }}
+  <section class="mb-6">
+    <h2 class="text-xl font-semibold mb-2">Lessons</h2>
+    <div class="content">{{ . | markdownify }}</div>
+  </section>
+  {{ end }}
+
+  <section class="mb-6">
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </section>
+</article>
+
+{{ partial "prevnext" . }}
+{{ end }}

@@ -1,0 +1,41 @@
+/* Print styles for clean resume/case-study output */
+@media print {
+  /* Basic page setup */
+  @page {
+    size: 8.5in 11in;
+    margin: 0.5in;
+  }
+  html, body {
+    color: #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  body {
+    max-width: 8.5in;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+
+  /* Remove navigational/UI elements */
+  .no-print, .no-print * { display: none !important; }
+  header, nav, footer .theme-toggle, .pagefind-ui__search-input, .accordion > p { display: none !important; }
+
+  /* Simplify sections */
+  .bg-gray-300, .bg-gray-200, .dark\:bg-darker, .dark\:bg-dark { background: transparent !important; }
+  .drop-shadow-md, .drop-shadow-sm, .shadow { box-shadow: none !important; }
+  .rounded, .rounded-md, .rounded-lg, .rounded-t-lg { border-radius: 0 !important; }
+
+  /* Typography and colors */
+  a, a:visited { color: #000; text-decoration: underline; }
+  h1, h2, h3 { page-break-after: avoid; }
+
+  /* Code and pre blocks */
+  code, pre { white-space: pre-wrap; word-wrap: break-word; page-break-inside: avoid; }
+
+  /* Images */
+  img { max-width: 100%; page-break-inside: avoid; }
+
+  /* Page breaks for sections */
+  .panel { max-height: unset !important; }
+}
