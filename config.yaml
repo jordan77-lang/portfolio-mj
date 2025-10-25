@@ -51,6 +51,7 @@ params:
     - item: experience
     - item: education
     - item: project
+    - item: projects
     - item: skill
 
   aboutme:
@@ -105,7 +106,7 @@ params:
 
   project:
     title: Career Highlights
-    icon: fas fa-project-diagram
+    icon: fas fa-award
     list:
       - title: Silver Apple Award Winner
         url: "/portfolio-mj/projects/silver-apple-award/"
@@ -113,8 +114,20 @@ params:
       
       - title: "HGTV: Over Your Head — Master Carpenter"
         url: "/portfolio-mj/projects/over-your-head/"
-        description: "On‑camera master carpenter and host for HGTV’s renovation‑rescue series; rapid design/build and homeowner mentorship on set."
-      
+        description: "On‑camera master carpenter and host for HGTV's renovation‑rescue series; rapid design/build and homeowner mentorship on set."
+
+      - title: Phoenix Neutrino Project — Director
+        url: "/portfolio-mj/projects/phoenix-neutrino/"
+        description: Independent improv-film project; directed live production uniting 40+ Valley performers in time-boxed collaborative storytelling.
+
+      - title: Gilbert Education Association — Vice President
+        url: "#"
+        description: Advocated for educators and students; led contract negotiations, policy development, and professional development initiatives.
+
+  projects:
+    title: Project Highlights
+    icon: fas fa-project-diagram
+    list:
       - title: Project Zephyr — High Altitude Weather Balloon
         url: "/portfolio-mj/projects/zephyr/"
         description: Student-led stratospheric balloon mission with sensors, live tracking, and recovery.
@@ -122,34 +135,20 @@ params:
       - title: Space Night
         url: "/portfolio-mj/projects/space-night/"
         description: Annual spring carnival celebrating space exploration with 500+ students, families, and community members.
-      
-      - title: Robotics & Competition Teams
-        url: "/portfolio-mj/projects/robotics/"
-        description: Coached SkillsUSA, Vex Robotics, and Battlebots teams. Led Maker's Club with 50+ active members.
-      
-      - title: CNC & Manufacturing Lab
-        url: "/portfolio-mj/projects/cnc-lab/"
-        description: Built and managed state-of-the-art manufacturing facility training 150+ students annually with zero safety incidents over 20 years.
-
-      - title: Phoenix Neutrino Project — Director
-        url: "/portfolio-mj/projects/phoenix-neutrino/"
-        description: Independent science‑film project; directed production and community outreach to make particle physics accessible.
 
   skill:
     title: Skills & Certifications
     icon: fas fa-cogs
     list:
-      - skill: Project Lead the Way Certified
+      - skill: "Project Lead the Way Certified: Introduction to Engineering Design, Principles of Engineering, Aerospace Engineering, Engineering Design and Development, Cyber Security"
         skillrating: 100
-      - skill: CAD/CAM (Inventor, SolidWorks)
+      - skill: CAD/CAM (Inventor, Fusion360, SolidWorks)
         skillrating: 95
       - skill: Electronics & Arduino
         skillrating: 90
-      - skill: CNC Operations & Manufacturing
+      - skill: Instructional Design and Technology (Online Learning)
         skillrating: 95
-      - skill: Curriculum Development
-        skillrating: 95
-      - skill: CTE - Emerging Technologies
+      - skill: Career and Technical Education-Emerging Technology
         skillrating: 90
 
 menu:

@@ -1,11 +1,14 @@
 {
   "scripts": {
     "build:css": "npx --yes @tailwindcss/cli -i ./assets/main.css -o ./static/main.css --minify",
-    "dev:css": "npx --yes @tailwindcss/cli -i ./assets/main.css -o ./static/main.css --watch"
+    "dev:css": "npx --yes @tailwindcss/cli -i ./assets/main.css -o ./static/main.css --watch",
+    "generate:pdf": "node scripts/generate-pdf.js",
+    "generate:application-pdf": "node scripts/generate-application-kit-pdf.js"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.16",
     "@tailwindcss/typography": "^0.5.19",
-    "tailwindcss-cli": "^0.1.2"
+    "tailwindcss-cli": "^0.1.2",
+    "pdfkit": "^0.15.0"
   }
 }
