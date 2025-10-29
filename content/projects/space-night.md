@@ -9,6 +9,12 @@ description: "A community celebration of space exploration bringing together 500
 
 **Space Night** is an annual spring carnival I created to celebrate human space exploration and inspire students to pursue careers in STEM fields. This signature event transforms our school into an interactive space science museum for one magical evening each year.
 
+### Watch Space Night in Action
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/pL3T8TqyRd0?si=4H9tVTaK8fmtgyUf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ## The Vision
 
 I wanted to create an event that would:
@@ -52,6 +58,14 @@ I wanted to create an event that would:
 ### 🎤 Guest Speakers & Presentations
 
 Over the years, Space Night has featured:
+
+**Notable Guest Speakers:**
+- **Michelle Lucas** - Founder & President, Higher Orbits. Spoke about the "Go For Launch!" program, bringing her 10+ years of NASA experience in ISS operations to inspire students.
+- **Dr. Cheryl A. Nickerson** - Professor, Biodesign Institute at Arizona State University. Presented spaceflight biomedical research expertise at the "Go For Launch! Orbital ATK Division" event.
+- **Frank Culbertson** - Retired U.S. Navy Captain & former NASA astronaut. Shared real astronaut experience from his 146+ days in space at the Mesquite High event.
+- **Jennifer Cheesman** - Educator & former Space Camp trainer. Middle school science teacher who led an experiment on a zero-G plane and presented at Space Night.
+
+**Additional Presenters:**
 - **NASA scientists and engineers** (via video conference)
 - **Local aerospace professionals** from Boeing, Honeywell, Intel
 - **University researchers** from ASU and Embry-Riddle

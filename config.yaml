@@ -36,7 +36,7 @@ params:
     title: Links
     list:
       - icon: fab fa-linkedin-in
-        url: "https://linkedin.com/in/mark-jordan"
+        url: "https://www.linkedin.com/in/mark-jordan-769417a/"
         title: LinkedIn
       - icon: fab fa-github
         url: "https://github.com/jordan77-lang"
@@ -55,15 +55,17 @@ params:
     - item: education
     - item: project
     - item: projects
+    - item: curriculumdesigned
     - item: skill
+    - item: certification
 
   aboutme:
     title: About Me
     icon: fas fa-user
     description: |
-      I'm a STEM educator with 20+ years teaching engineering, robotics, and cyber security in Arizona public schools. Currently at Hamilton High School in Chandler.
-      
-      From 2008-2010, I hosted HGTV's "Over Your Head" for three seasons, bringing hands-on construction and problem-solving to a national audience.
+      I am a STEM educator and curriculum designer with more than 20 years of experience teaching engineering, robotics, and cybersecurity in Arizona public schools. Currently, I design immersive learning experiences for ASU Dreamscape Learn and serve on the Advisory Board for Higher Orbits, a national nonprofit using spaceflight to inspire STEM education.
+
+      My background bridges technical education, media, and experiential design—from teaching Project Lead The Way engineering pathways and directing programs like Project Zephyr and the Phoenix Neutrino Project, to hosting three seasons of HGTV’s "Over Your Head." I am now expanding my research in AR and VR curriculum design through doctoral coursework in the Media Arts and Sciences (GAME) program at Arizona State University.
 
   experience:
     title: Experience
@@ -81,17 +83,21 @@ params:
         company: HGTV - "Over Your Head"
         details: On-camera talent for 3 seasons of nationally broadcast home improvement series, designing and constructing renovations while mentoring homeowners.
       
-      - position: Director
-        company: Phoenix Neutrino Project
-        details: Directed independent improv-film project uniting 40+ Valley performers in time-boxed collaborative storytelling and live production.
-      
       - position: Vice President
         company: Gilbert Education Association
         details: Gilbert, Arizona — Led contract negotiations, policy development, and professional development initiatives while advocating for educators and students across the district.
       
+      - position: Advisory Board Member
+        company: Higher Orbits
+        details: National STEM Education Organization — Serve on the advisory board for Higher Orbits, a nonprofit that inspires students through spaceflight-based STEM programs. Provide guidance on curriculum development, mission-based learning, and student engagement strategies for national initiatives linking classroom science with real-world aerospace exploration.
+
+      - position: Director
+        company: Phoenix Neutrino Project
+        details: Directed independent improv-film project uniting 40+ Valley performers in time-boxed collaborative storytelling and live production.
+
       - position: Technical Director
         company: The Torch Theatre
-        details: Phoenix, Arizona — Oversee technical production for live improv performances, including lighting, sound, and multimedia design in an intimate theatre setting.
+        details: Phoenix, Arizona — Oversee technical production for live improv performances, including lighting, sound, and multimedia design in an intimate theatre setting; created Level 1 training curriculum for teaching improv comedy.
       
       - position: Technical Director
         company: The Phoenix Improv Festival
@@ -101,12 +107,25 @@ params:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: M.S. in Instructional Design and Technology
+      - degree: M.S. in Instructional Design and Technology (Online Learning)
         college: Walden University
-        details: "NEA Excellence in Public School Education Scholarship recipient"
-      
-      - degree: B.F.A. in Education
+        details: Master's degree with emphasis in online learning. Focused on curriculum development, emerging technology integration, and learner-centered design for online and immersive environments.
+
+      - degree: Graduate Coursework — Professional Studies (Engineering Education)
+        college: Rochester Institute of Technology (RIT)
+        details: Completed graduate coursework with an individualized focus on engineering education and instructional technology.
+
+      - degree: Project Lead The Way (PLTW) Certified Instructor
+        college: Project Lead The Way
+        details: Certified to teach Introduction to Engineering Design, Principles of Engineering, Aerospace Engineering, and Engineering Design and Development.
+
+      - degree: B.F.A. in Secondary Education (Technical Theatre Emphasis)
         college: Arizona State University
+        details: Specialized in technical theatre production, stagecraft, lighting, and live event design; prepared for secondary-level teaching and curriculum development.
+
+      - degree: Improv Training — Level 5 Certificate
+        college: iO Theater (ImprovOlympic), Chicago
+        details: Completed the five-level long-form improvisation program focused on ensemble performance, character work, and advanced scene structure.
 
   project:
     title: Career Highlights
@@ -143,21 +162,76 @@ params:
       - title: Space Night
         url: "/portfolio-mj/projects/space-night/"
         description: Annual spring carnival celebrating space exploration with 500+ students, families, and community members.
+      
+      - title: Interactive Educational Tools
+        url: "/portfolio-mj/projects/interactive-educational-tools/"
+        description: Collection of web-based interactive learning resources including periodic tables, solar system models, and lunar phase demonstrations for classroom and online instruction.
+      
+      - title: Taking Flight at EVIT
+        url: "/portfolio-mj/projects/taking-flight-evit/"
+        description: Community aviation event featuring RC aircraft demonstrations, foam board glider workshops, FTC robotics scrimmages, and hands-on STEM activities for students and families.
+      
+      - title: Chandler Cardboard Boat Regatta
+        url: "/portfolio-mj/projects/chandler-cardboard-boat-regatta/"
+        description: Student engineering competition designing and racing boats constructed entirely from cardboard and duct tape.
+      
+      - title: Aerospace Payload Projects
+        url: "/portfolio-mj/projects/aerospace-payload-projects/"
+        description: Multi-year student partnerships with Blue Origin, Sugar House Rockets, and Northrop Grumman designing payloads for actual rocket launches.
 
   skill:
-    title: Skills & Certifications
+    title: Skills
     icon: fas fa-cogs
     list:
-      - skill: "Project Lead the Way Certified: Introduction to Engineering Design, Principles of Engineering, Aerospace Engineering, Engineering Design and Development, Cyber Security"
+      - skill: Canvas LMS — Curriculum Design & Delivery
+        skillrating: 95
+      - skill: HTML & JavaScript — Interactive Educational Tools
+        skillrating: 90
+      - skill: AR/XR Development — Immersive Learning Experiences
+        skillrating: 90
+      - skill: 3D Modeling & CNC/CAM Prototyping
+        skillrating: 90
+      - skill: AI & Machine Learning
+        skillrating: 85
+      - skill: Instructional Design & Online Learning
+        skillrating: 95
+      - skill: Articulate Rise 360 & Storyline 360 — Rapid eLearning Development & Interactive Course Design
+        skillrating: 95
+
+  certification:
+    title: Certifications
+    icon: fas fa-certificate
+    list:
+      - skill: Project Lead the Way Certified
+        items:
+          - Introduction to Engineering Design
+          - Principles of Engineering
+          - Aerospace Engineering
+          - Engineering Design and Development
+          - Cyber Security
         skillrating: 100
-      - skill: CAD/CAM (Inventor, Fusion360, SolidWorks)
-        skillrating: 95
-      - skill: Electronics & Arduino
-        skillrating: 90
-      - skill: Instructional Design and Technology (Online Learning)
-        skillrating: 95
-      - skill: Career and Technical Education-Emerging Technology
-        skillrating: 90
+      - skill: Arizona Secondary Education Certified
+        skillrating: 100
+      - skill: English as a Second Language (ESL), PreK-12 Endorsement
+        skillrating: 100
+      - skill: High Power Rocketry Level 1 Certified (NAR)
+        skillrating: 100
+
+  curriculumdesigned:
+    title: Curriculum Designed
+    icon: fas fa-book
+    list:
+      - title: High School Curriculum
+        url: "/portfolio-mj/projects/high-school-curriculum/"
+        description: Comprehensive K-12 curriculum spanning multiple disciplines including technical theatre, robotics, aerospace engineering, and career technical education programs.
+      
+      - title: Community Engagement Programs
+        url: "/portfolio-mj/projects/community-engagement-curriculum/"
+        description: Student-centered community learning initiatives including Project Zephyr stratospheric balloon missions, Taking Flight aviation events, and the annual Cardboard Boat Regatta engineering competition.
+      
+      - title: University Curriculum
+        url: "/portfolio-mj/projects/university-curriculum/"
+        description: Higher education course development for Arizona State University across multiple disciplines including supply chain management, global futures, biology, chemistry, and microeconomics.
 
 menu:
   main: []

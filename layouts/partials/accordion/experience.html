@@ -1,0 +1,17 @@
+{{ range .Site.Params.experience.list }}
+<div class="mb-4">
+  <h4 class="text-lg font-semibold leading-snug">{{ .position }}</h4>
+  <p class="text-sm text-gray-700 dark:text-gray-300 mb-1">
+    {{ if .url }}
+      <a href="{{ .url }}" class="underline">{{ .company }}</a>
+    {{ else }}
+      {{ .company }}
+    {{ end }}
+  </p>
+  {{ with .details }}
+  <div class="prose prose-stone dark:prose-invert max-w-none">
+    <p class="mb-0">{{ . }}</p>
+  </div>
+  {{ end }}
+</div>
+{{ end }}

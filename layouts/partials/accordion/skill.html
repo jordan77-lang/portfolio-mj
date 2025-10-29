@@ -1,0 +1,16 @@
+{{ range .Site.Params.skill.list }}
+  {{ if .items }}
+  <div class="mb-4">
+    <div class="font-semibold">{{ .skill }}</div>
+    <ul class="list-disc pl-5 mt-1">
+      {{ range .items }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ else }}
+  <div class="mb-3">
+    <div class="font-semibold">{{ .skill }}</div>
+  </div>
+  {{ end }}
+{{ end }}
