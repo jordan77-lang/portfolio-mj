@@ -5,9 +5,6 @@ featured_image: "/portfolio-mj/images/silver-apple-award.jpg"
 description: "Recognized by Arizona's Family (3TV/CBS 5) for excellence in STEM education and mentoring future engineers"
 ---
 
-![Mark Jordan receiving the Silver Apple Award at Hamilton High School](/portfolio-mj/images/silver-apple-award.jpg)
-*Receiving the Silver Apple Award in my engineering classroom at Hamilton High School - "Shaping the Engineers of the Future"*
-
 ## Overview
 
 I was honored to receive the **Silver Apple Award** from Arizona's Family (3TV/CBS 5) and Arizona Bank & Trust. This award recognizes outstanding Arizona teachers who go above and beyond to inspire and educate their students.
@@ -16,7 +13,12 @@ The nomination came from one of my students, eleventh grader Michael Stahl, who 
 
 ## Watch the Story
 
-[**Watch the full feature on Arizona's Family website →**](https://www.azfamily.com/2024/03/06/chandler-silver-apple-winner-molding-engineers-future/)
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/G9AubV7WMJ4?si=sZYsmVWJxUQdl_t3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+![Silver Apple Award Trophy](/portfolio-mj/images/silver-apple-trophy.jpg)
+*The Silver Apple Award - Recognizing Excellence in STEM Education*
 
 ## Student Recognition
 
