@@ -125,7 +125,7 @@ Serving on the board of directors for this nonprofit organization that:
 
 ### Graduate Education
 
-**Master of Science - Instructional Design and Technology**  
+**Master of Science — Instructional Design and Technology (Online Learning)**  
 Walden University (2013-2016)
 - Focus on curriculum development and educational technology
 - Research in project-based learning methodologies
