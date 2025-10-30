@@ -20,6 +20,29 @@ Each tool prioritizes:
 
 ## Featured Educational Tools
 
+### [Educational Image Accessibility Tool](/portfolio-mj/projects/educational-image-accessibility-tool/)
+Professional AI-powered accessibility content generation for educational materials.
+
+**Live Application:**
+- 🚀 [Primary Site (Full Features)](https://image-accessibility-tool.netlify.app/)
+- 📱 [GitHub Pages](https://jordan77-lang.github.io/image/)
+
+**Key Features:**
+- Advanced AI generation of alt text, figure descriptions, long descriptions, and transcriptions
+- Kroodsma-style scientific writing for figure descriptions
+- WCAG 2.1 AA accessibility compliance
+- Dark mode, responsive design, and instant copy buttons
+- Context document upload for enhanced accuracy
+- Health monitoring and error recovery
+
+**Use Cases:**
+- Creating accessibility-compliant educational images for curriculum materials
+- Generating scientific figure legends and long descriptions
+- Ensuring institutional accessibility standards in STEM resources
+- Supporting visually impaired students with comprehensive image transcriptions
+
+---
+
 ### [Interactive Periodic Table](/portfolio-mj/projects/interactive-periodic-table/)
 A hover-responsive periodic table where students can explore element properties, atomic structures, and chemical families through visual interaction. Perfect for chemistry instruction and student reference.
 
@@ -89,29 +112,6 @@ Professional eLearning modules created with Articulate Rise, featuring responsiv
 - Asynchronous course content delivery
 - Corporate training and compliance courses
 - Supplemental learning resources
-
----
-
-### [Educational Image Accessibility Tool](/portfolio-mj/projects/educational-image-accessibility-tool/)
-Professional AI-powered accessibility content generation for educational materials.
-
-**Live Application:**
-- 🚀 [Primary Site (Full Features)](https://image-accessibility-tool.netlify.app/)
-- 📱 [GitHub Pages](https://jordan77-lang.github.io/image/)
-
-**Key Features:**
-- Advanced AI generation of alt text, figure descriptions, long descriptions, and transcriptions
-- Kroodsma-style scientific writing for figure descriptions
-- WCAG 2.1 AA accessibility compliance
-- Dark mode, responsive design, and instant copy buttons
-- Context document upload for enhanced accuracy
-- Health monitoring and error recovery
-
-**Use Cases:**
-- Creating accessibility-compliant educational images for curriculum materials
-- Generating scientific figure legends and long descriptions
-- Ensuring institutional accessibility standards in STEM resources
-- Supporting visually impaired students with comprehensive image transcriptions
 
 ---
 

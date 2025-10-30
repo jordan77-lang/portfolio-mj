@@ -167,6 +167,10 @@ params:
         url: "/portfolio-mj/projects/interactive-educational-tools/"
         description: Collection of web-based interactive learning resources including periodic tables, solar system models, and lunar phase demonstrations for classroom and online instruction.
       
+      - title: AR/VR Projects
+        url: "/portfolio-mj/projects/ar-vr-projects/"
+        description: Immersive augmented and virtual reality experiences including Android and iOS AR digital twin apps, Castle VR viewer, and Robot1 universal viewer for educational exploration and technical demonstration.
+      
       - title: Taking Flight at EVIT
         url: "/portfolio-mj/projects/taking-flight-evit/"
         description: Community aviation event featuring RC aircraft demonstrations, foam board glider workshops, FTC robotics scrimmages, and hands-on STEM activities for students and families.

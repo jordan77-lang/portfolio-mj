@@ -98,6 +98,14 @@
           skillBars.forEach((elem) => { elem.style.width = "0"; });
         }
         activePanel.style.maxHeight = activePanel.scrollHeight + "px";
+
+        // Persist currently opened accordion key for this page
+        try {
+          const key = (elem.parentElement.textContent || "").trim().toLowerCase().replace(/[^\w]+/g, "-");
+          if (key) {
+            window.sessionStorage.setItem("openAccordion:" + location.pathname, key);
+          }
+        } catch (_) { /* no-op */ }
       }
     };
   </script>
@@ -146,17 +154,58 @@
 
     const toggleTheme = () => { html.classList.contains("dark") ? setTheme("light") : setTheme("dark"); };
 
+    // Helper to compute a stable key from an accordion element's label
+    const __accordionKey = (el) => {
+      return ((el && (el.textContent || "")) || "").trim().toLowerCase().replace(/[^\w]+/g, "-");
+    };
+
+    // Before load completes, attach a click handler to capture navigation out of a panel
+    document.addEventListener("click", (e) => {
+      const linkInPanel = e.target && e.target.closest && e.target.closest(".panel a");
+      if (linkInPanel) {
+        const activeAcc = document.querySelector(".accordion.active");
+        if (activeAcc) {
+          try {
+            const key = __accordionKey(activeAcc);
+            if (key) {
+              window.sessionStorage.setItem("openAccordion:" + location.pathname, key);
+            }
+          } catch (_) { /* no-op */ }
+        }
+      }
+    }, true);
+
     window.onload = () => {
       fixThemeToggleIcon(theme);
+      // Restore previously open accordion for this page if available
+      try {
+        const storedKey = window.sessionStorage.getItem("openAccordion:" + location.pathname);
+        if (storedKey) {
+          // Choose only accordion elements that actually control a panel (next sibling is .panel)
+          const candidates = Array.from(document.querySelectorAll(".accordion")).filter(el => el.nextElementSibling && el.nextElementSibling.classList && el.nextElementSibling.classList.contains("panel"));
+          const match = candidates.find(el => __accordionKey(el) === storedKey);
+          if (match) {
+            // Clear any pre-set active and expand the stored one
+            Array.from(document.querySelectorAll(".accordion")).forEach(acc => acc.classList.remove("active"));
+            Array.from(document.querySelectorAll(".panel")).forEach(p => p.style.maxHeight = null);
+            match.classList.add("active");
+            if (match.nextElementSibling) {
+              match.nextElementSibling.style.maxHeight = match.nextElementSibling.scrollHeight + "px";
+            }
+          }
+        }
+      } catch (_) { /* no-op */ }
+
+      // Ensure the active panel (default or restored) is expanded
       let defaultActivePanel = document.querySelector(".accordion.active");
-      if (defaultActivePanel) {
+      if (defaultActivePanel && defaultActivePanel.nextElementSibling) {
         defaultActivePanel.nextElementSibling.style.maxHeight = defaultActivePanel.nextElementSibling.scrollHeight + "px";
       }
     };
 
     window.onresize = () => {
       let defaultActivePanel = document.querySelector(".accordion.active");
-      if (defaultActivePanel) {
+      if (defaultActivePanel && defaultActivePanel.nextElementSibling) {
         defaultActivePanel.nextElementSibling.style.maxHeight = defaultActivePanel.nextElementSibling.scrollHeight + "px";
       }
     };
