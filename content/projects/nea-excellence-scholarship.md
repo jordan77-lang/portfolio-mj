@@ -29,7 +29,7 @@ These contributions reflect my belief that teachers lead not only through instru
 
 ## Academic and Professional Impact
 
-Through this scholarship, I pursued my Master of Science in Instructional Design and Technology at Walden University, deepening my ability to design engaging, learner‑centered educational experiences grounded in research and innovation. This opportunity helped bridge classroom teaching with broader curriculum design and technology integration—skills I continue to apply to advance public education and teacher collaboration.
+Through this scholarship, I pursued my Master of Science in Instructional Design & Technology (Emphasis in Online Learning) at Walden University, deepening my ability to design engaging, learner‑centered educational experiences grounded in research and innovation. This opportunity helped bridge classroom teaching with broader curriculum design and technology integration—skills I continue to apply to advance public education and teacher collaboration.
 
 ## Reflection
 

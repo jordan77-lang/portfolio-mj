@@ -107,9 +107,9 @@ params:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: M.S. in Instructional Design and Technology (Online Learning)
+      - degree: M.S., Instructional Design & Technology — Emphasis in Online Learning
         college: Walden University
-        details: Master's degree with emphasis in online learning. Focused on curriculum development, emerging technology integration, and learner-centered design for online and immersive environments.
+        details: Master's degree with emphasis in Online Learning. Focused on curriculum development, emerging technology integration, and learner-centered design for online and immersive environments.
 
       - degree: Graduate Coursework — Professional Studies (Engineering Education)
         college: Rochester Institute of Technology (RIT)
