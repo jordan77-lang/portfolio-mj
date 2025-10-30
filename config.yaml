@@ -137,7 +137,7 @@ params:
 
       - title: NEA Excellence in Public School Education Scholarship
         url: "/portfolio-mj/projects/nea-excellence-scholarship/"
-        description: National full‑tuition scholarship (Walden University) recognizing leadership, innovation, and impact in public education (2013).
+        description: National full‑tuition scholarship (Walden University) recognizing leadership, innovation, and impact in public education.
       
       - title: "HGTV: Over Your Head — Master Carpenter"
         url: "/portfolio-mj/projects/over-your-head/"
@@ -169,7 +169,7 @@ params:
       
       - title: Interactive Educational Tools
         url: "/portfolio-mj/projects/interactive-educational-tools/"
-        description: Collection of web-based interactive learning resources including periodic tables, solar system models, and lunar phase demonstrations for classroom and online instruction.
+        description: Collection of interactive learning resources including periodic tables, solar system models, and lunar phase demonstrations for classroom and online instruction.
       
       - title: AR/VR Projects
         url: "/portfolio-mj/projects/ar-vr-projects/"
