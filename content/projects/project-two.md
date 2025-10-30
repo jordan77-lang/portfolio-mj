@@ -3,6 +3,7 @@ title: "Machine Learning Pipeline"
 tags: ["python", "ml", "pytorch", "kubernetes", "mlops"]
 featured_image: ""
 description: "End-to-end ML infrastructure for training and deployment"
+draft: true
 ---
 
 ## Overview

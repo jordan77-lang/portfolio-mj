@@ -1,7 +1,6 @@
 ---
 title: "NEA Excellence in Public School Education Scholarship"
-date: 2013-07-01
-description: "National full‑tuition scholarship awarded through Walden University to NEA members advancing excellence in public education."
+description: "National full‑tuition scholarship (Walden University) recognizing leadership, innovation, and impact in public education."
 tags: ["award", "scholarship", "NEA", "Walden University", "leadership", "public education"]
 ---
 
