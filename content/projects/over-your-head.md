@@ -1,13 +1,15 @@
 ---
 title: "HGTV: Over Your Head — Master Carpenter"
 description: "On‑camera master carpenter turning stalled DIY projects into finished, high‑quality spaces on HGTV."
-featured_image: "/portfolio-mj/images/image003.jpg"
 ---
 
 I worked on HGTV's Over Your Head as the master carpenter and on‑camera host, helping homeowners rescue challenging renovations under real deadlines and constraints.
 
-![On set of HGTV's Over Your Head](/portfolio-mj/images/image003.jpg)
-*On set during an Over Your Head renovation — rapid design/build with homeowners on camera*
+<div class="my-3" style="max-width: 640px; margin: 0 auto;">
+	<img src="/portfolio-mj/images/image003.jpg" alt="On set of HGTV's Over Your Head" style="width:100%; height:auto; border-radius:0.375rem; box-shadow:0 4px 14px rgba(0,0,0,0.08);" />
+	<p class="text-sm text-gray-600 dark:text-gray-300" style="margin-top:0.5rem;">On set during an Over Your Head renovation — rapid design/build with homeowners on camera</p>
+  
+</div>
 
 Highlights:
 - Three seasons of nationally broadcast episodes
