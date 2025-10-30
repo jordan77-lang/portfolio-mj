@@ -3,6 +3,7 @@ title: "Castle VR Viewer"
 date: 2025-10-29
 description: "Immersive virtual reality castle exploration experience"
 tags: ["vr", "unity", "virtual-reality", "architecture", "education"]
+draft: true
 ---
 
 ## Project Overview

@@ -3,6 +3,7 @@ title: "Android Digital Twin - Banjo AR"
 date: 2025-10-29
 description: "Augmented reality application for Android featuring digital twin models of Banjo"
 tags: ["ar", "android", "unity", "digital-twin", "augmented-reality"]
+draft: true
 ---
 
 ## Project Overview

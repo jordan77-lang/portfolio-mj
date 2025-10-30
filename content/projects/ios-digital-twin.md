@@ -3,6 +3,7 @@ title: "iOS Digital Twin"
 date: 2025-10-29
 description: "Native iOS augmented reality application with ARKit integration"
 tags: ["ar", "ios", "arkit", "unity", "digital-twin"]
+draft: true
 ---
 
 ## Project Overview
