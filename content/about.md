@@ -54,18 +54,18 @@ Over 20 years, I built and led one of Arizona's premier STEM programs, teaching:
 
 ### Key Accomplishments at Mesquite HS:
 
-✅ **Lab Management**
+**Lab Management**
 - Operated and maintained CNC equipment, woodshop, engineering lab, and technical theatre shops
 - Managed budgets exceeding $100,000 annually
 - Ensured student safety in high-tech manufacturing environments
 
-✅ **Student Programs**
+**Student Programs**
 - Founded and sponsored **SkillsUSA** chapter
 - Created **Maker's Club** with 50+ active members
 - Coached teams in **Vex Robotics** competitions
 - Supervised **Battlebots** and mobile robotics competitions
 
-✅ **Community Events**
+**Community Events**
 - Created and facilitated **Space Night**, an annual spring carnival celebrating space exploration
 - Attracted 500+ community members annually
 - Featured interactive exhibits, guest speakers, and student projects
@@ -105,17 +105,17 @@ Serving on the board of directors for this nonprofit organization that:
 
 ## Awards & Recognition
 
-🏆 **Mesquite High School Teacher of the Year** (2019-2020)
+**Mesquite High School Teacher of the Year** (2019-2020)
 - Recognized for outstanding teaching and student impact
 
-⭐ **Best Teacher in Gilbert** - Get Out Magazine
+**Best Teacher in Gilbert** - Get Out Magazine
 - Nominated by students and community (2018, 2019, 2020)
 
-🎓 **NEA Excellence in Public School Education Scholarship**
+**NEA Excellence in Public School Education Scholarship**
 - Full-tuition scholarship to Walden University (2013)
 - Awarded to educators demonstrating exceptional commitment to student success
 
-📺 **HGTV Featured Educator**
+**HGTV Featured Educator**
 - One of few educators with national television platform
 - Brought practical skills education to mainstream audiences
 
@@ -149,17 +149,17 @@ Arizona State University (1995-1999)
 
 ### Project Lead the Way (PLTW)
 Certified to teach:
-- ✅ Introduction to Engineering Design (IED)
-- ✅ Principles of Engineering (POE)
-- ✅ Engineering Design and Development (EDD)
-- ✅ Aerospace Engineering (AE)
-- ✅ Cyber Security
+- Introduction to Engineering Design (IED)
+- Principles of Engineering (POE)
+- Engineering Design and Development (EDD)
+- Aerospace Engineering (AE)
+- Cyber Security
 
 ### Professional Licenses
-- ✅ Arizona Teaching Certificate - Secondary Education
-- ✅ Career and Technical Education (CTE) - Emerging Technologies
-- ✅ ESL Endorsement
-- ✅ Highly Qualified Teacher Status
+- Arizona Teaching Certificate - Secondary Education
+- Career and Technical Education (CTE) - Emerging Technologies
+- ESL Endorsement
+- Highly Qualified Teacher Status
 
 ---
 
@@ -201,17 +201,17 @@ Certified to teach:
 
 I'm interested in opportunities that allow me to:
 
-💡 **Expand STEM Education**
+**Expand STEM Education**
 - Curriculum development and instructional design
 - Educational consulting for schools and districts
 - Professional development for fellow educators
 
-🌟 **Innovation & Leadership**
+**Innovation & Leadership**
 - Program director or department head roles
 - Educational technology integration
 - Grant writing and program funding
 
-🤝 **Collaboration**
+**Collaboration**
 - Partnerships with industry and higher education
 - STEM outreach and community programs
 - Educational nonprofits and foundations
@@ -222,10 +222,10 @@ I'm interested in opportunities that allow me to:
 
 I'm always happy to discuss education, share resources, or explore collaboration opportunities.
 
-📧 **Email:** [stramark@gmail.com](mailto:stramark@gmail.com)  
-📞 **Phone:** (480) 678-2737  
-💼 **LinkedIn:** [Connect with me](https://linkedin.com/in/mark-jordan)  
-📄 **Resume:** [Download PDF](/files/Mark_Jordan_Resume.pdf)
+Email: [stramark@gmail.com](mailto:stramark@gmail.com)  
+Phone: (480) 678-2737  
+LinkedIn: [Connect with me](https://linkedin.com/in/mark-jordan)  
+Resume: [Download PDF](/files/Mark_Jordan_Resume.pdf)
 
 ---
 

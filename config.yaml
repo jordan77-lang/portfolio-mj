@@ -155,7 +155,7 @@ params:
     title: Project Highlights
     icon: fas fa-project-diagram
     list:
-      - title: Project Zephyr — High Altitude Weather Balloon
+      - title: Project Zephyr
         url: "/portfolio-mj/projects/zephyr/"
         description: Student-led stratospheric balloon mission with sensors, live tracking, and recovery.
       

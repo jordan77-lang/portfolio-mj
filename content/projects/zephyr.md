@@ -1,5 +1,4 @@
----
-title: "Project Zephyr — High Altitude Weather Balloon"
+title: "Project Zephyr"
 tags: ["aerospace", "weather-balloon", "engineering", "payload", "telemetry"]
 featured_image: ""
 description: "Student-led stratospheric balloon mission: design, build, launch, telemetry, recovery."

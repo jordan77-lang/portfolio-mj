@@ -3,6 +3,7 @@ title: "Gaussian Splat WebXR Meta App (In Progress)"
 date: 2025-10-29
 description: "Building WebXR social experiences from COLMAP reconstructions and Gaussian Splatting"
 tags: ["webxr", "gaussian-splat", "colmap", "vr", "ar", "xr", "photogrammetry"]
+draft: true
 ---
 
 ## Overview
@@ -40,12 +41,12 @@ Gaussian splat from COLMAP (early test):
 
 ## Status & Next Steps
 
-- ✅ COLMAP reconstructions (initial tests)
-- ✅ Early Gaussian splat experiments
-- 🔜 WebXR scene integration (navigation, controller mapping)
-- 🔜 Multi-user avatars (WebRTC or websocket relay)
-- 🔜 Occlusion and collision for presence realism
-- 🔜 Mobile performance tuning and progressive loading
+- COLMAP reconstructions (initial tests)
+- Early Gaussian splat experiments
+- Next: WebXR scene integration (navigation, controller mapping)
+- Next: Multi-user avatars (WebRTC or websocket relay)
+- Next: Occlusion and collision for presence realism
+- Next: Mobile performance tuning and progressive loading
 
 ## Vision
 
