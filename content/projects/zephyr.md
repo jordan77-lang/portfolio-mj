@@ -14,20 +14,11 @@ Project Zephyr is our student-led **high altitude weather balloon** mission. Stu
 
 ## Highlights
 
-- Target altitude: 80,000–100,000 ft (stratosphere)
-- APRS/GPS live tracking with chase and recovery team
-- Onboard sensors: temperature, pressure, humidity, IMU
-- 4K action camera footage; thermal shielding and insulation
-- Flight path prediction and weather window planning
-- Post‑flight data analysis and presentation
+Target altitude: 80,000–100,000 ft (stratosphere); APRS/GPS live tracking with chase and recovery team; onboard sensors (temperature, pressure, humidity, IMU); 4K action camera footage with thermal shielding and insulation; flight path prediction and weather window planning; post‑flight data analysis and presentation.
 
 ## What Students Learn
 
-- Systems engineering and test planning
-- Electronics integration and power budgeting
-- FAA coordination and safety/risk management
-- Mapping, localization, and recovery logistics
-- Technical communication and teamwork
+Systems engineering and test planning; electronics integration and power budgeting; FAA coordination and safety/risk management; mapping, localization, and recovery logistics; technical communication and teamwork.
 
 ---
 

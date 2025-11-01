@@ -102,14 +102,13 @@
         // Keep the accordion header visible at the top after expansion
         // so longer panels don't push the header off-screen.
         try {
-          const headerEl = elem.parentElement; // <h2 class="accordion">'s wrapper link container
-          // Allow a small visual offset so the header isn't flush with the viewport edge
-          const offset = 12;
-          const y = headerEl.getBoundingClientRect().top + window.pageYOffset - offset;
-          // Use rAF to ensure layout has updated with new maxHeight before scrolling
-          window.requestAnimationFrame(() => {
+          // Wait for maxHeight transition to complete, then scroll
+          setTimeout(() => {
+            const headerEl = elem.parentElement;
+            const offset = 80; // Increased offset to ensure header stays visible
+            const y = headerEl.getBoundingClientRect().top + window.pageYOffset - offset;
             window.scrollTo({ top: y, behavior: 'smooth' });
-          });
+          }, 50);
         } catch (_) { /* no-op */ }
 
         // Persist currently opened accordion key for this page

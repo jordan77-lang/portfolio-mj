@@ -17,11 +17,7 @@ Space Night is an annual spring carnival celebrating space exploration and STEM.
 
 ## Highlights
 
-- 500+ attendees each spring; 15+ years running
-- Student-led exhibits and hands-on activities (rockets, rovers, robotics, 3D printing)
-- Telescope viewing (weather permitting) with local astronomy partners
-- Guest speakers from NASA programs, industry, and universities
-- Inspires K–12 students and builds strong family engagement in STEM
+500+ attendees each spring; 15+ years running; student-led exhibits and hands-on activities (rockets, rovers, robotics, 3D printing); telescope viewing (weather permitting) with local astronomy partners; guest speakers from NASA programs, industry, and universities; inspires K–12 students and builds strong family engagement in STEM.
 
 ---
 
