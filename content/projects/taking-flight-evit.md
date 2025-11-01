@@ -19,30 +19,15 @@ The event serves multiple purposes: introducing young students to aviation and a
 Licensed pilots from the Academy of Model Aeronautics (AMA) demonstrate various types of radio-controlled aircraft, from sport planes to advanced aerobatic models. Registered AMA pilots can participate in open flying sessions and aerial combat competitions throughout the day.
 
 ### Foam Board Glider Workshop
-Guided hands-on sessions where students ages 5-12 build and test foam board gliders under teacher supervision. Participants learn basic aerodynamics, structural design, and flight principles while constructing their own flying models. The workshop includes:
-- Structured build sessions at scheduled times
-- Parent participation encouraged
-- Hot glue construction techniques
-- Immediate flight testing opportunities
+Guided hands-on sessions where students ages 5-12 build and test foam board gliders under teacher supervision. Participants learn basic aerodynamics, structural design, and flight principles while constructing their own flying models. The workshop includes structured build sessions at scheduled times; parent participation encouraged; hot glue construction techniques; immediate flight testing opportunities.
 
 ### FTC Robotics "First Look" Scrimmage
 FIRST Tech Challenge (FTC) teams from across the region participate in pre-season scrimmages, allowing teams to test their robots in competition conditions before official matches begin. This provides valuable practice and identifies areas for improvement early in the season.
 
-Participating teams have included:
-- Tie Dye Samurai (14835)
-- Valley X (2844)
-- Knights of the Lab Table (8081)
-- Carbo-Knights (19728)
-- Plus +3 Robotics (12841)
-- And many other regional FTC teams
+Participating teams have included Tie Dye Samurai (14835); Valley X (2844); Knights of the Lab Table (8081); Carbo-Knights (19728); Plus +3 Robotics (12841); and many other regional FTC teams.
 
 ### Industry & Education Partner Booths
-Educational institutions and aerospace industry partners set up interactive booths featuring:
-- Career pathway information
-- Hands-on demonstrations
-- Technology showcases
-- College and technical school programs
-- Industry recruitment and outreach
+Educational institutions and aerospace industry partners set up interactive booths featuring career pathway information; hands-on demonstrations; technology showcases; college and technical school programs; industry recruitment and outreach.
 
 ---
 
@@ -64,24 +49,13 @@ The event provides networking opportunities for educators, sharing best practice
 
 ## Program Partnerships
 
-Taking Flight exemplifies effective collaboration between:
-- **EVIT**: Hosting facilities and technical education resources
-- **STEM + C**: Event organization and educational coordination
-- **Academy of Model Aeronautics (AMA)**: Safety oversight and pilot coordination
-- **FTC Arizona**: Robotics competition organization
-- **Industry Partners**: Sponsorship, mentorship, and career pathway information
-- **Local School Districts**: Student recruitment and teacher participation
+Taking Flight exemplifies effective collaboration between **EVIT** (hosting facilities and technical education resources); **STEM + C** (event organization and educational coordination); **Academy of Model Aeronautics (AMA)** (safety oversight and pilot coordination); **FTC Arizona** (robotics competition organization); **Industry Partners** (sponsorship, mentorship, and career pathway information); **Local School Districts** (student recruitment and teacher participation).
 
 ---
 
 ## My Role
 
-As an aerospace education instructor and event partner, I contribute to Taking Flight by:
-- Leading foam board glider workshops for elementary students
-- Mentoring FTC robotics teams participating in scrimmages
-- Coordinating with educational institutions and industry partners
-- Sharing project-based learning strategies with fellow educators
-- Recruiting students for advanced aerospace programs
+As an aerospace education instructor and event partner, I contribute to Taking Flight by leading foam board glider workshops for elementary students; mentoring FTC robotics teams participating in scrimmages; coordinating with educational institutions and industry partners; sharing project-based learning strategies with fellow educators; recruiting students for advanced aerospace programs.
 
 The event aligns with my broader mission of making STEM education accessible, hands-on, and connected to real-world applications in aviation and aerospace engineering.
 

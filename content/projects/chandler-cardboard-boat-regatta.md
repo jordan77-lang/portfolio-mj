@@ -13,10 +13,7 @@ Students must create a watercraft capable of supporting crew members and complet
 
 ## Learning Outcomes
 
-- Applied engineering design process (research, prototype, test, iterate)
-- Hands-on experience with buoyancy, weight distribution, and structural design
-- Teamwork, project management, and resourcefulness
-- Real-world consequences of design decisions
+Applied engineering design process (research, prototype, test, iterate); hands-on experience with buoyancy, weight distribution, and structural design; teamwork, project management, and resourcefulness; real-world consequences of design decisions.
 
 ## Impact
 

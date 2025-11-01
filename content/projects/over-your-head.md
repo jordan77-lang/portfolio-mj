@@ -11,11 +11,7 @@ I worked on HGTV's Over Your Head as the master carpenter and on‑camera host, 
   
 </div>
 
-Highlights:
-- Three seasons of nationally broadcast episodes
-- Led construction, finish carpentry, and rapid design/build on location
-- Mentored homeowners while ensuring quality, safety, and durability
-- Projects ranged from kitchens and bathrooms to patios and complete backyard transformations
+**Highlights:** Three seasons of nationally broadcast episodes; led construction, finish carpentry, and rapid design/build on location; mentored homeowners while ensuring quality, safety, and durability; projects ranged from kitchens and bathrooms to patios and complete backyard transformations.
 
 ---
 
