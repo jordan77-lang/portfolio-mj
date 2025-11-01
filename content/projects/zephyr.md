@@ -1,13 +1,12 @@
----
 title: "Project Zephyr"
 tags: ["aerospace", "weather-balloon", "engineering", "payload", "telemetry"]
 featured_image: ""
-description: "Student-led stratospheric balloon mission: design, build, launch, telemetry, recovery."
+description: "High-Altitude Balloon Mission | Student-Led STEM Exploration"
 ---
 
 ## Overview
 
-Project Zephyr is our student-led **high altitude weather balloon** mission. Students design the payload, integrate sensors and cameras, plan the flight, request FAA clearance, track telemetry, and perform a field recovery and post‑flight analysis.
+Project Zephyr is a student-led high-altitude weather balloon mission that brings aerospace engineering to life. Students design and build the payload, integrate sensors and cameras, plan the launch, request FAA clearance, track telemetry in real time, and conduct field recovery and post-flight analysis. The project merges scientific research, engineering design, and teamwork into a full-scale aerospace mission.
 
 ## Mission Video
 
@@ -15,11 +14,16 @@ Project Zephyr is our student-led **high altitude weather balloon** mission. Stu
 
 ## Highlights
 
-Target altitude: 80,000–100,000 ft (stratosphere); APRS/GPS live tracking with chase and recovery team; onboard sensors (temperature, pressure, humidity, IMU); 4K action camera footage with thermal shielding and insulation; flight path prediction and weather window planning; post‑flight data analysis and presentation.
+- Target altitude: 80,000–100,000 ft in the stratosphere
+- APRS/GPS live tracking with chase and recovery operations
+- Onboard sensors: temperature, pressure, humidity, and inertial measurement unit (IMU)
+- 4K camera system with thermal insulation and environmental shielding
+- Flight path prediction and weather window planning
+- Comprehensive post-flight data analysis and presentation
 
-## What Students Learn
+## Learning Impact
 
-Systems engineering and test planning; electronics integration and power budgeting; FAA coordination and safety/risk management; mapping, localization, and recovery logistics; technical communication and teamwork.
+Students apply systems engineering principles, electronics integration, and power budgeting while coordinating with the FAA for flight clearance and safety compliance. They gain hands-on experience in risk management, mapping, recovery logistics, and technical communication—skills that translate directly into aerospace, robotics, and data science pathways.
 
 ---
 

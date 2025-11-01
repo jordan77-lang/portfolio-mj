@@ -17,7 +17,7 @@ The nomination came from one of my students, eleventh grader Michael Stahl, who 
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/G9AubV7WMJ4?si=sZYsmVWJxUQdl_t3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-![Silver Apple Award Trophy](/images/silver-apple-trophy.jpg)
+![Silver Apple Award Trophy](/images/silver-apple-award.jpg)
 *The Silver Apple Award - Recognizing Excellence in STEM Education*
 
 ## Student Recognition
