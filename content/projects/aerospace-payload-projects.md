@@ -58,24 +58,3 @@ Professional aerospace engineering practices; formal design review processes; te
 
 ### Impact
 This partnership exposed students to the rigor and professionalism of defense aerospace work. Many students who participated went on to pursue aerospace engineering degrees and several secured internships with Northrop Grumman or other aerospace companies. The experience showed students that they were capable of meeting industry standards when properly supported.
-
----
-
-## Lessons Learned
-
-### For Students
-**Teamwork is Essential** — Complex aerospace projects require diverse skills and strong collaboration. **Iteration is Expected** — First designs rarely work perfectly; testing and refinement are part of the process. **Details Matter** — In aerospace, small oversights can have major consequences. **Industry Partnerships are Valuable** — Access to professional engineers accelerated learning.
-
-### For Educators
-**Start Small, Scale Up** — Begin with simpler missions before attempting complex industry partnerships. **Build Strong Industry Relationships** — Personal connections with aerospace professionals are crucial. **Safety First, Always** — Never compromise on safety protocols or testing procedures. **Document Everything** — Good documentation helps with future projects and demonstrates student learning.
-
-### For Industry Partners
-**Student Teams Can Deliver** — With proper mentorship, high school students can produce quality work. **Long Lead Times are Necessary** — Academic calendars require early planning and flexible timelines. **Clear Specifications are Critical** — Students need detailed requirements documents to succeed. **The Impact is Lasting** — Many students who participate in these programs pursue aerospace careers.
-
----
-
-## Program Impact
-
-These aerospace payload partnerships provided students with experiences that would be impossible in a traditional classroom setting. By working on real missions with real consequences, students developed not just technical skills, but also the professional habits and mindsets that define successful engineers.
-
-The projects demonstrated that meaningful aerospace education doesn't require a university setting—it requires dedicated teachers, supportive industry partners, and students willing to rise to the challenge.

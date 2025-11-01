@@ -33,7 +33,7 @@ Gaussian splat from COLMAP (early test):
 
 ### Android Digital Twin - Banjo AR Experience
 
-**[Launch Experience](/portfolio-mj/projects/digital-twin/android-digital-twin.html)**
+**[Launch Experience](/projects/digital-twin/android-digital-twin.html)**
 
 An augmented reality application that allows users to place and interact with digital twin models of my dog Banjo in real-world environments.
 
@@ -50,7 +50,7 @@ An augmented reality application that allows users to place and interact with di
 
 ### iOS Digital Twin-Banjo viewer
 
-**[Launch Experience](/portfolio-mj/projects/digital-twin/ios-digital-twin.html)**
+**[Launch Experience](/projects/digital-twin/ios-digital-twin.html)**
 
 An iOS-native augmented reality application bringing digital twin technology to Apple devices with optimized ARKit integration.
 
@@ -66,7 +66,7 @@ An iOS-native augmented reality application bringing digital twin technology to 
 
 ### Robot VR viewer
 
-**[Launch Experience](/portfolio-mj/projects/digital-twin/robot1-universal-viewer.html)**
+**[Launch Experience](/projects/digital-twin/robot1-universal-viewer.html)**
 
 A universal 3D model viewer that allows users to explore and interact with robotic models in an immersive environment, showcasing mechanical design and functionality.
 
@@ -82,7 +82,7 @@ A universal 3D model viewer that allows users to explore and interact with robot
 
 ### Castle VR Viewer
 
-**[Launch Experience](/portfolio-mj/projects/digital-twin/castle-vr-viewer.html)**
+**[Launch Experience](/projects/digital-twin/castle-vr-viewer.html)**
 
 An immersive virtual reality experience that allows users to explore a detailed castle environment in VR.
 
