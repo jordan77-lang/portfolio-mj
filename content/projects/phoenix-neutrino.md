@@ -50,19 +50,4 @@ Neutrino wasn't about money. It was about pushing creative boundaries and sharin
 
 **"When it's over, you feel like you've been hit by a truck because it's so much work. And no one's in it to make money. The Neutrino Project's about doing the project and sharing it with the public."** — Mark Jordan
 
-## Press Coverage
 
-- **Phoenix New Times** — One-year anniversary feature  
-- **Fuzzy Co.** — Phoenix Improv Festival coverage  
-  https://fuzzyco.com/news/bare/phoenix-improv-festival-2007.html
-
-## Legacy
-
-The Phoenix Neutrino Project proved that film and improv could merge into something entirely new—raw, immediate, unpredictable, and electrifying. It brought together a fractured improv community, created unforgettable performances, and reminded everyone that the best art happens when you take risks and run with them.
-
-Literally.
-
----
-
-*Monthly performances at The Paper Heart Gallery, Phoenix (750 N.W. Grand Ave.)*  
-*Past films archived at phoenixneutrino.com*
