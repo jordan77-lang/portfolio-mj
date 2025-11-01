@@ -67,8 +67,7 @@ function generate() {
   p(doc, 'Integrating SME input and source material: I synthesize SME interviews, research, and technical documentation into learner-friendly assets (lesson guides, lab sheets, performance tasks). I collaborate with writers, VR developers, and instructors to translate narrative and mechanics into teachable, assessable steps, maintaining templates and standards. [Add a one-sentence VR/AR or simulation example].');
   bullets(doc, [
     'Immersive + narrative learning: Phoenix Neutrino (live cinematic storytelling) • HGTV (on-camera design/build)',
-    'Experiential STEM: Zephyr (stratospheric mission) • Space Night (community-scale interactive science)',
-    'Engineering programs: Robotics (iterative builds) • CNC Lab (safety, production workflows)'
+    'Experiential STEM: Zephyr (stratospheric mission) • Space Night (community-scale interactive science)'
   ]);
   p(doc, 'I’m drawn to DSL’s vision: emotionally engaging, scientifically rigorous learning that scales. I bring strong collaboration across disciplines, a builder’s mindset, and a track record of shipping programs that align outcomes with memorable experiences. Thank you for your consideration.');
   p(doc, 'Sincerely,');
@@ -126,8 +125,9 @@ function generate() {
   h(doc, 'Portfolio links', 2);
   link(doc, 'Project Zephyr', 'https://markajordan.com/projects/zephyr/'); doc.moveDown(0.1);
   link(doc, 'Space Night', 'https://markajordan.com/projects/space-night/'); doc.moveDown(0.1);
-  link(doc, 'Robotics', 'https://markajordan.com/projects/robotics/'); doc.moveDown(0.1);
-  link(doc, 'CNC & Manufacturing Lab', 'https://markajordan.com/projects/cnc-lab/'); doc.moveDown(0.1);
+  // Deprecated links removed to avoid 404s
+  // link(doc, 'Robotics', 'https://markajordan.com/projects/robotics/'); doc.moveDown(0.1);
+  // link(doc, 'CNC & Manufacturing Lab', 'https://markajordan.com/projects/cnc-lab/'); doc.moveDown(0.1);
   link(doc, 'Phoenix Neutrino Project', 'https://markajordan.com/projects/phoenix-neutrino/'); doc.moveDown(0.1);
   link(doc, 'HGTV: Over Your Head', 'https://markajordan.com/projects/over-your-head/'); doc.moveDown(0.1);
   link(doc, 'Silver Apple Award', 'https://markajordan.com/projects/silver-apple-award/');

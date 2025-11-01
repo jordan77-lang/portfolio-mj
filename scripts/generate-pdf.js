@@ -98,8 +98,9 @@ function generate() {
   addHeading(doc, 'Portfolio links', 3);
   addLink(doc, 'Project Zephyr', 'https://markajordan.com/projects/zephyr/');
   addLink(doc, 'Space Night', 'https://markajordan.com/projects/space-night/');
-  addLink(doc, 'Robotics', 'https://markajordan.com/projects/robotics/');
-  addLink(doc, 'CNC & Manufacturing Lab', 'https://markajordan.com/projects/cnc-lab/');
+  // Removed links to deprecated pages that are no longer published
+  // addLink(doc, 'Robotics', 'https://markajordan.com/projects/robotics/');
+  // addLink(doc, 'CNC & Manufacturing Lab', 'https://markajordan.com/projects/cnc-lab/');
   addLink(doc, 'Phoenix Neutrino Project', 'https://markajordan.com/projects/phoenix-neutrino/');
   addLink(doc, 'HGTV: Over Your Head', 'https://markajordan.com/projects/over-your-head/');
   addLink(doc, 'Silver Apple Award', 'https://markajordan.com/projects/silver-apple-award/');

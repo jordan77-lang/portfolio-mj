@@ -3,18 +3,16 @@ title: "Chandler Cardboard Boat Regatta"
 description: "Student engineering competition designing and racing boats constructed entirely from cardboard and duct tape"
 ---
 
+**Event Organizer | Chandler Unified School District**
+
 ## Overview
 
-The Chandler Cardboard Boat Regatta challenges students to apply engineering principles in a hands-on competition. Teams design, build, and race boats made entirely from cardboard and duct tape, testing buoyancy, structural integrity, and creative problem-solving under real-world constraints.
+Developed and led a district-wide engineering design challenge where students built and raced life-sized boats made entirely of cardboard and adhesive materials. Teams applied physics and engineering principles to design buoyant, stable watercraft capable of carrying two paddlers across a full pool course.
 
-## Challenge
+## Highlights
 
-Students must create a watercraft capable of supporting crew members and completing a race course—all while using only cardboard, duct tape, and their ingenuity.
+Organized and directed competition for all high school engineering departments in Chandler; managed safety inspections, race heats, and event logistics at the Hamilton Aquatic Center; designed engineering challenge rules, construction guidelines, and instructional materials; engaged more than 100 students in hands-on learning about buoyancy, structure, and teamwork; partnered with educators and community facilities to ensure safety, inclusion, and engagement.
 
-## Learning Outcomes
+## Learning Impact
 
-Applied engineering design process (research, prototype, test, iterate); hands-on experience with buoyancy, weight distribution, and structural design; teamwork, project management, and resourcefulness; real-world consequences of design decisions.
-
-## Impact
-
-This annual event brings together students, families, and the community in a celebration of creativity and engineering, demonstrating that STEM learning can be engaging, competitive, and fun.
+Students experienced the complete engineering design process—from initial concept to prototype testing and redesign. The event fostered creativity, collaboration, and real-world problem solving, transforming STEM principles into a dynamic, high-energy community experience.

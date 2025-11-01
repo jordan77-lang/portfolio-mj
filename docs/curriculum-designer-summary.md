@@ -30,25 +30,25 @@ Selected projects and outcomes
   - Design immersive learning experiences aligned to VR/AR and narrative-driven pedagogy; collaborate with cross-functional team to ship scalable courseware and labs.
 - Project Zephyr — High Altitude Weather Balloon
   - End-to-end student space mission: payload design, telemetry, recovery, and post-flight data analysis.
-  - Portfolio: https://jordan77-lang.github.io/portfolio-mj/projects/zephyr/
+  - Portfolio: https://markajordan.com/projects/zephyr/
 - Space Night — Experiential STEM event
   - Community-scale, interactive science experience with exhibits, talks, and student showcases tied to outcomes.
-  - Portfolio: https://jordan77-lang.github.io/portfolio-mj/projects/space-night/
-- Robotics & Competition Teams
-  - Multi-team program; iterative design/build and competition deliverables; strong student leadership development.
-  - Portfolio: https://jordan77-lang.github.io/portfolio-mj/projects/robotics/
-- CNC & Manufacturing Lab
-  - Built and managed a full lab program; safety systems, equipment training, and production workflows.
-  - Portfolio: https://jordan77-lang.github.io/portfolio-mj/projects/cnc-lab/
+  - Portfolio: https://markajordan.com/projects/space-night/
+- High School Curriculum — Engineering Program
+  - PLTW-aligned sequence redesigned to district standards: design process, mechanisms, automation, digital electronics, aerospace, and capstone.
+  - Portfolio: https://markajordan.com/projects/high-school-curriculum/
+- University Curriculum — Dreamscape Learn/ASU
+  - Immersive, inquiry-driven curricula spanning biology, chemistry, economics, sustainability, and astronomy.
+  - Portfolio: https://markajordan.com/projects/university-curriculum/
 - Phoenix Neutrino Project — Director
   - Live “kamikaze filmmaking” merging improv and film; time-boxed, collaborative, narrative experiences.
-  - Portfolio: https://jordan77-lang.github.io/portfolio-mj/projects/phoenix-neutrino/
+  - Portfolio: https://markajordan.com/projects/phoenix-neutrino/
 - HGTV: Over Your Head — Master Carpenter & Host
   - On-camera design/build under deadline with production teams; visual storytelling and engagement.
-  - Portfolio: https://jordan77-lang.github.io/portfolio-mj/projects/over-your-head/
+  - Portfolio: https://markajordan.com/projects/over-your-head/
 - Recognition — Silver Apple Award
   - Honored for outstanding STEM teaching and mentorship.
-  - Portfolio: https://jordan77-lang.github.io/portfolio-mj/projects/silver-apple-award/
+  - Portfolio: https://markajordan.com/projects/silver-apple-award/
 
 Education
 - M.S. Instructional Design & Technology (Walden University)

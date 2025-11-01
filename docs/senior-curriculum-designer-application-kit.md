@@ -15,8 +15,8 @@ A single, uploadable worksheet with everything you need to quickly produce a tai
 Portfolio links to reference in your materials:
 - Zephyr: https://markajordan.com/projects/zephyr/
 - Space Night: https://markajordan.com/projects/space-night/
-- Robotics: https://markajordan.com/projects/robotics/
-- CNC & Manufacturing Lab: https://markajordan.com/projects/cnc-lab/
+- High School Curriculum: https://markajordan.com/projects/high-school-curriculum/
+- University Curriculum: https://markajordan.com/projects/university-curriculum/
 - Phoenix Neutrino Project: https://markajordan.com/projects/phoenix-neutrino/
 - HGTV — Over Your Head: https://markajordan.com/projects/over-your-head/
 - Silver Apple Award: https://markajordan.com/projects/silver-apple-award/

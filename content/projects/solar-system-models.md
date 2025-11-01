@@ -100,9 +100,9 @@ Planned additions include:
 
 ## Related Tools
 
-- [Interactive Periodic Table](/portfolio-mj/projects/interactive-periodic-table/)
-- [Interactive Moon Phase Model](/portfolio-mj/projects/moon-phase-model/)
-- [All Interactive Educational Tools](/portfolio-mj/projects/interactive-educational-tools/)
+- [Interactive Periodic Table](/projects/interactive-periodic-table/)
+- [Interactive Moon Phase Model](/projects/moon-phase-model/)
+- [All Interactive Educational Tools](/projects/interactive-educational-tools/)
 
 ---
 

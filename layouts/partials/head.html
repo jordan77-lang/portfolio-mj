@@ -99,16 +99,32 @@
         }
         activePanel.style.maxHeight = activePanel.scrollHeight + "px";
 
-        // Keep the accordion header visible at the top after expansion
-        // so longer panels don't push the header off-screen.
+        // Center the accordion header in the viewport after expansion
+        // so it remains visible and doesn't move off screen.
         try {
-          // Wait for maxHeight transition to complete, then scroll
-          setTimeout(() => {
-            const headerEl = elem.parentElement;
-            const offset = 80; // Increased offset to ensure header stays visible
-            const y = headerEl.getBoundingClientRect().top + window.pageYOffset - offset;
-            window.scrollTo({ top: y, behavior: 'smooth' });
-          }, 50);
+          const headerEl = elem.parentElement;
+          const activePanel = headerEl.nextElementSibling;
+
+          const doScrollToCenter = () => {
+            const headerBox = headerEl.getBoundingClientRect();
+            const target = headerBox.top + window.pageYOffset - ((window.innerHeight - headerBox.height) / 2);
+            window.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
+          };
+
+          // Prefer scrolling after the panel's height transition ends for accuracy
+          let scrolled = false;
+          const onTransitionEnd = (ev) => {
+            if (ev && ev.propertyName !== 'max-height') return;
+            if (!scrolled) {
+              scrolled = true;
+              doScrollToCenter();
+            }
+            activePanel && activePanel.removeEventListener('transitionend', onTransitionEnd);
+          };
+          activePanel && activePanel.addEventListener('transitionend', onTransitionEnd, { once: true });
+
+          // Fallback in case transitionend doesn't fire (e.g., very short content)
+          setTimeout(() => { if (!scrolled) { scrolled = true; doScrollToCenter(); } }, 200);
         } catch (_) { /* no-op */ }
 
         // Persist currently opened accordion key for this page

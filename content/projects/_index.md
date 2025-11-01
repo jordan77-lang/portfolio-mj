@@ -6,36 +6,22 @@ description: "Innovative Programs & Student Success Stories"
 
 ## 📚 Curriculum Designed
 
-A comprehensive list of curriculum authored and designed for various educational programs, courses, and initiatives. [View full curriculum list](/portfolio-mj/projects/curriculum-designed/)
+A selection of authored curricula across K–12 and higher ed.
 
----
-
----
-
+- High School Curriculum — Engineering Program: /projects/high-school-curriculum/
+- University Curriculum — Dreamscape Learn/ASU: /projects/university-curriculum/
+- Project Zephyr Curriculum: /projects/project-zephyr-curriculum/
+- Taking Flight Event Curriculum: /projects/taking-flight-curriculum/
 
 ---
 
 ## 🚀 Signature Programs
 
-- **Story**: Watch the feature from 3TV/CBS 5
-- [Learn More](/portfolio-mj/projects/silver-apple-award/)
-
-- **Work**: Kitchens, bathrooms, patios, and backyard transformations
-- [Watch Clips](/portfolio
-
-- **Outcome**: Data analysis and presentation
-- [Learn More](/portfolio-mj/projects/zephyr/)
-
-- **Focus**: Science communication and community events
-- [Learn More](/portfolio-mj/projects/phoenix-neutrino/)
-
-- **Features**: Interactive exhibits, student projects, guest speakers
-- [Learn More](/portfolio-mj/projects/space-night/)
-
-- **Achievements**: Multiple state and regional competition wins
-- [Learn More](/portfolio-mj/projects/robotics/)
-
-- **Safety**: Zero accidents over 20 years
+- Silver Apple Award — Feature from 3TV/CBS 5: /projects/silver-apple-award/
+- HGTV: Over Your Head — On‑camera design/build: /projects/over-your-head/
+- Project Zephyr — Student space mission: /projects/zephyr/
+- Phoenix Neutrino — Live improv-film production: /projects/phoenix-neutrino/
+- Space Night — Community STEM celebration: /projects/space-night/
 
 ---
 
