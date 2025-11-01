@@ -3,6 +3,7 @@ title: "Silver Apple Award Winner"
 tags: ["award", "recognition", "teaching", "stem-education", "mentorship"]
 featured_image: "/images/silver appleimage.jpg"
 description: "Recognized by Arizona's Family (3TV/CBS 5) for excellence in STEM education and mentoring future engineers"
+featured_image_class: "block w-40 mx-auto rounded shadow"
 ---
 
 ## Overview

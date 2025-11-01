@@ -4,7 +4,8 @@
   <header class="mb-6">
     <h1 class="top-h1">{{ .Title }}</h1>
     {{ with $featured }}
-      <img src="{{ . | relURL }}" alt="Hero image for {{ $.Title }}" class="w-full rounded shadow" loading="lazy" />
+      {{ $imgClass := (or $.Params.featured_image_class "block w-full max-w-xl mx-auto rounded shadow") }}
+      <img src="{{ . | relURL }}" alt="Hero image for {{ $.Title }}" class="{{ $imgClass }}" loading="lazy" />
     {{ end }}
   </header>
 
