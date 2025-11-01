@@ -131,9 +131,9 @@ Planned additions:
 
 ## Related Tools
 
-- [Interactive Periodic Table](/portfolio-mj/projects/interactive-periodic-table/)
-- [Scale Solar System Models](/portfolio-mj/projects/solar-system-models/)
-- [All Interactive Educational Tools](/portfolio-mj/projects/interactive-educational-tools/)
+- [Interactive Periodic Table](/projects/interactive-periodic-table/)
+- [Scale Solar System Models](/projects/solar-system-models/)
+- [All Interactive Educational Tools](/projects/interactive-educational-tools/)
 
 ---
 

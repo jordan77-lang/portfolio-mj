@@ -14,7 +14,7 @@ A native iOS augmented reality application leveraging Apple's ARKit framework to
 
 ## Live Demo
 
-**🚀 [Launch iOS Digital Twin Experience](/portfolio-mj/projects/digital-twin/ios-digital-twin.html)**
+**🚀 [Launch iOS Digital Twin Experience](/projects/digital-twin/ios-digital-twin.html)**
 
 **Platform:** Works on any device with a modern web browser  
 **Best experienced on:** iOS devices (iPhone XR and newer, iPad Pro)
@@ -248,4 +248,4 @@ Interested in iOS AR development or collaboration?
 
 ---
 
-[← Back to AR/VR Projects](/portfolio-mj/projects/ar-vr-projects/)
+[← Back to AR/VR Projects](/projects/ar-vr-projects/)

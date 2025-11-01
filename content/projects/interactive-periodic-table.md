@@ -32,7 +32,7 @@ This interactive periodic table provides an engaging way for students to explore
 <div style="margin: 20px 0; padding: 40px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
   <h3 style="color: white; margin-bottom: 16px; font-size: 1.5em;">Full Interactive Periodic Table</h3>
   <p style="color: rgba(255,255,255,0.9); margin-bottom: 24px;">Explore all 118 elements with hover effects showing atomic number, symbol, name, and atomic mass</p>
-  <a href="/portfolio-mj/files/interactive-periodic-table.html" target="_blank" style="display: inline-block; padding: 14px 32px; background: white; color: #667eea; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: transform 0.2s;">Launch Periodic Table →</a>
+  <a href="/files/interactive-periodic-table.html" target="_blank" style="display: inline-block; padding: 14px 32px; background: white; color: #667eea; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: transform 0.2s;">Launch Periodic Table →</a>
   <p style="color: rgba(255,255,255,0.8); margin-top: 20px; font-size: 0.9em;">Opens in a new tab • Works on all devices • No login required</p>
 </div>
 
@@ -85,6 +85,6 @@ The table will work seamlessly within Canvas, maintaining full interactivity.
 
 ## Related Tools
 
-- [Scale Solar System Models](/portfolio-mj/projects/solar-system-models/)
-- [Interactive Moon Phase Model](/portfolio-mj/projects/moon-phase-model/)
-- [All Interactive Educational Tools](/portfolio-mj/projects/interactive-educational-tools/)
+- [Scale Solar System Models](/projects/solar-system-models/)
+- [Interactive Moon Phase Model](/projects/moon-phase-model/)
+- [All Interactive Educational Tools](/projects/interactive-educational-tools/)

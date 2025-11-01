@@ -14,7 +14,7 @@ An augmented reality application for Android devices that allows users to place 
 
 ## Live Demo
 
-**🚀 [Launch Android Digital Twin Experience](/portfolio-mj/projects/digital-twin/android-digital-twin.html)**
+**🚀 [Launch Android Digital Twin Experience](/projects/digital-twin/android-digital-twin.html)**
 
 **Platform:** Works on any device with a modern web browser  
 **Best experienced on:** Android mobile devices with AR support
@@ -214,4 +214,4 @@ Questions about this project or interested in AR development?
 
 ---
 
-[← Back to AR/VR Projects](/portfolio-mj/projects/ar-vr-projects/)
+[← Back to AR/VR Projects](/projects/ar-vr-projects/)

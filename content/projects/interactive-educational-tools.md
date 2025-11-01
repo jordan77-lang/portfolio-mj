@@ -19,12 +19,12 @@ What these tools emphasize:
 
 ## Featured Educational Tools
 
-### [Educational Image Accessibility Tool](/portfolio-mj/projects/educational-image-accessibility-tool/)
+### [Educational Image Accessibility Tool](/projects/educational-image-accessibility-tool/)
 Generate high‑quality alt text, figure descriptions, long descriptions, and transcriptions for curriculum images. Built around WCAG guidelines and educational standards.
 
 ---
 
-### [Interactive Periodic Table](/portfolio-mj/projects/interactive-periodic-table/)
+### [Interactive Periodic Table](/projects/interactive-periodic-table/)
 Explore element properties, atomic structure, and chemical families through simple visual interaction.
 
 Key features:
@@ -37,7 +37,7 @@ Use cases:
 
 ---
 
-### [Scale Solar System Models](/portfolio-mj/projects/solar-system-models/)
+### [Scale Solar System Models](/projects/solar-system-models/)
 Interactive visualizations that show realistic distance and size relationships in the solar system.
 
 Key features:
@@ -50,7 +50,7 @@ Use cases:
 
 ---
 
-### [Interactive Moon Phase Model](/portfolio-mj/projects/moon-phase-model/)
+### [Interactive Moon Phase Model](/projects/moon-phase-model/)
 A dynamic simulation of Earth–Moon–Sun geometry that produces lunar phases from multiple viewpoints.
 
 Key features:
@@ -63,7 +63,7 @@ Use cases:
 
 ---
 
-### [Articulate Rise Course Modules](/portfolio-mj/projects/articulate-rise-modules/)
+### [Articulate Rise Course Modules](/projects/articulate-rise-modules/)
 Professional eLearning modules with responsive design, interactive checks, and LMS integration.
 
 Key features:

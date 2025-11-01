@@ -14,7 +14,7 @@ An immersive virtual reality experience that transports users into a fully reali
 
 ## Live Demo
 
-**🚀 [Launch Castle VR Viewer](/portfolio-mj/projects/digital-twin/castle-vr-viewer.html)**
+**🚀 [Launch Castle VR Viewer](/projects/digital-twin/castle-vr-viewer.html)**
 
 **Platform:** WebXR compatible - Works in VR headsets and desktop browsers  
 **Best experienced with:** VR headset (Oculus Quest 2+, HTC Vive, Valve Index)
@@ -320,4 +320,4 @@ Interested in VR development or educational VR experiences?
 
 ---
 
-[← Back to AR/VR Projects](/portfolio-mj/projects/ar-vr-projects/)
+[← Back to AR/VR Projects](/projects/ar-vr-projects/)
