@@ -96,13 +96,13 @@ function generate() {
 
   // Portfolio links
   addHeading(doc, 'Portfolio links', 3);
-  addLink(doc, 'Project Zephyr', 'https://jordan77-lang.github.io/portfolio-mj/projects/zephyr/');
-  addLink(doc, 'Space Night', 'https://jordan77-lang.github.io/portfolio-mj/projects/space-night/');
-  addLink(doc, 'Robotics', 'https://jordan77-lang.github.io/portfolio-mj/projects/robotics/');
-  addLink(doc, 'CNC & Manufacturing Lab', 'https://jordan77-lang.github.io/portfolio-mj/projects/cnc-lab/');
-  addLink(doc, 'Phoenix Neutrino Project', 'https://jordan77-lang.github.io/portfolio-mj/projects/phoenix-neutrino/');
-  addLink(doc, 'HGTV: Over Your Head', 'https://jordan77-lang.github.io/portfolio-mj/projects/over-your-head/');
-  addLink(doc, 'Silver Apple Award', 'https://jordan77-lang.github.io/portfolio-mj/projects/silver-apple-award/');
+  addLink(doc, 'Project Zephyr', 'https://markajordan.com/projects/zephyr/');
+  addLink(doc, 'Space Night', 'https://markajordan.com/projects/space-night/');
+  addLink(doc, 'Robotics', 'https://markajordan.com/projects/robotics/');
+  addLink(doc, 'CNC & Manufacturing Lab', 'https://markajordan.com/projects/cnc-lab/');
+  addLink(doc, 'Phoenix Neutrino Project', 'https://markajordan.com/projects/phoenix-neutrino/');
+  addLink(doc, 'HGTV: Over Your Head', 'https://markajordan.com/projects/over-your-head/');
+  addLink(doc, 'Silver Apple Award', 'https://markajordan.com/projects/silver-apple-award/');
 
   // Education
   addHeading(doc, 'Education', 2);

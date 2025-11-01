@@ -13,13 +13,13 @@ A single, uploadable worksheet with everything you need to quickly produce a tai
 - Use Section 6 checklist to submit a clean application.
 
 Portfolio links to reference in your materials:
-- Zephyr: https://jordan77-lang.github.io/portfolio-mj/projects/zephyr/
-- Space Night: https://jordan77-lang.github.io/portfolio-mj/projects/space-night/
-- Robotics: https://jordan77-lang.github.io/portfolio-mj/projects/robotics/
-- CNC & Manufacturing Lab: https://jordan77-lang.github.io/portfolio-mj/projects/cnc-lab/
-- Phoenix Neutrino Project: https://jordan77-lang.github.io/portfolio-mj/projects/phoenix-neutrino/
-- HGTV — Over Your Head: https://jordan77-lang.github.io/portfolio-mj/projects/over-your-head/
-- Silver Apple Award: https://jordan77-lang.github.io/portfolio-mj/projects/silver-apple-award/
+- Zephyr: https://markajordan.com/projects/zephyr/
+- Space Night: https://markajordan.com/projects/space-night/
+- Robotics: https://markajordan.com/projects/robotics/
+- CNC & Manufacturing Lab: https://markajordan.com/projects/cnc-lab/
+- Phoenix Neutrino Project: https://markajordan.com/projects/phoenix-neutrino/
+- HGTV — Over Your Head: https://markajordan.com/projects/over-your-head/
+- Silver Apple Award: https://markajordan.com/projects/silver-apple-award/
 
 ---
 

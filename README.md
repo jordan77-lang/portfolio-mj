@@ -24,7 +24,7 @@ This is a Hugo-based portfolio website using the aafu theme, showcasing my exper
    hugo server -D
    ```
 
-5. Open http://localhost:1313/portfolio-mj/ in your browser to preview.
+5. Open http://localhost:1313/ in your browser to preview.
 
 ## Structure
 
@@ -39,7 +39,7 @@ This is a Hugo-based portfolio website using the aafu theme, showcasing my exper
 
 The `.github/workflows/gh-pages.yml` workflow automatically builds and deploys your site to GitHub Pages when you push to the `main` branch.
 
-Your site will be live at: https://jordan77-lang.github.io/portfolio-mj/
+Your site will be live at: https://markajordan.com/
 
 ## Customization
 

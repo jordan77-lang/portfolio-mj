@@ -124,13 +124,13 @@ function generate() {
 
   // Portfolio links
   h(doc, 'Portfolio links', 2);
-  link(doc, 'Project Zephyr', 'https://jordan77-lang.github.io/portfolio-mj/projects/zephyr/'); doc.moveDown(0.1);
-  link(doc, 'Space Night', 'https://jordan77-lang.github.io/portfolio-mj/projects/space-night/'); doc.moveDown(0.1);
-  link(doc, 'Robotics', 'https://jordan77-lang.github.io/portfolio-mj/projects/robotics/'); doc.moveDown(0.1);
-  link(doc, 'CNC & Manufacturing Lab', 'https://jordan77-lang.github.io/portfolio-mj/projects/cnc-lab/'); doc.moveDown(0.1);
-  link(doc, 'Phoenix Neutrino Project', 'https://jordan77-lang.github.io/portfolio-mj/projects/phoenix-neutrino/'); doc.moveDown(0.1);
-  link(doc, 'HGTV: Over Your Head', 'https://jordan77-lang.github.io/portfolio-mj/projects/over-your-head/'); doc.moveDown(0.1);
-  link(doc, 'Silver Apple Award', 'https://jordan77-lang.github.io/portfolio-mj/projects/silver-apple-award/');
+  link(doc, 'Project Zephyr', 'https://markajordan.com/projects/zephyr/'); doc.moveDown(0.1);
+  link(doc, 'Space Night', 'https://markajordan.com/projects/space-night/'); doc.moveDown(0.1);
+  link(doc, 'Robotics', 'https://markajordan.com/projects/robotics/'); doc.moveDown(0.1);
+  link(doc, 'CNC & Manufacturing Lab', 'https://markajordan.com/projects/cnc-lab/'); doc.moveDown(0.1);
+  link(doc, 'Phoenix Neutrino Project', 'https://markajordan.com/projects/phoenix-neutrino/'); doc.moveDown(0.1);
+  link(doc, 'HGTV: Over Your Head', 'https://markajordan.com/projects/over-your-head/'); doc.moveDown(0.1);
+  link(doc, 'Silver Apple Award', 'https://markajordan.com/projects/silver-apple-award/');
 
   doc.end();
   stream.on('finish', () => console.log(`PDF generated at: ${outPath}`));
