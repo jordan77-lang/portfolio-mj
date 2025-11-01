@@ -2,6 +2,7 @@
 title: "Robotics and Electronics Curriculum"
 date: 2025-10-28
 description: "Comprehensive robotics and electronics curriculum for middle and high school students."
+draft: true
 ---
 
 ## Robotics and Electronics Curriculum

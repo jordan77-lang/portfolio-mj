@@ -3,6 +3,7 @@ title: "Robotics & Competition Teams"
 tags: ["robotics", "competition", "skillsusa", "vex", "battlebots", "stem"]
 featured_image: ""
 description: "Leading student robotics teams to success in national competitions including SkillsUSA, Vex Robotics, and Battlebots"
+draft: true
 ---
 
 ## Overview

@@ -3,6 +3,7 @@ title: "CNC & Manufacturing Lab"
 tags: ["cnc", "manufacturing", "machining", "woodworking", "safety", "career-technical-education"]
 featured_image: ""
 description: "Built and managed a state-of-the-art manufacturing facility training 150+ students annually with zero safety incidents over 20 years"
+draft: true
 ---
 
 ## Overview

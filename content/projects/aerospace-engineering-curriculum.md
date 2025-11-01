@@ -2,6 +2,7 @@
 title: "Aerospace Engineering Curriculum"
 date: 2025-10-28
 description: "PLTW certified aerospace engineering curriculum for high school students."
+draft: true
 ---
 
 ## Aerospace Engineering Curriculum

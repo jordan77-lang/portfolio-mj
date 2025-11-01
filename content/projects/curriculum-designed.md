@@ -2,6 +2,7 @@
 title: "Curriculum Designed"
 date: 2025-10-28
 description: "A comprehensive list of curriculum authored and designed by Mark Jordan throughout his career."
+draft: true
 ---
 
 ## Curriculum Designed

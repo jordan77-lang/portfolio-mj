@@ -1,6 +1,7 @@
 ---
 title: "Blue Origin Payload Creation and Launch"
 description: "Student-designed payload launched aboard a Blue Origin rocket"
+draft: true
 ---
 
 ## Overview

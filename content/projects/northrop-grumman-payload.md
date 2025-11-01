@@ -1,6 +1,7 @@
 ---
 title: "Northrop Grumman Payload Creation and Launch"
 description: "Student payload project in collaboration with Northrop Grumman"
+draft: true
 ---
 
 ## Overview

@@ -1,6 +1,7 @@
 ---
 title: "Sugar House Rocket Payload Creation and Launch"
 description: "Student-built rocket payload for sugar-propellant launch"
+draft: true
 ---
 
 ## Overview

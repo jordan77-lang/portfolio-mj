@@ -2,6 +2,7 @@
 title: "Cabinetry and Woodworking Curriculum"
 date: 2025-10-28
 description: "Career Technical Education curriculum for advanced woodworking and cabinetry."
+draft: true
 ---
 
 ## Cabinetry and Woodworking Curriculum

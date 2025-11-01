@@ -2,6 +2,7 @@
 title: "Theatre Technical Curriculum"
 date: 2025-10-28
 description: "Technical theatre and production curriculum for high school students."
+draft: true
 ---
 
 ## Theatre Technical Curriculum
