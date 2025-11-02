@@ -28,4 +28,3 @@ Students apply systems engineering principles, electronics integration, and powe
 
 ---
 
-Questions about running a high altitude balloon project at your school? [Email me](mailto:stramark@gmail.com).
