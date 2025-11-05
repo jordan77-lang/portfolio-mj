@@ -10,21 +10,12 @@ description: "Community aviation and STEM event bringing together students, fami
 Taking Flight at EVIT is a free community event that celebrates aviation, robotics, and hands-on STEM learning. Hosted at the East Valley Institute of Technology (EVIT), this event brings together students, families, educators, and industry partners for a day of flight demonstrations, competitions, workshops, and interactive learning experiences.
 
 The event serves multiple purposes: introducing young students to aviation and aerospace concepts, providing a competitive venue for FTC robotics teams, and creating community connections between educational institutions, industry partners, and families interested in STEM education.
-
 ---
 
 ## Event Components
 
-### RC Aircraft Demonstrations & Open Flying
-Licensed pilots from the Academy of Model Aeronautics (AMA) demonstrate various types of radio-controlled aircraft, from sport planes to advanced aerobatic models. Registered AMA pilots can participate in open flying sessions and aerial combat competitions throughout the day.
-
 ### Foam Board Glider Workshop
 Guided hands-on sessions where students ages 5-12 build and test foam board gliders under teacher supervision. Participants learn basic aerodynamics, structural design, and flight principles while constructing their own flying models. The workshop includes structured build sessions at scheduled times; parent participation encouraged; hot glue construction techniques; immediate flight testing opportunities.
-
-### FTC Robotics "First Look" Scrimmage
-FIRST Tech Challenge (FTC) teams from across the region participate in pre-season scrimmages, allowing teams to test their robots in competition conditions before official matches begin. This provides valuable practice and identifies areas for improvement early in the season.
-
-Participating teams have included Tie Dye Samurai (14835); Valley X (2844); Knights of the Lab Table (8081); Carbo-Knights (19728); Plus +3 Robotics (12841); and many other regional FTC teams.
 
 ### Industry & Education Partner Booths
 Educational institutions and aerospace industry partners set up interactive booths featuring career pathway information; hands-on demonstrations; technology showcases; college and technical school programs; industry recruitment and outreach.
@@ -60,11 +51,3 @@ As an aerospace education instructor and event partner, I contribute to Taking F
 The event aligns with my broader mission of making STEM education accessible, hands-on, and connected to real-world applications in aviation and aerospace engineering.
 
 ---
-
-## Event Resources
-
-- **When**: Annual event (typically held in fall)
-- **Where**: East Valley Institute of Technology (EVIT)
-- **Cost**: Free admission for all participants
-- **Website**: [stemplusc.org/taking-flight-at-evit](https://stemplusc.org/taking-flight-at-evit/)
-- **Activities**: RC demonstrations, glider building, robotics scrimmages, industry booths

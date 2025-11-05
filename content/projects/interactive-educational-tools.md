@@ -72,15 +72,12 @@ Design features:
 - Demonstrates why we see different moon phases
 ---
 
-### [Articulate Rise Course Modules](/projects/articulate-rise-modules/)
+### [Articulate Rise Examples](/projects/articulate-rise-modules/)
 Professional eLearning modules with responsive design, interactive checks, and LMS integration.
 
 Key features:
 - Mobile-responsive design
 - Knowledge checks and quizzes
-- SCORM/xAPI LMS integration
----
-
 ---
 
 If you’d like to use or adapt any of these tools, feel free to reach out: [stramark@gmail.com](mailto:stramark@gmail.com)
