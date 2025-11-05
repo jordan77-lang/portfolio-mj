@@ -5,7 +5,7 @@ tags: ["award", "scholarship", "NEA", "Walden University", "leadership", "public
 ---
 
 <div class="flex justify-center my-4">
-	<img src="/images/NEA.png" alt="NEA Excellence in Public School Education Scholarship" class="h-40 w-auto rounded shadow" />
+	<img src="/images/NEA.png" alt="NEA Excellence in Public School Education Scholarship" class="h-60 w-auto rounded shadow" />
 </div>
 
 ## Overview

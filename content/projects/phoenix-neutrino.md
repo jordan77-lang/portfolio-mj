@@ -6,7 +6,7 @@ description: "Director of Phoenix's innovative improv-film hybrid bringing toget
 ---
 
 <div class="flex justify-center my-4">
-	<img src="/images/FOX_FINAL0600.jpg" alt="Phoenix Neutrino Project promotional still" class="h-40 w-auto rounded shadow" />
+	<img src="/images/FOX_FINAL0600.jpg" alt="Phoenix Neutrino Project promotional still" class="h-60 w-auto rounded shadow" />
 </div>
 
 ## Overview

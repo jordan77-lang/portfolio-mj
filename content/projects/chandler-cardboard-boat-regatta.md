@@ -4,7 +4,7 @@ description: "Student engineering competition designing and racing boats constru
 ---
 
 <div class="flex justify-center my-4">
-	<img src="/images/boat 1.png" alt="Chandler Cardboard Boat Regatta" class="h-40 w-auto rounded shadow" />
+	<img src="/images/boat 1.png" alt="Chandler Cardboard Boat Regatta" class="h-60 w-auto rounded shadow" />
 </div>
 
 **Event Organizer | Chandler Unified School District**
