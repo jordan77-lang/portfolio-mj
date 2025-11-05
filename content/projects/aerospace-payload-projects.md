@@ -5,17 +5,6 @@ draft: false
 description: "Transforming student concepts into flight-ready aerospace payloads with Higher Orbits — missions include Blue Origin NS-12, Sugar House Rockets, and Neptune One."
 ---
 
-<div class="flex gap-2 justify-center flex-wrap my-4">
-	<!-- Place these images in static/images/ with the filenames below -->
-	<img src="/images/higher-orbits-payload.jpg" alt="Higher Orbits payload enclosure with mission stickers" class="h-28 w-auto rounded shadow" />
-	<img src="/images/microgravity-painting-payload.jpg" alt="Microgravity painting payload assembly with camera and drive system" class="h-28 w-auto rounded shadow" />
-	<img src="/images/blue-origin-new-shepard.jpg" alt="Blue Origin New Shepard liftoff" class="h-28 w-auto rounded shadow" />
-	<img src="/images/sugar-house-enclosure.jpg" alt="Sugar House payload enclosure with flight deck and fasteners" class="h-28 w-auto rounded shadow" />
-	<img src="/images/sugar-house-airport.jpg" alt="Payload ready for transport with Higher Orbits branding" class="h-28 w-auto rounded shadow" />
-	<img src="/images/sugar-house-desert.jpg" alt="Desert launch prep with payload in hand at sunrise" class="h-28 w-auto rounded shadow" />
-	<img src="/images/neptune-payload-cad.jpg" alt="Neptune payload CAD cutaway showing instrument layout" class="h-28 w-auto rounded shadow" />
-	<img src="/images/space-perspective-neptune.jpg" alt="Space Perspective Neptune capsule above Earth’s horizon" class="h-28 w-auto rounded shadow" />
-</div>
 
 ## Overview
 
@@ -28,12 +17,26 @@ Each project began with a student’s imaginative concept submitted through High
 ## Highlighted Missions
 
 ### Blue Origin — New Shepard NS-12
+<div class="flex gap-2 justify-center flex-wrap my-3">
+	<img src="/images/higher-orbits-payload.jpg" alt="Higher Orbits payload enclosure with mission stickers" class="h-28 w-auto rounded shadow" />
+	<img src="/images/microgravity-painting-payload.jpg" alt="Microgravity painting payload assembly with camera and drive system" class="h-28 w-auto rounded shadow" />
+	<img src="/images/blue-origin-new-shepard.jpg" alt="Blue Origin New Shepard liftoff" class="h-28 w-auto rounded shadow" />
+</div>
 Based on a student’s concept to create art in space, I engineered a payload capable of autonomously painting in microgravity at the rocket’s apex—most likely the first robotic art ever created in space. The design met Blue Origin’s strict payload integration and safety requirements and successfully operated during suborbital flight.
 
 ### Sugar House Rocket Payloads
+<div class="flex gap-2 justify-center flex-wrap my-3">
+	<img src="/images/sugar-house-enclosure.jpg" alt="Sugar House payload enclosure with flight deck and fasteners" class="h-28 w-auto rounded shadow" />
+	<img src="/images/sugar-house-airport.jpg" alt="Payload ready for transport with Higher Orbits branding" class="h-28 w-auto rounded shadow" />
+	<img src="/images/sugar-house-desert.jpg" alt="Desert launch prep with payload in hand at sunrise" class="h-28 w-auto rounded shadow" />
+</div>
 Translated student experiment ideas into compact payloads for amateur high-G launches, focusing on structural durability, sensor integration, and data recovery.
 
 ### Neptune One High-Altitude Mission
+<div class="flex gap-2 justify-center flex-wrap my-3">
+	<img src="/images/neptune-payload-cad.jpg" alt="Neptune payload CAD cutaway showing instrument layout" class="h-28 w-auto rounded shadow" />
+	<img src="/images/space-perspective-neptune.jpg" alt="Space Perspective Neptune capsule above Earth’s horizon" class="h-28 w-auto rounded shadow" />
+</div>
 Developed a student-designed science payload that flew aboard Space Perspective’s Neptune One capsule, capturing environmental data from the stratosphere while meeting high-altitude flight standards.
 
 ---
