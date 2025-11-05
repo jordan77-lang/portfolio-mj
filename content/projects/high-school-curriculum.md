@@ -9,7 +9,7 @@ description: "Programs I designed and taught at the high school level: PLTW Engi
 Role: Curriculum designer and instructor (Grades 9–12; Gilbert Public Schools)
 
 <div class="flex justify-center my-3">
-	<img src="/images/engineering 1.png" alt="PLTW Engineering program" class="h-40 w-auto rounded shadow" />
+	<img src="/images/engineering 1.png" alt="PLTW Engineering program" class="h-80 w-auto rounded shadow" />
 </div>
 
 Summary:
@@ -55,7 +55,7 @@ Key highlights / my contributions:
 ## Robotics Program
 
 <div class="flex justify-center my-3">
-	<img src="/images/robot 1.png" alt="Robotics program" class="h-40 w-auto rounded shadow" />
+	<img src="/images/robot 1.png" alt="Robotics program" class="h-80 w-auto rounded shadow" />
 </div>
 
 ### Robotics and Electronics
@@ -91,7 +91,7 @@ Key highlights / my contributions:
 ## Theatre Programs
 
 <div class="flex justify-center my-3">
-	<img src="/images/theater1.png" alt="Theatre programs" class="h-40 w-auto rounded shadow" />
+	<img src="/images/theater1.png" alt="Theatre programs" class="h-80 w-auto rounded shadow" />
 </div>
 
 ### Beginning Theatre Arts
@@ -150,6 +150,10 @@ Key highlights / my contributions:
 
 ## Technical Theatre Programs
 
+<div class="flex justify-center my-3">
+	<img src="/images/barefoot.jpg" alt="Technical Theatre programs" class="h-80 w-auto rounded shadow" />
+</div>
+
 ### Introduction to Technical Theatre
 Role: Curriculum designer and instructor (Grades 9–12)
 
@@ -193,6 +197,10 @@ Key highlights / my contributions:
 
 ## Woods Program
 
+<div class="flex justify-center my-3">
+	<img src="/images/woods.png" alt="Woods program" class="h-80 w-auto rounded shadow" />
+</div>
+
 ### Woods 1
 Role: Curriculum designer and instructor (Grades 9–12)
 
@@ -220,7 +228,3 @@ Key highlights / my contributions:
 - Implemented project-proposal process where students design, budget, and present detailed build plans before construction
 - Guided students through independent and collaborative builds emphasizing precision, problem-solving, and design aesthetics
 - Coordinated with school administration to link coursework to industry credential pathways and work-based learning opportunities
-
----
-
-Note: Images and artifacts will be added to this page to showcase student work, labs, and project outcomes.
