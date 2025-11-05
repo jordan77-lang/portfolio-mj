@@ -183,6 +183,10 @@ params:
         url: "/projects/ar-vr-projects/"
         description: Immersive augmented and virtual reality experiences including Android and iOS AR digital twin apps, Castle VR viewer, and Robot1 universal viewer for educational exploration and technical demonstration.
       
+      - title: Aerospace Payload Projects
+        url: "/projects/aerospace-payload-projects/"
+        description: Multi-year student partnerships with Blue Origin, Sugar House Rockets, and Higher Orbits designing payloads for actual rocket launches.
+      
       - title: Taking Flight at EVIT
         url: "/projects/taking-flight-evit/"
         description: Community aviation event featuring RC aircraft demonstrations, foam board glider workshops, FTC robotics scrimmages, and hands-on STEM activities for students and families.
@@ -190,9 +194,6 @@ params:
       - title: Chandler Cardboard Boat Regatta
         url: "/projects/chandler-cardboard-boat-regatta/"
         description: A district-wide STEM challenge where students designed and raced cardboard boats. I organized all logistics, developed instructional design materials, and coordinated safety and judging, turning engineering theory into a hands-on, community-centered event.
-      - title: Aerospace Payload Projects
-        url: "/projects/aerospace-payload-projects/"
-        description: Multi-year student partnerships with Blue Origin, Sugar House Rockets, and Higher Orbits designing payloads for actual rocket launches.
 
   skill:
     title: Skills
