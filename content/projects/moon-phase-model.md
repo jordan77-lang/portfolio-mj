@@ -5,7 +5,9 @@ draft: false
 description: "Dynamic simulation showing how the Moon's orbital position creates the phases we observe from Earth."
 ---
 
-{{< image src="/images/Moon model.png" alt="Interactive Moon Phase model" max="3xl" >}}
+<div class="mx-auto my-4 w-full max-w-3xl">
+  <img src="/images/Moon%20model.png" alt="Interactive Moon Phase model" class="w-full h-auto rounded shadow" />
+</div>
 
 ## Overview
 

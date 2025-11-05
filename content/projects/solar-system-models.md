@@ -5,7 +5,9 @@ draft: false
 description: "Interactive visualizations demonstrating the true scale of our solar system's distances and planetary sizes."
 ---
 
-{{< image src="/images/planet models.png" alt="Scale Solar System models" max="3xl" >}}
+<div class="mx-auto my-4 w-full max-w-3xl">
+  <img src="/images/planet%20models.png" alt="Scale Solar System models" class="w-full h-auto rounded shadow" />
+</div>
 
 ## Overview
 
