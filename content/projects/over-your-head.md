@@ -5,11 +5,9 @@ description: "On‑camera master carpenter turning stalled DIY projects into fin
 
 I worked on HGTV's Over Your Head as the master carpenter and on‑camera host, helping homeowners rescue challenging renovations under real deadlines and constraints.
 
-<div class="my-3" style="max-width: 640px; margin: 0 auto;">
-	<img src="/images/image003.jpg" alt="On set of HGTV's Over Your Head" style="width:100%; height:auto; border-radius:0.375rem; box-shadow:0 4px 14px rgba(0,0,0,0.08);" />
-	<p class="text-sm text-gray-600 dark:text-gray-300" style="margin-top:0.5rem;">On set during an Over Your Head renovation — rapid design/build with homeowners on camera</p>
-  
-</div>
+{{< image src="/images/image003.jpg" alt="On set of HGTV's Over Your Head" max="3xl" >}}
+
+<p class="text-sm text-gray-600 dark:text-gray-300" style="margin-top:0.5rem; text-align:center;">On set during an Over Your Head renovation — rapid design/build with homeowners on camera</p>
 
 **Highlights:** Three seasons of nationally broadcast episodes; led construction, finish carpentry, and rapid design/build on location; mentored homeowners while ensuring quality, safety, and durability; projects ranged from kitchens and bathrooms to patios and complete backyard transformations.
 

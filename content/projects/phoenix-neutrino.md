@@ -5,9 +5,7 @@ featured_image: ""
 description: "Director of Phoenix's innovative improv-film hybrid bringing together 40+ Valley performers for live kamikaze filmmaking."
 ---
 
-<div class="flex justify-center my-4">
-	<img src="/images/FOX_FINAL0600.jpg" alt="Phoenix Neutrino Project promotional still" class="h-60 w-auto rounded shadow" />
-</div>
+{{< image src="/images/FOX_FINAL0600.jpg" alt="Phoenix Neutrino Project promotional still" max="3xl" >}}
 
 ## Overview
 

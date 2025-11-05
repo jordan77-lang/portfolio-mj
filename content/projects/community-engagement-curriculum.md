@@ -53,10 +53,7 @@ Learn more: [/projects/taking-flight-evit/](/projects/taking-flight-evit/)
 
 District‑wide challenge where teams design and race life‑sized boats made from cardboard and tape.
 
-<div class="flex justify-center my-3">
-	<img src="/images/boat 1.png" alt="Cardboard Boat Regatta" class="h-48 w-auto rounded shadow" />
-  
-</div>
+{{< image src="/images/boat 1.png" alt="Cardboard Boat Regatta" max="3xl" >}}
 
 ### Highlights
 - Challenge rules, construction guidelines, and instructional materials

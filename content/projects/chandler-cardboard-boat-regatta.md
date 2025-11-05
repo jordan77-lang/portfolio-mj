@@ -3,9 +3,7 @@ title: "Chandler Cardboard Boat Regatta"
 description: "Student engineering competition designing and racing boats constructed entirely from cardboard and duct tape"
 ---
 
-<div class="flex justify-center my-4">
-	<img src="/images/boat 1.png" alt="Chandler Cardboard Boat Regatta" class="h-60 w-auto rounded shadow" />
-</div>
+{{< image src="/images/boat 1.png" alt="Chandler Cardboard Boat Regatta" max="3xl" >}}
 
 **Event Organizer | Chandler Unified School District**
 

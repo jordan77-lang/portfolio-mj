@@ -4,9 +4,7 @@ description: "Advocacy and leadership for educators: negotiations, policy, and p
 tags: ["leadership", "advocacy", "education", "GEA"]
 ---
 
-<div class="flex justify-center my-4">
-	<img src="/images/GEA pic.png" alt="Gilbert Education Association — Vice President" class="h-40 w-auto rounded shadow" />
-</div>
+{{< image src="/images/GEA pic.png" alt="Gilbert Education Association — Vice President" max="3xl" >}}
 
 ## Overview
 

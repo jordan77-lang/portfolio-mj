@@ -1,0 +1,15 @@
+{{/* Responsive image shortcode
+Usage:
+  {{< image src="/images/example.jpg" alt="Description" max="3xl" >}}
+Params:
+  - src: image URL (required)
+  - alt: alt text (optional)
+  - max: max width size token (e.g., sm, md, lg, xl, 2xl, 3xl, 4xl). Default: 3xl
+*/}}
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $max := .Get "max" | default "3xl" }}
+{{ $maxClass := printf "max-w-%s" $max }}
+<div class="mx-auto my-4 w-full {{ $maxClass }}">
+  <img src="{{ $src }}" alt="{{ $alt }}" class="w-full h-auto rounded shadow" />
+</div>

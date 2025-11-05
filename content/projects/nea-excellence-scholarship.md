@@ -4,9 +4,7 @@ description: "National full‑tuition scholarship (Walden University) recognizin
 tags: ["award", "scholarship", "NEA", "Walden University", "leadership", "public education"]
 ---
 
-<div class="flex justify-center my-4">
-	<img src="/images/NEA.png" alt="NEA Excellence in Public School Education Scholarship" class="h-60 w-auto rounded shadow" />
-</div>
+{{< image src="/images/NEA.png" alt="NEA Excellence in Public School Education Scholarship" max="3xl" >}}
 
 ## Overview
 
