@@ -5,18 +5,6 @@ draft: false
 description: "Interactive learning resources designed for accessible, engaging STEM education across multiple platforms."
 ---
 
-## Overview
-
-I design both digital and physical learning tools that make complex STEM concepts easier to see and understand. Digital tools run in any modern browser and embed cleanly in Canvas or Google Classroom. Physical models are 3D-designed manipulatives for hands-on classroom exploration.
-
-What these tools emphasize:
-- Accessibility: works on common classroom devices
-- Interactivity: learn by exploring, not just reading
-- Visual learning: intuitive models and animations
-- Easy integration: simple links or embeds in LMS
-
----
-
 ## Digital Educational Tools
 
 ### [Learning Objective Generator](/projects/learning-objective-generator/)
@@ -48,6 +36,18 @@ Key features:
 - Detail-on-hover for element information
 - Family color-coding
 - Works well on tablets and classroom displays
+
+---
+
+## Overview
+
+I design both digital and physical learning tools that make complex STEM concepts easier to see and understand. Digital tools run in any modern browser and embed cleanly in Canvas or Google Classroom. Physical models are 3D-designed manipulatives for hands-on classroom exploration.
+
+What these tools emphasize:
+- Accessibility: works on common classroom devices
+- Interactivity: learn by exploring, not just reading
+- Visual learning: intuitive models and animations
+- Easy integration: simple links or embeds in LMS
 
 ---
 
