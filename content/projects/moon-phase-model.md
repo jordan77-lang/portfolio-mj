@@ -11,6 +11,21 @@ Lunar phases confuse students because they require visualizing a three-dimension
 
 ---
 
+## Project Design & Purpose
+
+This interactive was built as a teaching tool for labs and LMS platforms like Canvas, where students can manipulate the system and immediately see cause–effect relationships. It’s designed to align with NGSS space science (MS‑ESS1, HS‑ESS1) and to strengthen spatial reasoning through accurate, visual-first explanations.
+
+---
+
+## Learning Goals
+
+- Develop accurate conceptions of lunar phases and geometry (Sun–Earth–Moon alignment)
+- Strengthen proportional/spatial reasoning by switching between space and Earth perspectives
+- Apply systems thinking to explain observed illumination from orbital position
+- Dispel common misconceptions (Earth’s shadow causes phases; Moon emits light)
+
+---
+
 ## The Moon Phase Challenge
 
 Students often memorize phase names without understanding why phases occur. Common misconceptions include:
