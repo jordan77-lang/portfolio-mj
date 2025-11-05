@@ -4,6 +4,10 @@ description: "National full‑tuition scholarship (Walden University) recognizin
 tags: ["award", "scholarship", "NEA", "Walden University", "leadership", "public education"]
 ---
 
+<div class="flex justify-center my-4">
+	<img src="/images/NEA.png" alt="NEA Excellence in Public School Education Scholarship" class="h-40 w-auto rounded shadow" />
+</div>
+
 ## Overview
 
 In 2013, I received the National Education Association (NEA) Excellence in Public School Education Full‑Tuition Scholarship, awarded through Walden University’s Richard W. Riley College of Education and Leadership. This competitive national award recognizes educators who make a measurable difference in advancing excellence in public education through leadership, innovation, and community engagement.

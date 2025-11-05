@@ -4,9 +4,9 @@ description: "Selected as Teacher Exchange delegate representing Gilbert Public 
 ---
 
 <!-- Image row under title -->
-<div class="flex gap-2 justify-center flex-wrap my-4">
-	<img src="/images/China 1.png" alt="Teacher exchange visit in China — photo 1" class="h-40 w-auto rounded shadow" />
-	<img src="/images/China 2.png" alt="Teacher exchange visit in China — photo 2" class="h-40 w-auto rounded shadow" />
+<div class="flex gap-3 justify-center flex-wrap my-4">
+	<img src="/images/China 1.png" alt="Teacher exchange visit in China — photo 1" class="h-56 w-auto rounded shadow" />
+	<img src="/images/China 2.png" alt="Teacher exchange visit in China — photo 2" class="h-56 w-auto rounded shadow" />
 </div>
 
 ## Leshan, China & Gilbert, Arizona

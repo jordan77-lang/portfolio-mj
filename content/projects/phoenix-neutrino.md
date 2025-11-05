@@ -5,6 +5,10 @@ featured_image: ""
 description: "Director of Phoenix's innovative improv-film hybrid bringing together 40+ Valley performers for live kamikaze filmmaking."
 ---
 
+<div class="flex justify-center my-4">
+	<img src="/images/FOX_FINAL0600.jpg" alt="Phoenix Neutrino Project promotional still" class="h-40 w-auto rounded shadow" />
+</div>
+
 ## Overview
 
 As director of the **Phoenix Neutrino Project**, I brought this groundbreaking theatre format to Arizona, uniting 40+ improv performers from across the Valley to create completely unscripted films—live, in front of an audience, in under 20 minutes.
