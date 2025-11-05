@@ -28,7 +28,7 @@ params:
 
   profile:
     name: "Mark Jordan"
-    tagline: Education Innovation
+    tagline: Immersive STEM Curriculum Designer
     location: "Mesa, Arizona"
     photo: profile.jpg
 
@@ -63,13 +63,13 @@ params:
     title: About Me
     icon: fas fa-user
     description: |
-      I am a STEM educator and curriculum designer with more than twenty-four years of experience teaching engineering, robotics, and cybersecurity in Arizona public schools. My work now focuses on creating immersive and interactive learning experiences that merge science, storytelling, and technology.
+      I am a STEM educator and immersive learning designer who blends science, storytelling, and technology to build unforgettable classrooms. After twenty-four years teaching engineering, robotics, and cybersecurity in Arizona public schools, I now create AR and VR curricula with ASU's Dreamscape Learn.
 
-      At Arizona State University, I design curriculum for Dreamscape Learn, developing experiential lessons that connect students to scientific discovery through narrative and virtual reality.
+      - launch interactive labs and story-driven simulations that make complex concepts tangible
+      - bridge K-12, higher education, and media through projects like Project Zephyr, Phoenix Neutrino, and HGTV's "Over Your Head"
+      - pursue graduate research in AR and VR at ASU to make emerging technology inclusive for every learner
 
-      My projects bridge technical education, media, and creative design—from Project Zephyr and the Phoenix Neutrino Project to three seasons on HGTV’s Over Your Head. I am currently completing graduate coursework in ASU’s School of Games, Arts, Media, and Engineering and will apply this winter for PhD candidacy. My research explores how AR/VR technologies can make learning more accessible, engaging, and inclusive for all students.
-
-      Whether developing interactive labs, visualizing data, or building story-driven simulations, my goal is to design learning experiences that empower students to explore, question, and create.
+      Let's collaborate to empower students to explore, question, and create.
 
   experience:
     title: Experience
@@ -189,7 +189,7 @@ params:
       
       - title: Taking Flight at EVIT
         url: "/projects/taking-flight-evit/"
-        description: Community aviation event featuring RC aircraft demonstrations, foam board glider workshops, FTC robotics scrimmages, and hands-on STEM activities for students and families.
+        description: Large-scale aerospace design challenge where students build and launch foam board gliders. Curriculum and competition framework designed for multi-school participation with EVIT, STEM+C, and Higher Orbits.
       
       - title: Chandler Cardboard Boat Regatta
         url: "/projects/chandler-cardboard-boat-regatta/"
