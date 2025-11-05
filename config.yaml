@@ -181,7 +181,7 @@ params:
       
       - title: AR/VR Projects
         url: "/projects/ar-vr-projects/"
-        description: Immersive augmented and virtual reality experiences including Android and iOS AR digital twin apps, Castle VR viewer, and Robot1 universal viewer for educational exploration and technical demonstration.
+        description: Immersive AR/VR projects exploring extended reality for education and engagement, including a WebXR Gaussian Splat social app in progress, AR digital twin experiences for Android and iOS, a Robot VR viewer, and a Castle VR environment.
       
       - title: Aerospace Payload Projects
         url: "/projects/aerospace-payload-projects/"
