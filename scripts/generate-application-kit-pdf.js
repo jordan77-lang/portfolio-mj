@@ -125,6 +125,7 @@ function generate() {
   h(doc, 'Portfolio links', 2);
   link(doc, 'Project Zephyr', 'https://markajordan.com/projects/zephyr/'); doc.moveDown(0.1);
   link(doc, 'Space Night', 'https://markajordan.com/projects/space-night/'); doc.moveDown(0.1);
+  link(doc, 'Learning Objective Generator (AI)', 'https://image-accessibility-tool.netlify.app/learning-objectives'); doc.moveDown(0.1);
   // Deprecated links removed to avoid 404s
   // link(doc, 'Robotics', 'https://markajordan.com/projects/robotics/'); doc.moveDown(0.1);
   // link(doc, 'CNC & Manufacturing Lab', 'https://markajordan.com/projects/cnc-lab/'); doc.moveDown(0.1);

@@ -19,6 +19,19 @@ What these tools emphasize:
 
 ## Featured Educational Tools
 
+### Learning Objective Generator (AI-Powered Instructional Design Tool)
+This tool uses AI to reverse‑engineer measurable, standards‑aligned learning objectives from course materials (outlines, assignments, lesson text). It applies Bloom’s Taxonomy, ABCD, SMART, and Constructive Alignment principles, with exportable JSON for downstream use.
+
+Frameworks:
+- Bloom’s Taxonomy • ABCD Model • SMART Criteria • Constructive Alignment • NGSS/CCSS
+
+Technology:
+- OpenAI‑assisted text analysis • JSON outputs • Web front‑end hosted on Netlify
+
+Try it: https://image-accessibility-tool.netlify.app/learning-objectives
+
+---
+
 ### [Educational Image Accessibility Tool](/projects/educational-image-accessibility-tool/)
 Generate high‑quality alt text, figure descriptions, long descriptions, and transcriptions for curriculum images. Built around WCAG guidelines and educational standards.
 
