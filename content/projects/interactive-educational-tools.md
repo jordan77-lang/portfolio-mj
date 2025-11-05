@@ -28,13 +28,16 @@ Key features:
 - JSON-structured outputs for export and downstream use
 - Aligns to NGSS and CCSS standards
 
-
-Live tool: https://image-accessibility-tool.netlify.app/learning-objectives
-
 ---
 
 ### [Educational Image Accessibility Tool](/projects/educational-image-accessibility-tool/)
 Generate high‑quality alt text, figure descriptions, long descriptions, and transcriptions for curriculum images. Built around WCAG guidelines and educational standards.
+
+Key features:
+- Alt text, figure descriptions, long descriptions, and full transcriptions
+- Educator-focused guidance aligned to WCAG and instructional standards
+- Simple drag‑and‑drop with optional context to improve accuracy
+- Browser-based tool with copy‑ready outputs — no install required
 
 ---
 
