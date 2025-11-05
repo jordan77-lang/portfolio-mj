@@ -9,7 +9,7 @@ description: "Generate high‑quality alt text, figure descriptions, long descri
 An educator-focused tool to create accessibility content for images: concise alt text, scientifically sound figure descriptions, long descriptions, and full-text transcriptions. Built around WCAG guidelines and institutional standards for education.
 
 ### Live application
-- Primary site: https://image-accessibility-tool.netlify.app/
+- Primary site: https://image-accessibility-tool.netlify.app/image-tool
 - GitHub Pages: https://jordan77-lang.github.io/image/
 
 ### What it does
