@@ -12,6 +12,10 @@ This web-based tool uses artificial intelligence to reverse‑engineer learning 
 
 Built with modern web technologies and integrated through an API, the tool analyzes uploaded or pasted content to identify intended learning outcomes and align them with cognitive levels, performance expectations, and disciplinary standards.
 
+## Try it
+
+- Live tool: https://image-accessibility-tool.netlify.app/learning-objectives
+
 ---
 
 ## Frameworks Applied
@@ -36,16 +40,4 @@ Built with modern web technologies and integrated through an API, the tool analy
 
 To bridge the gap between instructional content and measurable learning design — helping educators and curriculum developers save time, enhance clarity, and align materials to educational standards with the support of intelligent automation.
 
----
 
-## Try it
-
-- Live tool: https://image-accessibility-tool.netlify.app/learning-objectives
-- Contact: [stramark@gmail.com](mailto:stramark@gmail.com)
-
----
-
-### Related Tools
-
-- [Educational Image Accessibility Tool](/projects/educational-image-accessibility-tool/)
-- [All Interactive Educational Tools](/projects/interactive-educational-tools/)
