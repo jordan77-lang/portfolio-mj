@@ -77,3 +77,32 @@ Key contributions:
 - Authored assignments and cognitive mapping activities across modules including Arctic Futures, Coral Reefs and the Blue Economy, Food Systems, and the Design Challenge: Envision, Create, and Evaluate Alternative Futures
 - Integrated the Robustness–Failure–Regeneration timeline and Design Quadrant Framework to scaffold systems thinking and scenario planning
 - Collaborated with sustainability SMEs to ensure ecological, ethical, and equity-driven learning design
+
+---
+
+## High School Field Trip Curriculum
+
+Dreamscape Learn / Arizona State University  
+Role: Curriculum Designer
+
+Summary:
+
+Developed the Dreamscape Learn High School Field Experience, an immersive field trip program that adapts ASU's virtual reality biology and sustainability missions for secondary education. Students participate in narrative-driven investigations—such as The Spotted Glider Mystery—that blend scientific reasoning, data analysis, and hypothesis testing through story-based exploration.
+
+Key Highlights / Responsibilities and Contributions:
+
+**Curriculum and Learning Design:**
+
+- Authored and produced print and digital learning materials, including interactive slide decks, lab notebooks, and instructor guides for air, water, and soil analysis missions
+- Designed data-driven inquiry activities that teach probability, frequency distribution, and experimental design aligned with NGSS science and engineering practices
+- Integrated AI-guided instruction and audio narration to support both device-based and print-based classroom formats
+
+**Teacher and Student Experience:**
+
+- Created facilitator guides and pacing tools enabling teachers to lead 45-minute field experiences with or without digital devices
+- Developed student lab notebooks that scaffold critical thinking through guided prompts, data recording, and hypothesis generation
+- Supported accessibility and inclusivity through multimodal instruction, differentiated materials, and universal design principles
+
+**Impact:**
+
+The Dreamscape Learn field trip curriculum introduces high school students to immersive, university-level STEM learning. It bridges classroom science with real-world inquiry, inspiring curiosity and preparing students for college-level problem-solving and research experiences.
