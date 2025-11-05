@@ -77,7 +77,3 @@ Key contributions:
 - Authored assignments and cognitive mapping activities across modules including Arctic Futures, Coral Reefs and the Blue Economy, Food Systems, and the Design Challenge: Envision, Create, and Evaluate Alternative Futures
 - Integrated the Robustness–Failure–Regeneration timeline and Design Quadrant Framework to scaffold systems thinking and scenario planning
 - Collaborated with sustainability SMEs to ensure ecological, ethical, and equity-driven learning design
-
----
-
-Note: Curriculum samples, screenshots, and visual artifacts will be added to this page to showcase course structure, mission design, and student-facing materials.
