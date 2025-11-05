@@ -25,9 +25,8 @@ Based on a student’s concept to create art in space, I engineered a payload ca
 
 ### Sugar House Rocket Payloads
 <div class="flex gap-2 justify-center flex-wrap my-3">
-	<img src="/images/sugar-house-enclosure.jpg" alt="Sugar House payload enclosure with flight deck and fasteners" class="h-28 w-auto rounded shadow" />
-	<img src="/images/sugar-house-airport.jpg" alt="Payload ready for transport with Higher Orbits branding" class="h-28 w-auto rounded shadow" />
-	<img src="/images/sugar-house-desert.jpg" alt="Desert launch prep with payload in hand at sunrise" class="h-28 w-auto rounded shadow" />
+	<img src="/images/79601445_10219071978337677_6904506557950590976_n.jpg" alt="Sugar House project photo" class="h-28 w-auto rounded shadow" />
+	<img src="/images/79601445_10219071978337677_6904506557950590976_n.jpg" alt="Sugar House project photo" class="h-28 w-auto rounded shadow" />
 </div>
 Translated student experiment ideas into compact payloads for amateur high-G launches, focusing on structural durability, sensor integration, and data recovery.
 
