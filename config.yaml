@@ -115,13 +115,13 @@ params:
         college: Walden University
         details: Master's degree with emphasis in Online Learning. Focused on curriculum development, emerging technology integration, and learner-centered design for online and immersive environments.
 
+      - degree: Graduate Coursework — AR/VR Design
+        college: Arizona State University — School of Games, Arts, Media and Engineering (GAME)
+        details: Completed graduate coursework focused on AR/VR design, immersive media, and interactive learning experiences within ASU's GAME program.
+
       - degree: Graduate Coursework — Professional Studies (Engineering Education)
         college: Rochester Institute of Technology (RIT)
         details: Completed graduate coursework with an individualized focus on engineering education and instructional technology.
-
-      - degree: Graduate Coursework — AR/VR Design
-        college: Arizona State University — School of Ganes, Arts, Media and Engineering (GAME)
-        details: Completed graduate coursework focused on AR/VR design, immersive media, and interactive learning experiences within ASU's GAME program.
 
       - degree: Project Lead The Way (PLTW) Certified Instructor
         college: Project Lead The Way
