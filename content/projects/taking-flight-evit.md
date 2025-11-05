@@ -4,6 +4,12 @@ draft: false
 description: "Curriculum and resource development for a large-scale foam board glider aerospace challenge in partnership with EVIT, STEM+C, and Higher Orbits."
 ---
 
+## Watch
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QqAKYsIxd_A?si=64ECg8f0iRHVnMbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
 ## Curriculum and Resource Development for Aerospace Education
 
 I designed and authored the curriculum, instructional materials, and competition framework for the Taking Flight at EVIT Foam Board Glider Challenge—a large-scale, hands-on STEM education event hosted at the East Valley Institute of Technology (EVIT) in partnership with STEM+C, Higher Orbits, and industry and education partners.
@@ -45,8 +51,4 @@ The Taking Flight program brings together hundreds of students, teachers, and fa
 
 ---
 
-## Watch
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QqAKYsIxd_A?si=64ECg8f0iRHVnMbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
----

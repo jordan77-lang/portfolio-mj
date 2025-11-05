@@ -18,22 +18,22 @@ Each project began with a student’s imaginative concept submitted through High
 
 ### Blue Origin — New Shepard NS-12
 <div class="flex gap-2 justify-center flex-wrap my-3">
-	<img src="/images/blue-origins-1.png" alt="Higher Orbits payload enclosure with mission stickers" class="h-28 w-auto rounded shadow" />
-	<img src="/images/Blue_Origin_NS-12.jpg" alt="Blue Origin New Shepard liftoff" class="h-28 w-auto rounded shadow" />
+	<img src="/images/blue-origins-1.png" alt="Higher Orbits payload enclosure with mission stickers" class="h-40 w-auto rounded shadow" />
+	<img src="/images/Blue_Origin_NS-12.jpg" alt="Blue Origin New Shepard liftoff" class="h-40 w-auto rounded shadow" />
 </div>
 Based on a student’s concept to create art in space, I engineered a payload capable of autonomously painting in microgravity at the rocket’s apex—most likely the first robotic art ever created in space. The design met Blue Origin’s strict payload integration and safety requirements and successfully operated during suborbital flight.
 
 ### Sugar House Rocket Payloads
 <div class="flex gap-2 justify-center flex-wrap my-3">
-	<img src="/images/79601445_10219071978337677_6904506557950590976_n.jpg" alt="Sugar House project photo" class="h-28 w-auto rounded shadow" />
-	<img src="/images/sugar 2.png" alt="Sugar House project photo 2" class="h-28 w-auto rounded shadow" />
+	<img src="/images/79601445_10219071978337677_6904506557950590976_n.jpg" alt="Sugar House project photo" class="h-40 w-auto rounded shadow" />
+	<img src="/images/sugar 2.png" alt="Sugar House project photo 2" class="h-40 w-auto rounded shadow" />
 </div>
 Translated student experiment ideas into compact payloads for amateur high-G launches, focusing on structural durability, sensor integration, and data recovery.
 
 ### Neptune One High-Altitude Mission
 <div class="flex gap-2 justify-center flex-wrap my-3">
-	<img src="/images/neptune 1 pic.png" alt="Neptune mission photo 1" class="h-28 w-auto rounded shadow" />
-	<img src="/images/neptune 2.jpg" alt="Neptune mission photo 2" class="h-28 w-auto rounded shadow" />
+	<img src="/images/neptune 1 pic.png" alt="Neptune mission photo 1" class="h-40 w-auto rounded shadow" />
+	<img src="/images/neptune 2.jpg" alt="Neptune mission photo 2" class="h-40 w-auto rounded shadow" />
 </div>
 Developed a student-designed science payload that flew aboard Space Perspective’s Neptune One capsule, capturing environmental data from the stratosphere while meeting high-altitude flight standards.
 
