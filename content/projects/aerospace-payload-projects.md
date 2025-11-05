@@ -19,8 +19,7 @@ Each project began with a student’s imaginative concept submitted through High
 ### Blue Origin — New Shepard NS-12
 <div class="flex gap-2 justify-center flex-wrap my-3">
 	<img src="/images/higher-orbits-payload.jpg" alt="Higher Orbits payload enclosure with mission stickers" class="h-28 w-auto rounded shadow" />
-	<img src="/images/microgravity-painting-payload.jpg" alt="Microgravity painting payload assembly with camera and drive system" class="h-28 w-auto rounded shadow" />
-	<img src="/images/blue-origin-new-shepard.jpg" alt="Blue Origin New Shepard liftoff" class="h-28 w-auto rounded shadow" />
+	<img src="/images/Blue_Origin_NS-12.jpg" alt="Blue Origin New Shepard liftoff" class="h-28 w-auto rounded shadow" />
 </div>
 Based on a student’s concept to create art in space, I engineered a payload capable of autonomously painting in microgravity at the rocket’s apex—most likely the first robotic art ever created in space. The design met Blue Origin’s strict payload integration and safety requirements and successfully operated during suborbital flight.
 
