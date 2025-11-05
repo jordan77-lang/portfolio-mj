@@ -26,14 +26,14 @@ Based on a student’s concept to create art in space, I engineered a payload ca
 ### Sugar House Rocket Payloads
 <div class="flex gap-2 justify-center flex-wrap my-3">
 	<img src="/images/79601445_10219071978337677_6904506557950590976_n.jpg" alt="Sugar House project photo" class="h-28 w-auto rounded shadow" />
-	<img src="/images/79601445_10219071978337677_6904506557950590976_n.jpg" alt="Sugar House project photo" class="h-28 w-auto rounded shadow" />
+	<img src="/images/sugar 2.png" alt="Sugar House project photo 2" class="h-28 w-auto rounded shadow" />
 </div>
 Translated student experiment ideas into compact payloads for amateur high-G launches, focusing on structural durability, sensor integration, and data recovery.
 
 ### Neptune One High-Altitude Mission
 <div class="flex gap-2 justify-center flex-wrap my-3">
-	<img src="/images/neptune-payload-cad.jpg" alt="Neptune payload CAD cutaway showing instrument layout" class="h-28 w-auto rounded shadow" />
-	<img src="/images/space-perspective-neptune.jpg" alt="Space Perspective Neptune capsule above Earth’s horizon" class="h-28 w-auto rounded shadow" />
+	<img src="/images/neptune 1 pic.png" alt="Neptune mission photo 1" class="h-28 w-auto rounded shadow" />
+	<img src="/images/neptune 2.jpg" alt="Neptune mission photo 2" class="h-28 w-auto rounded shadow" />
 </div>
 Developed a student-designed science payload that flew aboard Space Perspective’s Neptune One capsule, capturing environmental data from the stratosphere while meeting high-altitude flight standards.
 
