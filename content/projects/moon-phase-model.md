@@ -7,7 +7,11 @@ description: "Dynamic simulation showing how the Moon's orbital position creates
 
 ## Overview
 
-Lunar phases confuse students because they require visualizing a three-dimensional orbital system from two different perspectives simultaneously: what's happening in space (Moon orbiting Earth) and what we see from Earth's surface (changing illumination patterns). This interactive model bridges that gap by showing both perspectives and allowing students to control the Moon's position to see how phases change.
+I developed an interactive 3D model to help students visualize and understand the phases of the Moon through accurate spatial relationships between the Sun, Earth, and Moon.
+
+The model allows learners to explore how the Moon’s illumination changes as it orbits Earth and how these changes create the observed lunar phases. Students can manipulate viewing angles and orbital positions to see each phase from both Earth’s perspective and space.
+
+Used in astronomy labs and integrated with Canvas LMS, this 3D model provides a clear, hands-on way to grasp one of the most foundational concepts in Earth and space science.
 
 ---
 
