@@ -19,16 +19,17 @@ What these tools emphasize:
 
 ## Digital Educational Tools
 
-### Learning Objective Generator (AI-Powered Instructional Design Tool)
-This tool uses AI to reverse‑engineer measurable, standards‑aligned learning objectives from course materials (outlines, assignments, lesson text). It applies Bloom’s Taxonomy, ABCD, SMART, and Constructive Alignment principles, with exportable JSON for downstream use.
+### [Learning Objective Generator](/projects/learning-objective-generator/)
+AI-powered tool that reverse‑engineers measurable, standards‑aligned learning objectives from course materials (outlines, assignments, lesson text).
 
-Frameworks:
-- Bloom’s Taxonomy • ABCD Model • SMART Criteria • Constructive Alignment • NGSS/CCSS
+Key features:
+- Applies Bloom's Taxonomy, ABCD Model, SMART Criteria, and Constructive Alignment
+- OpenAI‑assisted text analysis for automated objective generation
+- JSON-structured outputs for export and downstream use
+- Aligns to NGSS and CCSS standards
 
-Technology:
-- OpenAI‑assisted text analysis • JSON outputs • Web front‑end hosted on Netlify
 
-Try it: https://image-accessibility-tool.netlify.app/learning-objectives
+Live tool: https://image-accessibility-tool.netlify.app/learning-objectives
 
 ---
 
@@ -45,9 +46,6 @@ Key features:
 - Family color-coding
 - Works well on tablets and classroom displays
 
-Use cases:
-- Unit intro, lab reference, and periodic trends
-
 ---
 
 ## 3D Physical Manipulatives
@@ -62,9 +60,6 @@ Design features:
 - Designed in Fusion 360 for 3D printing
 - Accurate proportions for classroom demonstrations
 
-Use cases:
-- Astronomy introductions and scale/proportion concepts
-- Hands-on exploration of planetary distances and sizes
 
 ---
 
@@ -75,11 +70,6 @@ Design features:
 - 3D-modeled in Fusion 360
 - Shows phase relationships through physical manipulation
 - Demonstrates why we see different moon phases
-
-Use cases:
-- Lunar cycles, Earth–Moon–Sun relationships, and calendars
-- Hands-on demonstration of lunar mechanics
-
 ---
 
 ### [Articulate Rise Course Modules](/projects/articulate-rise-modules/)
@@ -89,7 +79,6 @@ Key features:
 - Mobile-responsive design
 - Knowledge checks and quizzes
 - SCORM/xAPI LMS integration
-
 ---
 
 ---
