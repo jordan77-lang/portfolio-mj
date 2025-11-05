@@ -5,6 +5,8 @@ draft: false
 description: "Dynamic simulation showing how the Moon's orbital position creates the phases we observe from Earth."
 ---
 
+{{< image src="/images/Moon model.png" alt="Interactive Moon Phase model" max="3xl" >}}
+
 ## Overview
 
 I developed an interactive 3D model to help students visualize and understand the phases of the Moon through accurate spatial relationships between the Sun, Earth, and Moon.

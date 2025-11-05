@@ -5,6 +5,8 @@ draft: false
 description: "Interactive visualizations demonstrating the true scale of our solar system's distances and planetary sizes."
 ---
 
+{{< image src="/images/planet models.png" alt="Scale Solar System models" max="3xl" >}}
+
 ## Overview
 
 I created a series of 3D solar system models for use in astronomy labs to help students visualize and understand the true scale of planetary sizes and orbital distances.
