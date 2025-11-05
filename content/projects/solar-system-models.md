@@ -7,7 +7,24 @@ description: "Interactive visualizations demonstrating the true scale of our sol
 
 ## Overview
 
-Understanding the true scale of the solar system is one of the most challenging concepts in astronomy education. Textbook diagrams necessarily compress distances and exaggerate planet sizes to fit on a page, inadvertently teaching students that space is much more crowded than reality. These interactive scale models help students grasp just how vast and empty our solar system truly is.
+I designed and developed a series of interactive 3D solar system models to help astronomy students better understand the immense scale of planetary sizes and orbital distances. These models were created as part of a lab activity to make the abstract concept of astronomical scale tangible and visually intuitive.
+
+Traditional textbook diagrams distort scale to fit the page—compressing vast distances and exaggerating planet sizes. My goal was to create accurate, interactive models that give learners a visceral sense of just how large and empty our solar system really is.
+
+---
+
+## Project Design & Purpose
+
+These 3D models were built as teaching tools for integration into classroom labs and LMS platforms like Canvas, where students can explore spatial relationships interactively. Each model targets a specific learning objective aligned with NGSS space science standards and STEM visualization skills.
+
+---
+
+## Learning Goals
+
+- Develop accurate conceptions of planetary scale and spacing
+- Strengthen proportional reasoning through visual comparison
+- Apply spatial thinking to astronomy and planetary science
+- Reinforce understanding of why space travel requires vast distances and time
 
 ---
 
@@ -90,22 +107,3 @@ Planned additions include:
 
 ---
 
-## Technical Implementation
-
-**Technologies:** JavaScript, Canvas API, CSS3 Animations, Responsive Design  
-**Performance:** Optimized for smooth scrolling and zooming even on low-end devices  
-**Accessibility:** Keyboard navigation, screen reader annotations, touch-friendly controls
-
----
-
-## Related Tools
-
-- [Interactive Periodic Table](/projects/interactive-periodic-table/)
-- [Interactive Moon Phase Model](/projects/moon-phase-model/)
-- [All Interactive Educational Tools](/projects/interactive-educational-tools/)
-
----
-
-## For Educators
-
-If you'd like to use these models in your courses or collaborate on improvements, please reach out at [stramark@gmail.com](mailto:stramark@gmail.com).
