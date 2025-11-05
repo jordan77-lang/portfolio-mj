@@ -7,7 +7,7 @@ description: "Interactive learning resources designed for accessible, engaging S
 
 ## Overview
 
-I build interactive tools that make complex STEM concepts easier to see and understand. They run in any modern browser and embed cleanly in Canvas or Google Classroom. The focus is on clarity, interactivity, and accessibility.
+I design both digital and physical learning tools that make complex STEM concepts easier to see and understand. Digital tools run in any modern browser and embed cleanly in Canvas or Google Classroom. Physical models are 3D-designed manipulatives for hands-on classroom exploration.
 
 What these tools emphasize:
 - Accessibility: works on common classroom devices
@@ -17,7 +17,7 @@ What these tools emphasize:
 
 ---
 
-## Featured Educational Tools
+## Digital Educational Tools
 
 ### Learning Objective Generator (AI-Powered Instructional Design Tool)
 This tool uses AI to reverse‑engineer measurable, standards‑aligned learning objectives from course materials (outlines, assignments, lesson text). It applies Bloom’s Taxonomy, ABCD, SMART, and Constructive Alignment principles, with exportable JSON for downstream use.
@@ -50,29 +50,35 @@ Use cases:
 
 ---
 
-### [Scale Solar System Models](/projects/solar-system-models/)
-Interactive visualizations that show realistic distance and size relationships in the solar system.
+## 3D Physical Manipulatives
 
-Key features:
-- Distance vs. size scale models
-- Zoom and navigation
-- Comparative visuals and orbital context
+These are physical models designed in Fusion 360 for hands-on classroom exploration.
+
+### [Scale Solar System Models](/projects/solar-system-models/)
+3D-modeled manipulatives that demonstrate realistic distance and size relationships in the solar system.
+
+Design features:
+- Two versions: distance scale and size scale
+- Designed in Fusion 360 for 3D printing
+- Accurate proportions for classroom demonstrations
 
 Use cases:
 - Astronomy introductions and scale/proportion concepts
+- Hands-on exploration of planetary distances and sizes
 
 ---
 
-### [Interactive Moon Phase Model](/projects/moon-phase-model/)
-A dynamic simulation of Earth–Moon–Sun geometry that produces lunar phases from multiple viewpoints.
+### [Moon Phase Model](/projects/moon-phase-model/)
+Physical 3D model designed to demonstrate Earth–Moon–Sun geometry and lunar phases.
 
-Key features:
-- Animated motion
-- Earth and space perspectives
-- Time-lapse controls and labels
+Design features:
+- 3D-modeled in Fusion 360
+- Shows phase relationships through physical manipulation
+- Demonstrates why we see different moon phases
 
 Use cases:
 - Lunar cycles, Earth–Moon–Sun relationships, and calendars
+- Hands-on demonstration of lunar mechanics
 
 ---
 
