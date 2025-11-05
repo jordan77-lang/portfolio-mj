@@ -8,6 +8,10 @@ description: "Programs I designed and taught at the high school level: PLTW Engi
 
 Role: Curriculum designer and instructor (Grades 9–12; Gilbert Public Schools)
 
+<div class="flex justify-center my-3">
+	<img src="/images/engineering 1.png" alt="PLTW Engineering program" class="h-40 w-auto rounded shadow" />
+</div>
+
 Summary:
 Developed and taught a multi-course engineering pathway through Project Lead The Way (PLTW), offered for dual credit through Rochester Institute of Technology (RIT) and Augustana University. Used the PLTW framework as a foundation while building and redesigning each course to align with district curriculum expectations and Arizona CTE Engineering technical standards. The sequence introduced students to the engineering design process, mechanisms, structures, automation, digital electronics, aerospace concepts, and a capstone engineering project.
 
@@ -50,6 +54,10 @@ Key highlights / my contributions:
 
 ## Robotics Program
 
+<div class="flex justify-center my-3">
+	<img src="/images/robot 1.png" alt="Robotics program" class="h-40 w-auto rounded shadow" />
+</div>
+
 ### Robotics and Electronics
 Role: Curriculum designer and instructor (Grades 9–12; Highland High School)
 
@@ -81,6 +89,10 @@ Key highlights / my contributions:
 ---
 
 ## Theatre Programs
+
+<div class="flex justify-center my-3">
+	<img src="/images/theater1.png" alt="Theatre programs" class="h-40 w-auto rounded shadow" />
+</div>
 
 ### Beginning Theatre Arts
 Role: Curriculum designer and instructor (Grades 9–12)
