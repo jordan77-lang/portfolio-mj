@@ -56,9 +56,6 @@ Students can progress through material at their own speed, rewatching videos, re
 ### Accessibility
 Rise's built-in accessibility features ensure courses work with screen readers and keyboard navigation. Closed captions on videos support deaf/hard-of-hearing students and English language learners.
 
-
-### Flipped Classroom Support
-Rise modules work perfectly for flipped instruction, allowing students to consume foundational content at home so class time can focus on application, discussion, and hands-on activities.
 ---
 
 

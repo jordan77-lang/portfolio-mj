@@ -236,17 +236,17 @@ params:
     title: Curriculum Designed
     icon: fas fa-book
     list:
+      - title: University Curriculum
+        url: "/projects/university-curriculum/"
+        description: Immersive, inquiry-driven curricula for Dreamscape Learn and Arizona State University spanning biology, chemistry, economics, sustainability, and astronomy.
+
       - title: High School Curriculum
         url: "/projects/high-school-curriculum/"
         description: Comprehensive K-12 curriculum spanning multiple disciplines including technical theatre, robotics, aerospace engineering, and career technical education programs.
       
       - title: Community Engagement Programs
         url: "/projects/community-engagement-curriculum/"
-        description: Student-centered community learning initiatives including Project Zephyr stratospheric balloon missions, Taking Flight aviation events, and the annual Cardboard Boat Regatta engineering competition.
-      
-      - title: University Curriculum
-        url: "/projects/university-curriculum/"
-        description: Immersive, inquiry-driven curricula for Dreamscape Learn and Arizona State University spanning biology, chemistry, economics, sustainability, and astronomy.
+        description: Student-centered community learning initiatives including Project Zephyr stratospheric balloon missions, Taking Flight aviation events, the Cardboard Boat Regatta, and Space Night.
 
 menu:
   main: []
