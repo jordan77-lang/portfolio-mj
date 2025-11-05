@@ -4,6 +4,10 @@ description: "Advocacy and leadership for educators: negotiations, policy, and p
 tags: ["leadership", "advocacy", "education", "GEA"]
 ---
 
+<div class="flex justify-center my-4">
+	<img src="/images/GEA pic.png" alt="Gilbert Education Association — Vice President" class="h-40 w-auto rounded shadow" />
+</div>
+
 ## Overview
 
 As Vice President of the Gilbert Education Association, I represented educators across Gilbert Public Schools—leading advocacy efforts, supporting member services, and collaborating with district leadership to improve teaching and learning conditions.
