@@ -45,17 +45,17 @@ Theme: Systems thinking and data analysis through the Alien Zoo narrative
 
 Key contributions:
 
-- Converted all open-ended questions to closed-ended, rubric-based assessments for automated grading
+- Converted all open-ended questions to closed-ended assessments for automated grading
 - Adapted Module 0 to follow the Alien Zoo storyline featuring Skyrays, linking biological systems and ecological data interpretation
 - Authored Google Sheets tutorials focusing on frequency, probability, and modeling applications
-- Collaborated with biology subject matter experts (SMEs) to ensure disciplinary accuracy and alignment with OpenStax Biology 2e
+- Collaborated with biology subject matter experts (SMEs) to ensure disciplinary accuracy.
 - Developed the high school adaptation of BIO 181 for Dreamscape Learn field experiences, creating inquiry-based activities for secondary learners
 
-### Chemistry (CHM 113 – General Chemistry I)
+### Chemistry (CHM 113)
 
 Key contributions:
 
-- Authored mission memos, lab protocols, and mission trainings across all acts (Atoms and Bonding, Aqueous Solutions, Filter Lab)
+- Authored mission memos, lab protocols, and mission trainings.
 - Developed fully scaffolded three-objective mission structures linking narrative investigation to authentic lab data analysis
 - Integrated Google Sheets data analysis and mathematical modeling for quantitative and graphical interpretation
 - Created lab protocol illustrations to standardize visual lab instructions and support universal comprehension
@@ -67,14 +67,14 @@ Key contributions:
 - Designed Formative 1: Market Behavior and Profit Strategy, an interactive narrative assignment exploring production, pricing, and efficiency
 - Authored learning objectives on fixed, variable, total, average, and marginal costs, and the MR = MC profit-maximization principle
 - Built Google Sheets cost and revenue models to visualize firm decision-making and performance
-- Collaborated with economics SMEs to align assessment data and visual modeling with OpenStax Microeconomics 3e
+- Collaborated with economics SMEs to align assessment data and visual modeling
 
 ### Global Futures (CGF 194 – Shaping Tomorrow, Today)
 
 Key contributions:
 
 - Co-developed a six-module interdisciplinary curriculum on planetary systems, sustainability, and regenerative futures
-- Authored assignments and cognitive mapping activities across modules including Arctic Futures, Coral Reefs and the Blue Economy, Food Systems, and the Design Challenge: Envision, Create, and Evaluate Alternative Futures
+- Authored assignments and cognitive mapping activities across modules including Arctic Futures, Coral Reefs, Food Systems, and the Design Challenge: Envision, Create, and Evaluate Alternative Futures
 - Integrated the Robustness–Failure–Regeneration timeline and Design Quadrant Framework to scaffold systems thinking and scenario planning
 - Collaborated with sustainability SMEs to ensure ecological, ethical, and equity-driven learning design
 
