@@ -226,6 +226,8 @@ params:
         skillrating: 100
       - skill: Arizona Secondary Education Certified
         skillrating: 100
+      - skill: Career and Technical Education (CTE) — Emerging Technologies Certified
+        skillrating: 100
       - skill: English as a Second Language (ESL), PreK-12 Endorsement
         skillrating: 100
       - skill: High Power Rocketry Level 1 Certified (NAR)
