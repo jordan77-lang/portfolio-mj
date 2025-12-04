@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 1: Molar Mass | Mission Training</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <chem-header progress="25"></chem-header>
+    
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="bg-white rounded-xl shadow-md p-8 mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">Step 1: Determine the Molar Mass</h1>
+            <div class="prose max-w-none mb-8">
+                <p class="mb-4">
+                    Molarity is the number of moles of a substance in a specific volume of fluid (1 L). Therefore, we need to know the 
+                    mass of each mole of a substance to convert its molarity (mol/L) to its mass per volume (for example, mg/L). 
+                    Chemists refer to this conversion factor as the molar mass of a substance, which has units of mass per mole (for example, g/mol).
+                </p>
+                <p class="mb-4">
+                    The molar mass depends on the number of particles in a mole and the mass of each particle.
+                </p>
+                <p class="mb-4">
+                    The number of particles in a mole is the same for any substance, because a mole is defined as 6.022 x 10<sup>23</sup> particles, or Avogadro's number.
+                </p>
+                <p class="mb-4">
+                    The mass of each particle can be determined from the periodic table. If the particles are unbonded atoms, you need only locate the atomic weight of the element at the bottom of its element box. The atomic weight is the average mass of the element, weighted by the relative abundances of its naturally occurring isotopes (in other words, the expected mass of a randomly selected atom of this element).
+                </p>
+            </div>
+            <div class="mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Example: Sodium (Na)</h3>
+                <div class="mb-6">
+                    <img src="https://huggingface.co/spaces/stramark/chromatic-canvas-delight/resolve/main/images/figure 1.png" 
+                         alt="Sodium element box" class="w-full h-auto rounded-lg shadow-md">
+                    <p class="text-xs text-gray-600 mt-2">
+                        Figure 1. Each element box of the periodic table contains the atomic weight of an element. 
+                        This element box for sodium (Na) shows an atomic weight of approximately 22.99. This value 
+                        represents the average mass of sodium, weighted by the relative abundances of its naturally 
+                        occurring isotopes on Earth and is used as the molar mass in unit conversions from mol/L to mg/L.
+                    </p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg mt-4">
+                        <h4 class="font-semibold mb-2">Calculation:</h4>
+                        <p class="calculation-text mb-2">molar mass = (atomic weight) ∙ (1.66054 × 10⁻²⁴ g/amu) ∙ (Avogadro's number)</p>
+                        <p class="calculation-text mb-2">molar mass = (22.99 amu) ∙ (1.66054 × 10⁻²⁴ g/amu) ∙ (6.022 × 10²³ mol⁻¹)</p>
+                        <p class="calculation-text">molar mass = 22.99 g/mol</p>
+                </div>
+</div>
+                
+                <div class="bg-blue-50 p-6 rounded-lg mt-6">
+                    <h4 class="text-lg font-semibold mb-2">For Molecules:</h4>
+                    <p class="mb-2">If the particles are molecules, you need to sum the atomic weights of all atoms in each molecule and convert this sum from atomic mass units to grams.</p>
+                    <p class="font-semibold mb-2">Example: Na<sub>2</sub>O</p>
+                    <div class="bg-white p-4 rounded-lg">
+                        <p class="calculation-text mb-2">molar mass = (sum of atomic weights) ∙ (1.66054 × 10⁻²⁴ g/amu) ∙ (Avogadro's number)</p>
+                        <p class="calculation-text mb-2">molar mass = (22.99 + 22.99 + 16.00) ∙ (1.66054 × 10⁻²⁴ g/amu) ∙ (6.022 × 10²³ mol⁻¹)</p>
+                        <p class="calculation-text">molar mass = 61.98 g/mol</p>
+                    </div>
+                </div>
+            </div>
+<div class="flex justify-between mt-8">
+                <a href="index.html" class="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">
+                    Previous
+                </a>
+                <a href="step2.html" class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+                    Next: Step 2
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="components/chem-header.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary | Mission Training</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <chem-header progress="100"></chem-header>
+    
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="bg-white rounded-xl shadow-md p-8 mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">Summary</h1>
+            
+            <div class="prose max-w-none mb-8">
+                <p class="mb-4">
+                    You can use the molar mass of a substance to convert a concentration in units of molarity to a concentration in units of mass per volume. By multiplying molarity by the molar mass and applying a unit conversion, concentrations can be expressed in milligrams per liter.
+                </p>
+                <p class="mb-4">
+                    This unit of concentration is commonly used in public health, environmental science, and regulatory reports, making the conversion of concentrations necessary when comparing laboratory results to safety guidelines.
+                </p>
+            </div>
+
+            <div class="bg-blue-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Key Steps</h3>
+                <ol class="list-decimal pl-6 space-y-4">
+                    <li>
+                        <strong>Determine the molar mass:</strong> Find the atomic weight from the periodic table and use it as the molar mass (g/mol).
+                    </li>
+                    <li>
+                        <strong>Calculate concentration in g/L:</strong> Multiply molarity (mol/L) by molar mass (g/mol).
+                    </li>
+                    <li>
+                        <strong>Convert to mg/L:</strong> Multiply the result by 1000 to convert grams to milligrams.
+                    </li>
+                </ol>
+            </div>
+
+            <div class="bg-green-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Final Formula</h3>
+                <p class="calculation-text text-center">
+                    concentration (mg/L) = molarity (mol/L) × molar mass (g/mol) × 1000 (mg/g)
+                </p>
+            </div>
+
+            <div class="flex justify-between mt-8">
+                <a href="practice.html" class="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">
+                    Previous: Practice
+                </a>
+                <a href="/" class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+                    Complete Training
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="components/chem-header.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
