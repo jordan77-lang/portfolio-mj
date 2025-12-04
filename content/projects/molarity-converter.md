@@ -19,14 +19,4 @@ Interactive training tool that teaches chemistry students how to convert molarit
 - Browser-based tool requiring no installation
 - Easy integration into Canvas or other LMS platforms
 
----
 
-## Use in Your Classroom
-
-This tool is free to use and can be:
-- Embedded in Canvas or Google Classroom
-- Assigned as independent practice
-- Used for demonstration in class
-- Adapted for similar conversion problems
-
-For questions or collaboration opportunities, contact: [stramark@gmail.com](mailto:stramark@gmail.com)

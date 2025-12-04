@@ -38,7 +38,6 @@ Key features:
 - Mission-based training format for student engagement
 - Browser-based tool requiring no installation
 
-[Launch Tool](/projects/molarity-converter/)
 
 ---
 
