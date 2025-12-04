@@ -39,7 +39,6 @@ Key features:
 - Browser-based tool requiring no installation
 
 
-
 ---
 
 ### [Interactive Periodic Table](/projects/interactive-periodic-table/)
