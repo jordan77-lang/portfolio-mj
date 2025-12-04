@@ -8,7 +8,7 @@ description: "Interactive training tool teaching chemistry students to convert m
 Interactive training tool that teaches chemistry students how to convert molarity (mol/L) to mass per volume (mg/L) through mission-based guided practice with immediate feedback.
 
 <div style="text-align: center; margin: 2em 0;">
-  <a href="/projects/molarity-converter/index.html" style="display: inline-block; padding: 12px 24px; background-color: #2563eb; color: white; text-decoration: none; border-radius: 8px; font-weight: bold;">Launch Interactive Tool</a>
+  <a href="/molarity-training/" style="display: inline-block; padding: 12px 24px; background-color: #2563eb; color: white; text-decoration: none; border-radius: 8px; font-weight: bold;">Launch Interactive Tool</a>
 </div>
 
 ## Key Features

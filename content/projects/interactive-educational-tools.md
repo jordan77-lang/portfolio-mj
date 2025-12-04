@@ -29,7 +29,7 @@ Key features:
 
 ---
 
-### [Molarity to Mass Converter](/projects/molarity-converter/index.html)
+### [Molarity to Mass Converter](/projects/molarity-converter/)
 Interactive training tool that teaches chemistry students how to convert molarity (mol/L) to mass per volume (mg/L) through guided practice.
 
 Key features:
@@ -38,7 +38,7 @@ Key features:
 - Mission-based training format for student engagement
 - Browser-based tool requiring no installation
 
-[Launch Tool](/projects/molarity-converter/index.html)
+[Launch Tool](/molarity-training/)
 
 
 ---
