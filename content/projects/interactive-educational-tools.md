@@ -40,7 +40,6 @@ Key features:
 
 [Launch Tool](/molarity-training/)
 
-
 ---
 
 ### [Interactive Periodic Table](/projects/interactive-periodic-table/)
