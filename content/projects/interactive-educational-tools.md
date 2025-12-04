@@ -29,6 +29,19 @@ Key features:
 
 ---
 
+### [Molarity to Mass Converter](/projects/molarity-converter/)
+Interactive training tool that teaches chemistry students how to convert molarity (mol/L) to mass per volume (mg/L) through guided practice.
+
+Key features:
+- Step-by-step guided instruction
+- Interactive practice problems with immediate feedback
+- Mission-based training format for student engagement
+- Browser-based tool requiring no installation
+
+[Launch Tool](/projects/molarity-converter/)
+
+---
+
 ### [Interactive Periodic Table](/projects/interactive-periodic-table/)
 Explore element properties, atomic structure, and chemical families through simple visual interaction.
 
@@ -36,18 +49,6 @@ Key features:
 - Detail-on-hover for element information
 - Family color-coding
 - Works well on tablets and classroom displays
-
----
-
-## Overview
-
-I design both digital and physical learning tools that make complex STEM concepts easier to see and understand. Digital tools run in any modern browser and embed cleanly in Canvas or Google Classroom. Physical models are 3D-designed manipulatives for hands-on classroom exploration.
-
-What these tools emphasize:
-- Accessibility: works on common classroom devices
-- Interactivity: learn by exploring, not just reading
-- Visual learning: intuitive models and animations
-- Easy integration: simple links or embeds in LMS
 
 ---
 
