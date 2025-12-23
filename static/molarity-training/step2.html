@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,43 +8,48 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="bg-gray-50 min-h-screen">
     <chem-header progress="50"></chem-header>
-    
+
     <div class="container mx-auto px-4 py-8 max-w-4xl">
         <div class="bg-white rounded-xl shadow-md p-8 mb-8">
             <h1 class="text-3xl font-bold text-gray-800 mb-6">Step 2: Convert Molarity to Mass/Volume</h1>
-            
-                        <div class="prose max-w-none mb-8">
-                                <p class="mb-4">
-                                        Once you have the molar mass (g/mol), you can convert the concentration of a substance in a solution
-                                        from molarity (mol/L) to mass per volume (g/L) using:
-                                </p>
-                                <div class="bg-blue-50 p-4 rounded-lg mb-6 calculation-text text-center">
-                                    concentration = (molarity) × (molar mass)
-                                </div>
-                                <div class="mb-6">
-                                    <img src="https://huggingface.co/spaces/stramark/chromatic-canvas-delight/resolve/main/images/figure 1.png"
-                                             alt="Sodium element box showing atomic weight ~22.99"
-                                             class="w-full h-auto rounded-lg shadow-md">
-                                    <p class="text-xs text-gray-600 mt-2">
-                                        Figure 1. Each element box of the periodic table contains the atomic weight of an element. This element box for sodium (Na)
-                                        shows an atomic weight of approximately 22.99. This value represents the average mass of sodium, weighted by the relative
-                                        abundances of its naturally occurring isotopes on Earth, and is used as the molar mass in unit conversions from mol/L to mg/L.
-                                    </p>
-                                </div>
-                        </div>
+
+            <div class="prose max-w-none mb-8">
+                <p class="mb-4">
+                    Once you have the molar mass (g/mol), you can convert the concentration of a substance in a solution
+                    from molarity (mol/L) to mass per volume (g/L) using:
+                </p>
+                <div class="bg-blue-50 p-4 rounded-lg mb-6 calculation-text text-center">
+                    concentration = (molarity) × (molar mass)
+                </div>
+                <div class="mb-6">
+                    <img src="https://huggingface.co/spaces/stramark/chromatic-canvas-delight/resolve/main/images/figure 1.png"
+                        alt="Sodium element box showing atomic weight ~22.99"
+                        class="w-full h-auto rounded-lg shadow-md">
+                    <p class="text-xs text-gray-600 mt-2">
+                        Figure 1. Each element box of the periodic table contains the atomic weight of an element. This
+                        element box for sodium (Na)
+                        shows an atomic weight of approximately 22.99. This value represents the average mass of sodium,
+                        weighted by the relative
+                        abundances of its naturally occurring isotopes on Earth, and is used as the molar mass in unit
+                        conversions from mol/L to mg/L.
+                    </p>
+                </div>
+            </div>
 
             <div class="mb-8">
                 <h3 class="text-xl font-semibold text-gray-800 mb-2">Sodium Solution Example</h3>
-                <p class="mb-4">A scientist has a solution of sodium with a known molarity of 1.20 × 10⁻⁶ mol/L. In order to convert the concentration to mass per volume, the scientist would calculate as follows:</p>
+                <p class="mb-4">A scientist has a solution of sodium with a known molarity of 1.20 × 10⁻⁶ mol/L. In
+                    order to convert the concentration to mass per volume, the scientist would calculate as follows:</p>
                 <div class="bg-gray-50 p-6 rounded-lg mb-4">
                     <p class="mb-2">Given:</p>
                     <ul class="list-disc pl-6 mb-4">
                         <li>Molarity of sodium = 1.20 × 10⁻⁶ mol/L</li>
                         <li>Molar mass of sodium ≈ 22.99 g/mol (from periodic table)</li>
                     </ul>
-                    
+
                     <div class="grid grid-cols-1 gap-4">
                         <div class="bg-white p-4 rounded-lg">
                             <h4 class="font-semibold mb-2">Step 2.1: Convert to g/L</h4>
@@ -61,22 +67,26 @@
                 </div>
             </div>
 
-            
+
 
             <div class="flex justify-between mt-8">
                 <a href="step1.html" class="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">
                     Previous
                 </a>
-                <a href="practice.html" class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+                <a href="practice.html"
+                    class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
                     Next: Practice
                 </a>
             </div>
         </div>
     </div>
 
-    
 
+
+    <chem-footer></chem-footer>
     <script src="components/chem-header.js"></script>
+    <script src="components/chem-footer.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

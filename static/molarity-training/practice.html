@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +8,32 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="bg-gray-50 min-h-screen">
     <chem-header progress="75"></chem-header>
-    
+
     <div class="container mx-auto px-4 py-8 max-w-4xl">
         <div class="bg-white rounded-xl shadow-md p-8 mb-8">
             <h1 class="text-3xl font-bold text-gray-800 mb-6">Practice Problem</h1>
-            
+
             <div class="prose max-w-none mb-8">
                 <p class="mb-4">
-                    The molarity of copper in a solution of water equals 5.80 × 10⁻⁵ mol/L. 
+                    The molarity of copper in a solution of water equals 5.80 × 10⁻⁵ mol/L.
                 </p>
                 <p class="font-semibold mb-6">
-                    What is the concentration of copper in milligrams per liter (mg/L)? Use the information in the periodic table element box below.
+                    What is the concentration of copper in milligrams per liter (mg/L)? Use the information in the
+                    periodic table element box below.
                 </p>
             </div>
 
             <div class="flex justify-center mb-8">
                 <div class="w-64">
-                <img src="https://huggingface.co/spaces/stramark/chromatic-canvas-delight/resolve/main/images/figure 2.png" 
-                         alt="Copper element box" class="rounded-lg shadow-md w-full">
+                    <img src="https://huggingface.co/spaces/stramark/chromatic-canvas-delight/resolve/main/images/figure 2.png"
+                        alt="Copper element box" class="rounded-lg shadow-md w-full">
                     <p class="text-sm text-gray-500 mt-2 text-center">
                         Figure 2. The element box for copper (Cu) from the periodic table.
                     </p>
-</div>
+                </div>
             </div>
 
             <div class="bg-blue-50 p-6 rounded-lg mb-8">
@@ -47,11 +50,13 @@
                 <h3 class="text-xl font-semibold text-gray-800 mb-4">Your Solution</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                     <div>
-                        <label for="user-answer" class="block text-sm font-medium text-gray-700 mb-1">Enter your answer (mg/L)</label>
+                        <label for="user-answer" class="block text-sm font-medium text-gray-700 mb-1">Enter your answer
+                            (mg/L)</label>
                         <input type="number" id="user-answer" class="w-full rounded-md border-gray-300 shadow-sm">
                     </div>
                     <div class="flex items-end">
-                        <button onclick="checkAnswer()" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 w-full">
+                        <button onclick="checkAnswer()"
+                            class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 w-full">
                             Check Answer
                         </button>
                     </div>
@@ -64,7 +69,8 @@
                 <p class="mb-2">Correct steps:</p>
                 <div class="bg-white p-4 rounded-lg mb-2">
                     <p class="calculation-text mb-2">1. Find molar mass from periodic table: 63.55 g/mol</p>
-                    <p class="calculation-text mb-2">2. Calculate g/L: (5.80 × 10⁻⁵ mol/L) × (63.55 g/mol) = 0.00369 g/L</p>
+                    <p class="calculation-text mb-2">2. Calculate g/L: (5.80 × 10⁻⁵ mol/L) × (63.55 g/mol) = 0.00369 g/L
+                    </p>
                     <p class="calculation-text">3. Convert to mg/L: 0.00369 g/L × 1000 mg/g = 3.69 mg/L</p>
                 </div>
                 <p class="font-semibold">Final answer: 3.69 mg/L</p>
@@ -74,32 +80,34 @@
                     Previous
                 </a>
                 <div class="flex gap-4">
-                    <button onclick="showSolution()" class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+                    <button onclick="showSolution()"
+                        class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
                         Show Solution
                     </button>
-                    <a href="summary.html" class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700">
+                    <a href="summary.html"
+                        class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700">
                         Next: Summary
                     </a>
                 </div>
             </div>
-</div>
+        </div>
     </div>
 
     <script>
         function checkAnswer() {
             const userAnswer = parseFloat(document.getElementById('user-answer').value);
             const feedback = document.getElementById('feedback');
-            
+
             if (isNaN(userAnswer)) {
                 feedback.textContent = 'Please enter a valid number';
                 feedback.className = 'bg-red-100 text-red-800 mt-4 p-4 rounded-md';
                 feedback.classList.remove('hidden');
                 return;
             }
-            
+
             const correctAnswer = 3.69;
             const tolerance = 0.01;
-            
+
             if (Math.abs(userAnswer - correctAnswer) < tolerance) {
                 feedback.textContent = 'Correct! Well done.';
                 feedback.className = 'bg-green-100 text-green-800 mt-4 p-4 rounded-md';
@@ -109,13 +117,16 @@
             }
             feedback.classList.remove('hidden');
         }
-        
+
         function showSolution() {
             document.getElementById('solution').classList.remove('hidden');
         }
     </script>
 
+    <chem-footer></chem-footer>
     <script src="components/chem-header.js"></script>
+    <script src="components/chem-footer.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
