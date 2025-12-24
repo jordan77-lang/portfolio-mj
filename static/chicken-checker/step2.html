@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 2: Calculate Relative Frequency | Relative Frequency Training</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+    <chem-header progress="50"></chem-header>
+
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="bg-white rounded-xl shadow-md p-8 mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">Step 2: Calculate the Relative Frequency</h1>
+
+            <div class="prose max-w-none mb-8">
+                <p class="mb-4">
+                    Now that you know the frequency (the count of values in a range), you need to divide by the
+                    <strong>total number of observations</strong> to calculate the relative frequency.
+                </p>
+                <p class="mb-4">
+                    A <strong>relative frequency</strong> equals the number of observations whose values fall in a
+                    certain range, divided by the total number of observations.
+                </p>
+            </div>
+
+            <div class="bg-blue-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Formula</h3>
+                <p class="mb-4">Calculate the relative frequency using the formula below:</p>
+                <div class="bg-white p-4 rounded-lg mb-4 text-center">
+                    <p class="text-xl">
+                        \[\text{Relative Frequency} = \frac{\text{Observations in range}}{\text{Total observations}}\]
+                    </p>
+                </div>
+                <p class="mb-4">In this case:</p>
+                <div class="bg-white p-4 rounded-lg text-center">
+                    <p class="text-xl">\[\text{Relative Frequency} = \frac{\text{Chickens weighing more than 5lbs}}
+                        {\text{Total chickens weighed}}\]</p>
+                </div>
+            </div>
+
+            <div class="bg-yellow-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4"></h3>
+                <p class="mb-4">
+                    Recall that the Colonel weighed <strong>32 chickens</strong> total, and <strong>15 chickens</strong>
+                    weighed more than 5 pounds.
+                </p>
+                <div class="bg-white p-4 rounded-lg mb-4 text-center">
+                    <p class="text-xl mb-2">
+                        \[\text{Relative Frequency} = \frac{15}{32} = 0.469 = \mathbf{46.9\%}\]
+                    </p>
+                </div>
+                <p class="text-gray-700">
+                    We can interpret this relative frequency as the <strong>probability</strong> that a randomly
+                    selected chicken weighs more than 5 pounds: <strong>46.9%</strong>.
+                </p>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Converting Decimals to Percentages</h3>
+                <p class="mb-4">
+                    Relative frequencies can be reported as decimals or as percentages. To convert a decimal to a
+                    percentage, multiply by 100.
+                </p>
+                <p class="mb-4">
+                    <strong>Round your percentage to one decimal place (XX.X%).</strong>
+                </p>
+                <div class="bg-white p-4 rounded-lg text-center">
+                    <p class="text-xl">\[0.469 \times 100 = 46.9\%\]</p>
+                </div>
+            </div>
+
+            <div class="flex justify-between mt-8">
+                <a href="step1.html" class="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">
+                    Previous
+                </a>
+                <a href="practice.html"
+                    class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+                    Next: Practice
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <chem-footer></chem-footer>
+    <script src="components/chem-header.js"></script>
+    <script src="components/chem-footer.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

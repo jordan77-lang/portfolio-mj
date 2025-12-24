@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice | Relative Frequency Training</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+    <chem-header progress="75"></chem-header>
+
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="bg-white rounded-xl shadow-md p-8 mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">Practice Problem</h1>
+
+            <div class="prose max-w-none mb-8">
+                <p class="mb-4">
+                    The Colonel wants to know how likely it is that one of his chickens is eating less than its fair
+                    share of feed. To investigate, he tracked daily feed consumption for 23 chickens.
+                </p>
+                <div class="flex justify-center mb-4">
+                    <img src="images/chicken feed.png" alt="Colonel checking chicken feed"
+                        class="max-w-md rounded-lg shadow-md">
+                </div>
+                <p class="font-semibold mb-6 text-lg">
+                    Of those 23 chickens, <strong>8 chickens</strong> ate less than 0.25 lbs of feed per day.
+                </p>
+                <p class="mb-4">
+                    Use this information to estimate the probability that a chicken eats less than 0.25 lbs of feed per
+                    day.
+                </p>
+            </div>
+
+            <div class="bg-blue-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Formula</h3>
+                <div class="text-center">
+                    <p class="text-xl">
+                        \[\text{Relative Frequency} = \frac{\text{Observations in range}}{\text{Total observations}}\]
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-yellow-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Your Answer</h3>
+                <p class="mb-4"><strong>Round your percentage to one decimal place (XX.X%).</strong></p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
+                    <div>
+                        <label for="user-answer" class="block text-sm font-medium text-gray-700 mb-1">
+                            Enter your answer as a percentage (e.g., 34.8)
+                        </label>
+                        <input type="number" id="user-answer" class="w-full rounded-md border-gray-300 shadow-sm"
+                            placeholder="Enter percentage...">
+                    </div>
+                    <div class="flex items-end">
+                        <button onclick="checkAnswer()"
+                            class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 w-full">
+                            Check Answer
+                        </button>
+                    </div>
+                </div>
+                <div id="feedback" class="hidden mt-4 p-4 rounded-md"></div>
+            </div>
+
+            <div class="bg-green-50 p-6 rounded-lg mb-8 hidden" id="solution">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Solution</h3>
+                <div class="bg-white p-4 rounded-lg mb-4">
+                    <p class="mb-2"><strong>Given:</strong></p>
+                    <ul class="list-disc pl-6 mb-4">
+                        <li>8 chickens ate less than 0.25 lbs of feed</li>
+                        <li>23 chickens total</li>
+                    </ul>
+                    <div class="text-center text-xl">
+                        <p>\[\text{Relative Frequency} = \frac{8}{23} = 0.348 = \mathbf{34.8\%}\]</p>
+                    </div>
+                </div>
+                <p class="text-gray-700">
+                    The probability that a chicken eats less than 0.25 lbs of feed per day is <strong>34.8%</strong>.
+                </p>
+            </div>
+
+            <div class="flex justify-between mt-8">
+                <a href="step2.html" class="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">
+                    Previous
+                </a>
+                <div class="flex gap-4">
+                    <button onclick="showSolution()"
+                        class="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">
+                        Show Solution
+                    </button>
+                    <a href="summary.html"
+                        class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700">
+                        Next: Summary
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function checkAnswer() {
+            const userAnswer = parseFloat(document.getElementById('user-answer').value);
+            const feedback = document.getElementById('feedback');
+
+            if (isNaN(userAnswer)) {
+                feedback.textContent = 'Please enter a valid number.';
+                feedback.className = 'bg-red-100 text-red-800 mt-4 p-4 rounded-md';
+                feedback.classList.remove('hidden');
+                return;
+            }
+
+            // Accept both 34.8 and 0.348
+            const isCorrect = Math.abs(userAnswer - 34.8) < 0.15 || Math.abs(userAnswer - 0.348) < 0.005;
+
+            if (isCorrect) {
+                feedback.textContent = '🎉 Correct! The probability is 34.8% (or 0.348).';
+                feedback.className = 'bg-green-100 text-green-800 mt-4 p-4 rounded-md';
+            } else {
+                feedback.textContent = 'Not quite right. Remember: divide the count in range by the total count. Try again or view the solution.';
+                feedback.className = 'bg-yellow-100 text-yellow-800 mt-4 p-4 rounded-md';
+            }
+            feedback.classList.remove('hidden');
+        }
+
+        function showSolution() {
+            document.getElementById('solution').classList.remove('hidden');
+            MathJax.typeset(); // Re-render MathJax after showing hidden content
+        }
+    </script>
+
+    <chem-footer></chem-footer>
+    <script src="components/chem-header.js"></script>
+    <script src="components/chem-footer.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

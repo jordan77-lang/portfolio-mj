@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Training Portal | Dreamscape Learn</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+    <chem-header></chem-header>
+    <div class="container mx-auto px-4 py-12 max-w-6xl">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">Mission Training Portal</h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Select a training module to develop your scientific skills and knowledge
+            </p>
+        </div>
+    </div>
+
+    <div class="container mx-auto px-4 py-8 max-w-3xl">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">How to calculate a joint probability</h2>
+        <div class="prose max-w-none mb-8">
+            <p class="mb-4">
+                Often, a scientist will need to know the probability that multiple events will occur at the same time,
+                which is called a joint probability. If these events stem from independent processes, we can multiply
+                the probabilities of these independent events to find the joint probability.
+            </p>
+            <p>
+                In this training, you will learn how to calculate the probability that two or more independent events
+                will occur together.
+            </p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg mb-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Instructions</h3>
+            <p class="mb-4">
+                To learn how to calculate a joint probability, we will use the following example.
+            </p>
+            <p class="mb-4">
+                Imagine that your university has a baseball team and a football team, both of which are playing next
+                Saturday.
+                You want to calculate the probability that both teams will win. Because each team competes in its own
+                league,
+                the probability of either team winning does not depend on the probability that the other team will win.
+                In other words, these probabilities are independent of each other.
+            </p>
+            <p>
+                The probability that both teams will win on the same day is called a joint probability, because this
+                probability
+                joins two independent probabilities in one calculation.
+            </p>
+        </div>
+
+        <div class="mb-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Step 1: Identify the two independent events</h3>
+            <p class="mb-4">
+                In our example, the two independent events are as follows:
+            </p>
+            <ol class="list-decimal pl-6 space-y-2 mb-4">
+                <li>the probability that a specific baseball team wins, and</li>
+                <li>the probability that a specific football team wins.</li>
+            </ol>
+        </div>
+
+        <div class="mb-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Step 2: Identify the probability of each event</h3>
+            <p class="mb-4">
+                To calculate a joint probability, you must know the probability that each event will occur. For our
+                example,
+                assume that you have already used data from past games to estimate the probability that each team will
+                win.
+                The probability that the baseball team will win its game equals 0.67 (67%). However, the probability
+                that
+                the football team will win its game equals only 0.04 (4%).
+            </p>
+        </div>
+
+        <div class="mb-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Step 3: Multiply the independent probabilities to get
+                the joint probability</h3>
+            <p class="mb-4">
+                To calculate a joint probability, you need to use the product rule of probability:
+            </p>
+            <p class="bg-blue-50 p-4 rounded-lg mb-4 calculation-text">
+                The probability of two independent events occurring together, P(A and B), equals the product of their
+                independent probabilities, P(A) ∙ P(B).
+            </p>
+            <p class="mb-4">
+                In our example, we should calculate the joint probability by multiplying the probability that the
+                baseball team will win,
+                P(A), by the probability that the football team wins, P(B):
+            </p>
+            <div class="bg-gray-50 p-4 rounded-lg mb-4">
+                <p class="calculation-text mb-2">P(A and B) = P(A) ∙ P(B)</p>
+                <p class="font-mono mb-2">P(A and B) = 0.67 ∙ 0.04</p>
+                <p class="font-mono">P(A and B) = 0.03</p>
+            </div>
+            <p>
+                Therefore, the probability that both teams will win is 0.03, or 3%. Pretty bad odds!
+            </p>
+        </div>
+
+        <div class="mb-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Calculating a joint probability in Google Sheets</h3>
+            <p class="mb-4">
+                You can calculate a joint probability in Google Sheets by using the mathematical operator for
+                multiplication.
+                The sheet below contains the independent probabilities used in our example: the probability that the
+                baseball
+                team winning (cell B1) and the probability that the football team will win (cell B2).
+            </p>
+
+            <div class="border rounded-lg overflow-hidden mb-4">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">A
+                            </th>
+                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">B
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        <tr>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">Probability of baseball team
+                                winning</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">0.67</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">Probability of football team
+                                winning</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">0.04</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="mb-4">
+                To calculate the joint probability, you can use the multiplication operator of Google Sheets to multiply
+                the two independent probabilities.
+                The correct formula is highlighted in cell B3 in the sheet below.
+            </p>
+
+            <div class="border rounded-lg overflow-hidden mb-4">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">A
+                            </th>
+                            <th class="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">B
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        <tr>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">Probability of baseball team
+                                winning</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">0.67</td>
+                        </tr>
+                        <tr>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">Probability of football team
+                                winning</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">0.04</td>
+                        </tr>
+                        <tr class="bg-yellow-50">
+                            <td class="px-4 py-2 whitespace-nowrap text-sm text-gray-700">Probability of both teams
+                                winning</td>
+                            <td class="px-4 py-2 whitespace-nowrap text-sm font-mono text-gray-700">=B1*B2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                This formula will return the value of 0.03 that we obtained by manual calculation.
+            </p>
+        </div>
+
+        <div class="mb-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Practice Problem</h3>
+            <p class="mb-4">
+                An engineer wants to know the probability that a machine will function at a high temperature and a high
+                relative humidity.
+                Temperature and humidity affect the function of this machine independently:
+            </p>
+            <ol class="list-decimal pl-6 space-y-2 mb-4">
+                <li>The probability that the machine works at a high temperature equals 0.92.</li>
+                <li>The probability that the machine works at a high relative humidity equals 0.80.</li>
+            </ol>
+            <p class="mb-4 font-semibold">
+                What is the probability that the machine will function at both a high temperature and a high relative
+                humidity?
+            </p>
+            <div class="bg-green-50 p-4 rounded-lg hidden" id="answer">
+                <h4 class="font-semibold mb-2">Correct Answer:</h4>
+                <p class="font-mono">P(A and B) = 0.92 ∙ 0.80 = 0.736</p>
+                <p class="mt-2">
+                    The joint probability equals 0.736, or 73.6%. This value represents the probability that the machine
+                    will function when both independent conditions occur—high temperature and high relative humidity.
+                </p>
+            </div>
+            <button onclick="document.getElementById('answer').classList.toggle('hidden')"
+                class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                Reveal Answer
+            </button>
+        </div>
+
+        <div class="mb-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Summary</h3>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>A joint probability is the product of two or more independent probabilities</li>
+                <li>By multiplying the probabilities of independent events, you can calculate the probability that all
+                    of these events will occur</li>
+                <li>Joint probabilities are important for predicting how multiple processes will combine to produce an
+                    outcome</li>
+            </ul>
+        </div>
+    </div>
+    <chem-footer></chem-footer>
+    <script src="components/chem-header.js"></script>
+    <script src="components/chem-footer.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

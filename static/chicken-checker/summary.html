@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary | Relative Frequency Training</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+    <chem-header progress="100"></chem-header>
+
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="bg-white rounded-xl shadow-md p-8 mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">Summary</h1>
+
+            <div class="flex justify-center mb-6">
+                <img src="images/teaching.png" alt="Colonel teaching" class="max-w-md rounded-lg shadow-md">
+            </div>
+
+            <div class="prose max-w-none mb-8">
+                <p class="mb-4">
+                    Well now, let me tell you something. When you have got yourself a nice pile of past observations,
+                    you can use them to figure out how likely something is to happen again. Around here, we call that
+                    a <strong>relative frequency</strong>, and it is as useful as a rooster at sunrise.
+                </p>
+                <p class="mb-4">
+                    Here is how it works: you take the count of what you are looking for, divide it by everything you
+                    counted, and that gives you a number you can hang your hat on. You can write it as a decimal or
+                    dress it up as a percentage, whichever suits your fancy.
+                </p>
+            </div>
+
+            <div class="bg-green-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Key Formula</h3>
+                <div class="text-center">
+                    <p class="text-xl">
+                        \[\text{Relative Frequency} = \frac{\text{Observations in range}}{\text{Total observations}}\]
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-blue-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Key Steps</h3>
+                <ol class="list-decimal pl-6 space-y-4">
+                    <li>
+                        <strong>Count the frequency:</strong> Determine how many observations fall within the
+                        specified range.
+                    </li>
+                    <li>
+                        <strong>Count the total:</strong> Determine the total number of observations in the sample.
+                    </li>
+                    <li>
+                        <strong>Calculate:</strong> Divide the frequency by the total to get the relative frequency.
+                    </li>
+                </ol>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Converting Between Decimals and Percentages</h3>
+                <p class="mb-4"><strong>Round your percentage to one decimal place (XX.X%).</strong></p>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="bg-white p-4 rounded-lg text-center">
+                        <p class="font-semibold mb-2">Decimal → Percentage</p>
+                        <p class="text-lg">\[0.36 \times 100 = 36.0\%\]</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg text-center">
+                        <p class="font-semibold mb-2">Percentage → Decimal</p>
+                        <p class="text-lg">\[36.0\% \div 100 = 0.36\]</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-between mt-8">
+                <a href="practice.html"
+                    class="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">
+                    Previous: Practice
+                </a>
+                <a href="index.html"
+                    class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+                    Complete Training
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <chem-footer></chem-footer>
+    <script src="components/chem-header.js"></script>
+    <script src="components/chem-footer.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

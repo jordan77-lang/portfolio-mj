@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 1: Count Frequency | Relative Frequency Training</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+    <chem-header progress="25"></chem-header>
+
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="bg-white rounded-xl shadow-md p-8 mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">Step 1: Count the Frequency</h1>
+
+            <div class="prose max-w-none mb-8">
+                <p class="mb-4">
+                    Given a set of values, we can estimate the probability of observing certain values by counting
+                    how many observations fall within a specific range. This count is called the
+                    <strong>frequency</strong>.
+                </p>
+                <p class="mb-4">
+                    For example, the Colonel wants to estimate the probability that a chicken weighs more than 5 pounds.
+                    The Colonel weighed 32 chickens from the flock.
+                </p>
+                <div class="flex justify-center mb-4">
+                    <img src="images/weigh.png" alt="Colonel weighing chickens" class="max-w-md rounded-lg shadow-md">
+                </div>
+            </div>
+
+            <div class="bg-yellow-50 p-6 rounded-lg mb-8">
+                <p class="mb-4">
+                    Of the 32 chickens weighed, <strong>15 chickens</strong> weighed more than 5 pounds.
+                </p>
+                <p class="text-gray-700">
+                    Therefore, the <strong>frequency</strong> of chickens weighing more than 5 lbs is
+                    <strong>15</strong>.
+                </p>
+            </div>
+
+            <div class="flex justify-between mt-8">
+                <a href="index.html" class="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">
+                    Previous
+                </a>
+                <a href="step2.html"
+                    class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+                    Next: Calculate Relative Frequency
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <chem-footer></chem-footer>
+    <script src="components/chem-header.js"></script>
+    <script src="components/chem-footer.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
