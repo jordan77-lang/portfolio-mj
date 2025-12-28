@@ -165,6 +165,10 @@ params:
     title: Project Highlights
     icon: fas fa-project-diagram
     list:
+      - title: Interactive Educational Tools
+        url: "/projects/interactive-educational-tools/"
+        description: Collection of interactive learning resources including periodic tables, solar system models, and lunar phase demonstrations for classroom and online instruction.
+
       - title: Project Zephyr
         url: "/projects/zephyr/"
         description: Student-led stratospheric balloon mission with sensors, live tracking, and recovery.
@@ -172,10 +176,6 @@ params:
       - title: Space Night
         url: "/projects/space-night/"
         description: Annual spring carnival celebrating space exploration with 500+ students, families, and community members.
-      
-      - title: Interactive Educational Tools
-        url: "/projects/interactive-educational-tools/"
-        description: Collection of interactive learning resources including periodic tables, solar system models, and lunar phase demonstrations for classroom and online instruction.
       
       - title: AR/VR Projects
         url: "/projects/ar-vr-projects/"
