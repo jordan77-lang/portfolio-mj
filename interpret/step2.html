@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 2: Identifying peaks | Interpreting distributions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+    <chem-header progress="40"></chem-header>
+
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="bg-white rounded-xl shadow-md p-8 mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">Step 2: Identifying peaks (modality)</h1>
+
+            <div class="prose max-w-none mb-8">
+                <p class="mb-4">
+                    A <strong>peak</strong> is the highest point in a section of the distribution, where the bars are
+                    taller than their neighbors on both sides. Peaks show us where values tend to cluster.
+                </p>
+                <p class="mb-4">
+                    The number of peaks in a distribution tells us about its <strong>modality</strong>. Here is what to
+                    look for:
+                </p>
+            </div>
+
+            <div class="bg-blue-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Types of distributions by peaks</h3>
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="bg-white p-4 rounded-lg text-center">
+                        <h4 class="font-semibold text-gray-800 mb-2">No peaks</h4>
+                        <p class="text-sm text-gray-600">(Uniform)</p>
+                        <p class="text-gray-700 mt-2 text-sm">All bars are roughly the same height. No clear high point.
+                        </p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg text-center">
+                        <h4 class="font-semibold text-gray-800 mb-2">Single peak</h4>
+                        <p class="text-sm text-gray-600">(Unimodal)</p>
+                        <p class="text-gray-700 mt-2 text-sm">One clear highest region where values cluster.</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg text-center">
+                        <h4 class="font-semibold text-gray-800 mb-2">Multiple peaks</h4>
+                        <p class="text-sm text-gray-600">(Bimodal/Multimodal)</p>
+                        <p class="text-gray-700 mt-2 text-sm">Two or more distinct high regions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SVG-based Peaks Comparison Charts -->
+            <div class="flex justify-center mb-6">
+                <div class="bg-white p-6 rounded-lg shadow-md w-full">
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <!-- No Peaks (Uniform) -->
+                        <div class="text-center">
+                            <h4 class="font-semibold text-gray-800 mb-3">No peaks (uniform)</h4>
+                            <svg viewBox="0 0 160 100" class="w-full max-w-xs mx-auto">
+                                <!-- Axes -->
+                                <line x1="25" y1="80" x2="150" y2="80" stroke="#94a3b8" stroke-width="1.5" />
+                                <line x1="25" y1="80" x2="25" y2="15" stroke="#94a3b8" stroke-width="1.5" />
+
+                                <!-- Uniform bars (all same height) -->
+                                <rect x="35" y="45" width="18" height="35" fill="#0d9488" rx="2" />
+                                <rect x="58" y="42" width="18" height="38" fill="#0d9488" rx="2" />
+                                <rect x="81" y="47" width="18" height="33" fill="#0d9488" rx="2" />
+                                <rect x="104" y="44" width="18" height="36" fill="#0d9488" rx="2" />
+                                <rect x="127" y="46" width="18" height="34" fill="#0d9488" rx="2" />
+                            </svg>
+                            <p class="text-sm text-gray-600 mt-2">All bars roughly equal</p>
+                        </div>
+
+                        <!-- Single Peak (Unimodal) -->
+                        <div class="text-center">
+                            <h4 class="font-semibold text-gray-800 mb-3">Single peak (unimodal)</h4>
+                            <svg viewBox="0 0 160 100" class="w-full max-w-xs mx-auto">
+                                <!-- Axes -->
+                                <line x1="25" y1="80" x2="150" y2="80" stroke="#94a3b8" stroke-width="1.5" />
+                                <line x1="25" y1="80" x2="25" y2="15" stroke="#94a3b8" stroke-width="1.5" />
+
+                                <!-- Bell curve bars -->
+                                <rect x="35" y="70" width="18" height="10" fill="#0d9488" rx="2" />
+                                <rect x="58" y="55" width="18" height="25" fill="#0d9488" rx="2" />
+                                <rect x="81" y="25" width="18" height="55" fill="#0d9488" rx="2" />
+                                <rect x="104" y="55" width="18" height="25" fill="#0d9488" rx="2" />
+                                <rect x="127" y="70" width="18" height="10" fill="#0d9488" rx="2" />
+
+                                <!-- Peak annotation -->
+                                <path d="M 90 18 L 90 23" stroke="#f97316" stroke-width="2" />
+                                <circle cx="90" cy="14" r="3" fill="#f97316" />
+                            </svg>
+                            <p class="text-sm text-gray-600 mt-2">One clear high point</p>
+                        </div>
+
+                        <!-- Multiple Peaks (Bimodal) -->
+                        <div class="text-center">
+                            <h4 class="font-semibold text-gray-800 mb-3">Multiple peaks (bimodal)</h4>
+                            <svg viewBox="0 0 160 100" class="w-full max-w-xs mx-auto">
+                                <!-- Axes -->
+                                <line x1="25" y1="80" x2="150" y2="80" stroke="#94a3b8" stroke-width="1.5" />
+                                <line x1="25" y1="80" x2="25" y2="15" stroke="#94a3b8" stroke-width="1.5" />
+
+                                <!-- Bimodal bars -->
+                                <rect x="35" y="35" width="18" height="45" fill="#0d9488" rx="2" />
+                                <rect x="58" y="55" width="18" height="25" fill="#0d9488" rx="2" />
+                                <rect x="81" y="65" width="18" height="15" fill="#0d9488" rx="2" />
+                                <rect x="104" y="50" width="18" height="30" fill="#0d9488" rx="2" />
+                                <rect x="127" y="30" width="18" height="50" fill="#0d9488" rx="2" />
+
+                                <!-- Peak annotations -->
+                                <path d="M 44 28 L 44 33" stroke="#f97316" stroke-width="2" />
+                                <circle cx="44" cy="24" r="3" fill="#f97316" />
+                                <path d="M 136 23 L 136 28" stroke="#f97316" stroke-width="2" />
+                                <circle cx="136" cy="19" r="3" fill="#f97316" />
+                            </svg>
+                            <p class="text-sm text-gray-600 mt-2">Two distinct high points</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-sm text-gray-500 text-center mb-8">
+                <strong>Figure 2.</strong> Three distributions showing no peaks (uniform), single peak (unimodal), and
+                multiple peaks (bimodal).
+            </p>
+
+            <div class="bg-yellow-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">How to identify peaks</h3>
+                <ol class="list-decimal pl-6 space-y-3">
+                    <li>Look for the <strong>tallest bars</strong> in the distribution</li>
+                    <li>Check if there is <strong>one main high area</strong> or <strong>multiple separate high
+                            areas</strong></li>
+                    <li>If all bars are about the same height, there are <strong>no clear peaks</strong></li>
+                </ol>
+            </div>
+
+            <div class="bg-green-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Example 1</h3>
+                <div class="flex justify-center mb-4">
+                    <svg viewBox="0 0 200 100" class="w-full max-w-xs">
+                        <!-- Axes -->
+                        <line x1="30" y1="80" x2="180" y2="80" stroke="#94a3b8" stroke-width="1.5" />
+                        <line x1="30" y1="80" x2="30" y2="15" stroke="#94a3b8" stroke-width="1.5" />
+                        <!-- Bell curve bars -->
+                        <rect x="40" y="70" width="22" height="10" fill="#0d9488" rx="2" />
+                        <rect x="67" y="55" width="22" height="25" fill="#0d9488" rx="2" />
+                        <rect x="94" y="25" width="22" height="55" fill="#0d9488" rx="2" />
+                        <rect x="121" y="55" width="22" height="25" fill="#0d9488" rx="2" />
+                        <rect x="148" y="70" width="22" height="10" fill="#0d9488" rx="2" />
+                    </svg>
+                </div>
+                <p class="mb-4">Looking at this distribution, how many peaks does it have?</p>
+                <ul class="list-disc pl-6 space-y-2 mb-4">
+                    <li>The bar(s) in the middle are taller than bars on either side</li>
+                    <li>There is one clear high region, not multiple separate peaks</li>
+                    <li>Values cluster around the center</li>
+                </ul>
+                <div class="bg-white p-4 rounded-lg">
+                    <p class="font-semibold text-gray-800">
+                        Answer: "The distribution has a <strong>single peak</strong>."
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-green-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Example 2</h3>
+                <div class="flex justify-center mb-4">
+                    <svg viewBox="0 0 200 100" class="w-full max-w-xs">
+                        <!-- Axes -->
+                        <line x1="30" y1="80" x2="180" y2="80" stroke="#94a3b8" stroke-width="1.5" />
+                        <line x1="30" y1="80" x2="30" y2="15" stroke="#94a3b8" stroke-width="1.5" />
+                        <!-- Bimodal bars -->
+                        <rect x="40" y="35" width="22" height="45" fill="#0d9488" rx="2" />
+                        <rect x="67" y="55" width="22" height="25" fill="#0d9488" rx="2" />
+                        <rect x="94" y="65" width="22" height="15" fill="#0d9488" rx="2" />
+                        <rect x="121" y="50" width="22" height="30" fill="#0d9488" rx="2" />
+                        <rect x="148" y="30" width="22" height="50" fill="#0d9488" rx="2" />
+                    </svg>
+                </div>
+                <p class="mb-4">Looking at this distribution, how many peaks does it have?</p>
+                <ul class="list-disc pl-6 space-y-2 mb-4">
+                    <li>There are two separate high regions (one on each end)</li>
+                    <li>The bars dip lower in the middle between the peaks</li>
+                    <li>Values cluster in two distinct groups</li>
+                </ul>
+                <div class="bg-white p-4 rounded-lg">
+                    <p class="font-semibold text-gray-800">
+                        Answer: "The distribution has <strong>multiple peaks</strong>."
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-green-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Example 3</h3>
+                <div class="flex justify-center mb-4">
+                    <svg viewBox="0 0 200 100" class="w-full max-w-xs">
+                        <!-- Axes -->
+                        <line x1="30" y1="80" x2="180" y2="80" stroke="#94a3b8" stroke-width="1.5" />
+                        <line x1="30" y1="80" x2="30" y2="15" stroke="#94a3b8" stroke-width="1.5" />
+                        <!-- Uniform bars -->
+                        <rect x="40" y="45" width="22" height="35" fill="#0d9488" rx="2" />
+                        <rect x="67" y="42" width="22" height="38" fill="#0d9488" rx="2" />
+                        <rect x="94" y="47" width="22" height="33" fill="#0d9488" rx="2" />
+                        <rect x="121" y="44" width="22" height="36" fill="#0d9488" rx="2" />
+                        <rect x="148" y="46" width="22" height="34" fill="#0d9488" rx="2" />
+                    </svg>
+                </div>
+                <p class="mb-4">Looking at this distribution, how many peaks does it have?</p>
+                <ul class="list-disc pl-6 space-y-2 mb-4">
+                    <li>All bars are roughly the same height</li>
+                    <li>There is no clear high point or region</li>
+                    <li>Values are spread evenly across the range</li>
+                </ul>
+                <div class="bg-white p-4 rounded-lg">
+                    <p class="font-semibold text-gray-800">
+                        Answer: "The distribution has <strong>no peaks</strong>."
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex justify-between mt-8">
+                <a href="step1.html" class="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">
+                    Previous
+                </a>
+                <a href="step3.html"
+                    class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700">
+                    Next: Describing Shape
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <chem-footer></chem-footer>
+    <script src="components/chem-header.js"></script>
+    <script src="components/chem-footer.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

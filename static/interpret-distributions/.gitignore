@@ -1,0 +1,11 @@
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/

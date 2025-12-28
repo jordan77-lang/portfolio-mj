@@ -40,6 +40,17 @@ Key features:
 
 ---
 
+### [Interpreting Frequency Distributions](/projects/interpret-distributions/)
+Interactive training tool that teaches students how to interpret frequency distributions by identifying peaks and describing shape.
+
+Key features:
+- Step-by-step guided instruction
+- Interactive practice problems with immediate feedback
+- Mission-based training format for student engagement
+- Browser-based tool requiring no installation
+
+---
+
 ### [Molarity to Mass Converter](/projects/molarity-converter/)
 Interactive training tool that teaches chemistry students how to convert molarity (mol/L) to mass per volume (mg/L) through guided practice.
 

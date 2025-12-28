@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice | Interpreting distributions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+    <chem-header progress="80"></chem-header>
+
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="bg-white rounded-xl shadow-md p-8 mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">Practice: Interpret a distribution</h1>
+
+            <div class="flex justify-center mb-2">
+                <img src="images/water.png" alt="Chicken drinking water" class="max-w-md rounded-lg shadow-md">
+            </div>
+            <p class="text-sm text-gray-500 text-center mb-6">
+                <strong>Figure 4.</strong> The Colonel tracks water consumption for each chicken in his flock.
+            </p>
+
+            <div class="prose max-w-none mb-8">
+                <p class="mb-4">
+                    The Colonel measured <strong>daily water consumption for 30 chickens</strong> in his flock. Use the
+                    frequency
+                    distribution below to answer the following questions.
+                </p>
+            </div>
+
+            <!-- SVG-based Practice Distribution - Daily Water Consumption -->
+            <div class="flex justify-center mb-6">
+                <div class="bg-white p-6 rounded-lg shadow-md w-full max-w-2xl">
+                    <svg viewBox="0 0 400 180" class="w-full">
+                        <!-- Y-axis -->
+                        <line x1="60" y1="20" x2="60" y2="140" stroke="#94a3b8" stroke-width="2" />
+                        <text x="20" y="80" font-size="10" fill="#475569" text-anchor="middle"
+                            transform="rotate(-90, 20, 80)">Number of Chickens</text>
+
+                        <!-- Y-axis labels -->
+                        <text x="55" y="145" font-size="9" fill="#64748b" text-anchor="end">0</text>
+                        <text x="55" y="110" font-size="9" fill="#64748b" text-anchor="end">4</text>
+                        <text x="55" y="75" font-size="9" fill="#64748b" text-anchor="end">8</text>
+                        <text x="55" y="40" font-size="9" fill="#64748b" text-anchor="end">12</text>
+
+                        <!-- Grid lines -->
+                        <line x1="60" y1="110" x2="380" y2="110" stroke="#e2e8f0" stroke-width="1" />
+                        <line x1="60" y1="75" x2="380" y2="75" stroke="#e2e8f0" stroke-width="1" />
+                        <line x1="60" y1="40" x2="380" y2="40" stroke="#e2e8f0" stroke-width="1" />
+
+                        <!-- X-axis -->
+                        <line x1="60" y1="140" x2="380" y2="140" stroke="#94a3b8" stroke-width="2" />
+                        <text x="220" y="172" font-size="10" fill="#475569" text-anchor="middle">Daily Water Consumption
+                            (mL)</text>
+
+                        <!-- Bars - Unimodal, Right-skewed (asymmetrical) -->
+                        <!-- Bar 1: 150-175 (2 chickens) -->
+                        <rect x="75" y="123" width="45" height="17" fill="#0d9488" rx="3" />
+                        <text x="97" y="155" font-size="8" fill="#64748b" text-anchor="middle">150-175</text>
+
+                        <!-- Bar 2: 175-200 (5 chickens) -->
+                        <rect x="125" y="97" width="45" height="43" fill="#0d9488" rx="3" />
+                        <text x="147" y="155" font-size="8" fill="#64748b" text-anchor="middle">175-200</text>
+
+                        <!-- Bar 3: 200-225 (10 chickens) - PEAK -->
+                        <rect x="175" y="53" width="45" height="87" fill="#0d9488" rx="3" />
+                        <text x="197" y="155" font-size="8" fill="#64748b" text-anchor="middle">200-225</text>
+
+                        <!-- Bar 4: 225-250 (7 chickens) -->
+                        <rect x="225" y="79" width="45" height="61" fill="#0d9488" rx="3" />
+                        <text x="247" y="155" font-size="8" fill="#64748b" text-anchor="middle">225-250</text>
+
+                        <!-- Bar 5: 250-275 (4 chickens) -->
+                        <rect x="275" y="105" width="45" height="35" fill="#0d9488" rx="3" />
+                        <text x="297" y="155" font-size="8" fill="#64748b" text-anchor="middle">250-275</text>
+
+                        <!-- Bar 6: 275-300 (2 chickens) - extended tail -->
+                        <rect x="325" y="123" width="45" height="17" fill="#0d9488" rx="3" />
+                        <text x="347" y="155" font-size="8" fill="#64748b" text-anchor="middle">275-300</text>
+                    </svg>
+                </div>
+            </div>
+            <p class="text-sm text-gray-500 text-center mb-8">
+                <strong>Figure 5.</strong> Frequency distribution of daily water consumption across 30 chickens.
+                Each bar indicates how many chickens consumed water within that range.
+            </p>
+
+            <!-- Question 1: Number of Peaks -->
+            <div class="bg-blue-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Question 1: Number of peaks</h3>
+                <p class="mb-4 font-medium">Which statement best describes the number of peaks in the frequency
+                    distribution?</p>
+
+                <div class="space-y-3" id="q1-options">
+                    <label
+                        class="flex items-center p-3 bg-white rounded-lg cursor-pointer hover:bg-gray-50 transition-colors border-2 border-transparent"
+                        data-option="a">
+                        <input type="radio" name="q1" value="a" class="mr-3 h-4 w-4">
+                        <span>The distribution has no peaks.</span>
+                    </label>
+                    <label
+                        class="flex items-center p-3 bg-white rounded-lg cursor-pointer hover:bg-gray-50 transition-colors border-2 border-transparent"
+                        data-option="b">
+                        <input type="radio" name="q1" value="b" class="mr-3 h-4 w-4">
+                        <span>The distribution has a single peak.</span>
+                    </label>
+                    <label
+                        class="flex items-center p-3 bg-white rounded-lg cursor-pointer hover:bg-gray-50 transition-colors border-2 border-transparent"
+                        data-option="c">
+                        <input type="radio" name="q1" value="c" class="mr-3 h-4 w-4">
+                        <span>The distribution has multiple peaks.</span>
+                    </label>
+                </div>
+
+                <button onclick="checkQ1()" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+                    Check Answer
+                </button>
+
+                <div id="q1-feedback" class="hidden mt-4 p-4 rounded-lg"></div>
+            </div>
+
+            <!-- Question 2: Shape -->
+            <div class="bg-yellow-50 p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Question 2: Shape</h3>
+                <p class="mb-4 font-medium">Which statement better describes the shape of the frequency distribution?
+                </p>
+
+                <div class="space-y-3" id="q2-options">
+                    <label
+                        class="flex items-center p-3 bg-white rounded-lg cursor-pointer hover:bg-gray-50 transition-colors border-2 border-transparent"
+                        data-option="a">
+                        <input type="radio" name="q2" value="a" class="mr-3 h-4 w-4">
+                        <span>The distribution has a symmetrical shape.</span>
+                    </label>
+                    <label
+                        class="flex items-center p-3 bg-white rounded-lg cursor-pointer hover:bg-gray-50 transition-colors border-2 border-transparent"
+                        data-option="b">
+                        <input type="radio" name="q2" value="b" class="mr-3 h-4 w-4">
+                        <span>The distribution has an asymmetrical shape.</span>
+                    </label>
+                </div>
+
+                <button onclick="checkQ2()" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+                    Check Answer
+                </button>
+
+                <div id="q2-feedback" class="hidden mt-4 p-4 rounded-lg"></div>
+            </div>
+
+            <!-- Solution Section -->
+            <div class="bg-green-50 p-6 rounded-lg mb-8 hidden" id="solution">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Complete solution</h3>
+
+                <div class="space-y-4">
+                    <div class="bg-white p-4 rounded-lg">
+                        <h4 class="font-semibold text-gray-800 mb-2">Question 1: Number of peaks</h4>
+                        <p class="mb-2"><strong>Answer: The distribution has a single peak.</strong></p>
+                        <p class="text-gray-600 text-sm">
+                            Looking at the distribution, there is one clear high region at the 200-225 mL range where
+                            the bar is tallest (10 chickens).
+                            The bars on either side are shorter, creating a single peak pattern (unimodal distribution).
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-lg">
+                        <h4 class="font-semibold text-gray-800 mb-2">Question 2: Shape</h4>
+                        <p class="mb-2"><strong>Answer: The distribution has an asymmetrical shape.</strong></p>
+                        <p class="text-gray-600 text-sm">
+                            If you imagine a vertical line through the peak (200-225 mL), the two sides do not perfectly
+                            mirror each other.
+                            The right side extends slightly further (with bars at 250-275 and 275-300) compared to the
+                            left side, making this distribution slightly asymmetrical (right-skewed).
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="flex justify-between mt-8">
+                <a href="step3.html" class="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">
+                    Previous
+                </a>
+                <div class="flex gap-4">
+                    <button onclick="showSolution()"
+                        class="px-4 py-2 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50">
+                        Show Solution
+                    </button>
+                    <a href="summary.html"
+                        class="px-4 py-2 border border-transparent rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700">
+                        Next: Summary
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Correct answers
+        const correctAnswers = {
+            q1: 'b', // single peak
+            q2: 'b'  // asymmetrical
+        };
+
+        function checkQ1() {
+            const selected = document.querySelector('input[name="q1"]:checked');
+            const feedback = document.getElementById('q1-feedback');
+            const options = document.querySelectorAll('#q1-options label');
+
+            if (!selected) {
+                feedback.textContent = 'Please select an answer.';
+                feedback.className = 'mt-4 p-4 rounded-lg bg-yellow-100 text-yellow-800';
+                feedback.classList.remove('hidden');
+                return;
+            }
+
+            // Reset option styles
+            options.forEach(opt => {
+                opt.classList.remove('border-green-500', 'border-red-500', 'bg-green-50', 'bg-red-50');
+                opt.classList.add('border-transparent');
+            });
+
+            const isCorrect = selected.value === correctAnswers.q1;
+            const selectedLabel = document.querySelector(`#q1-options label[data-option="${selected.value}"]`);
+            const correctLabel = document.querySelector(`#q1-options label[data-option="${correctAnswers.q1}"]`);
+
+            if (isCorrect) {
+                feedback.innerHTML = '🎉 <strong>Correct!</strong> The distribution has a single peak. There is one clear high region at the 200-225 mL range where 10 chickens fall.';
+                feedback.className = 'mt-4 p-4 rounded-lg bg-green-100 text-green-800';
+                selectedLabel.classList.remove('border-transparent');
+                selectedLabel.classList.add('border-green-500', 'bg-green-50');
+            } else {
+                feedback.innerHTML = '❌ <strong>Not quite.</strong> Look for the tallest bar in the distribution. There is one clear high point at the 200-225 mL range, making this a single-peak (unimodal) distribution.';
+                feedback.className = 'mt-4 p-4 rounded-lg bg-red-100 text-red-800';
+                selectedLabel.classList.remove('border-transparent');
+                selectedLabel.classList.add('border-red-500', 'bg-red-50');
+                correctLabel.classList.remove('border-transparent');
+                correctLabel.classList.add('border-green-500', 'bg-green-50');
+            }
+
+            feedback.classList.remove('hidden');
+        }
+
+        function checkQ2() {
+            const selected = document.querySelector('input[name="q2"]:checked');
+            const feedback = document.getElementById('q2-feedback');
+            const options = document.querySelectorAll('#q2-options label');
+
+            if (!selected) {
+                feedback.textContent = 'Please select an answer.';
+                feedback.className = 'mt-4 p-4 rounded-lg bg-yellow-100 text-yellow-800';
+                feedback.classList.remove('hidden');
+                return;
+            }
+
+            // Reset option styles
+            options.forEach(opt => {
+                opt.classList.remove('border-green-500', 'border-red-500', 'bg-green-50', 'bg-red-50');
+                opt.classList.add('border-transparent');
+            });
+
+            const isCorrect = selected.value === correctAnswers.q2;
+            const selectedLabel = document.querySelector(`#q2-options label[data-option="${selected.value}"]`);
+            const correctLabel = document.querySelector(`#q2-options label[data-option="${correctAnswers.q2}"]`);
+
+            if (isCorrect) {
+                feedback.innerHTML = '🎉 <strong>Correct!</strong> The distribution is asymmetrical. The right side extends slightly further with a longer "tail" toward higher water consumption.';
+                feedback.className = 'mt-4 p-4 rounded-lg bg-green-100 text-green-800';
+                selectedLabel.classList.remove('border-transparent');
+                selectedLabel.classList.add('border-green-500', 'bg-green-50');
+            } else {
+                feedback.innerHTML = '❌ <strong>Not quite.</strong> Look carefully at both sides of the peak. The right side has bars extending further (275-300 mL range) compared to the left side. This creates an asymmetrical shape.';
+                feedback.className = 'mt-4 p-4 rounded-lg bg-red-100 text-red-800';
+                selectedLabel.classList.remove('border-transparent');
+                selectedLabel.classList.add('border-red-500', 'bg-red-50');
+                correctLabel.classList.remove('border-transparent');
+                correctLabel.classList.add('border-green-500', 'bg-green-50');
+            }
+
+            feedback.classList.remove('hidden');
+        }
+
+        function showSolution() {
+            document.getElementById('solution').classList.remove('hidden');
+            // Scroll to solution
+            document.getElementById('solution').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+    <chem-footer></chem-footer>
+    <script src="components/chem-header.js"></script>
+    <script src="components/chem-footer.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
