@@ -3,9 +3,12 @@
   <h4 class="text-lg font-semibold leading-snug">{{ .position }}</h4>
   <p class="text-sm text-gray-700 dark:text-gray-300 mb-1">
     {{ if .url }}
-      <a href="{{ .url }}" class="underline">{{ .company }}</a>
+      <a href="{{ .url }}" class="underline" target="_blank" rel="noopener noreferrer">{{ .company }}</a>
     {{ else }}
       {{ .company }}
+    {{ end }}
+    {{ with .dates }}
+      <span class="text-gray-500 dark:text-gray-400"> · {{ . }}</span>
     {{ end }}
   </p>
   {{ with .details }}

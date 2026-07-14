@@ -15,7 +15,7 @@ ignoreLogs:
 
 params:
   author: Mark Jordan
-  description: STEM Educator & HGTV Host
+  description: PhD student and Senior Curriculum Designer at ASU Dreamscape Learn — immersive learning, AR/VR, and STEM education.
   copyright: © Mark Jordan
   enableAnalytics: false
   analyticsDomain: markajordan.com
@@ -28,7 +28,7 @@ params:
 
   profile:
     name: "Mark Jordan"
-    tagline: Immersive STEM Curriculum Designer
+    tagline: Immersive Learning Designer · PhD Student
     location: "Mesa, Arizona"
     photo: profile.jpg
 
@@ -55,6 +55,7 @@ params:
     - item: education
     - item: project
     - item: projects
+    - item: interactivetools
     - item: curriculumdesigned
     - item: skill
     - item: certification
@@ -63,59 +64,82 @@ params:
     title: About Me
     icon: fas fa-user
     description: |
-      I'm a STEM educator and immersive learning designer who brings science to life through storytelling and technology. After twenty-four years teaching engineering, robotics, and cybersecurity in Arizona public schools, I now create AR and VR learning experiences with ASU's Dreamscape Learn that make complex concepts tangible and unforgettable.
+      I'm a PhD student in ASU's GAME School and a Senior Curriculum Designer for Dreamscape Learn, where I design immersive AR and VR learning experiences that make complex ideas tangible through story, mission, and applied practice. I also serve as a Faculty Associate in the Mary Lou Fulton Teachers College Learning Design and Technologies program, supporting graduate students as they grow as learning designers.
 
-      My work bridges K–12 education, higher education, and industry, connecting classrooms with real-world innovation through projects such as Project Zephyr, Phoenix Neutrino, and HGTV's Over Your Head. I'm also pursuing graduate research in AR and VR at ASU focused on making immersive technologies accessible and inclusive for every learner.
+      After twenty-four years teaching engineering, robotics, and cybersecurity in Arizona public schools, my work now spans doctoral research, university curriculum design, and faculty development—always grounded in the belief that great learning is clear, engaging, and built for every learner.
 
-      At the heart of it all, I design learning experiences that inspire students to explore, question, and create.
+      Whether launching student payloads toward the stratosphere, crafting VR mission curricula, or mentoring emerging designers, I aim to create experiences that invite curiosity, connection, and meaningful understanding.
 
   experience:
     title: Experience
     icon: fas fa-briefcase
     list:
-      - position: Curriculum Designer
-        company: ASU Dreamscape Learn
-        details: Designing immersive VR/AR educational experiences and curriculum for next-generation learning environments with Arizona State University.
-      
+      - position: PhD Student
+        company: ASU School of Games, Arts, Media and Engineering (GAME)
+        url: "https://artsmediaengineering.asu.edu/"
+        dates: Present
+        details: Doctoral studies focused on immersive learning, curriculum design, and meaningful learning experiences through emerging technologies—including AR, VR, and interactive media for education.
+
+      - position: Senior Curriculum Designer
+        company: Dreamscape Learn at Arizona State University
+        url: "https://dreamscapelearn.asu.edu/"
+        dates: Present
+        details: Design curriculum for immersive learning experiences, including AR and VR environments, mission-based learning activities, instructional materials, assessments, and faculty-facing implementation resources. Focus on clear, engaging, pedagogically grounded experiences that help students connect complex concepts to applied, story-driven contexts.
+
+      - position: Faculty Associate
+        company: Mary Lou Fulton Teachers College — Learning Design and Technologies
+        url: "https://education.asu.edu/"
+        dates: Present
+        details: Support graduate students as they develop their understanding of learning design, instructional strategies, educational technology, and evidence-based approaches to designing effective learning experiences.
+
       - position: STEM Teacher
         company: Arizona Public Schools
+        dates: 2000–2024
         details: 24 years teaching Engineering, Robotics, Cyber Security, and Aerospace. PLTW certified instructor; created Space Night (500+ attendees annually); coached competition teams; sponsored SkillsUSA and Maker's Club.
       
       - position: Master Carpenter & Host
-        company: HGTV - "Over Your Head"
+        company: HGTV — "Over Your Head"
+        dates: 2008–2010
         details: On-camera talent for 3 seasons of nationally broadcast home improvement series, designing and constructing renovations while mentoring homeowners.
       
       - position: Vice President
         company: Gilbert Education Association
+        dates: Past
         details: Gilbert, Arizona — Led contract negotiations, policy development, and professional development initiatives while advocating for educators and students across the district.
       
       - position: Advisory Board Member
         company: Higher Orbits
-        details: National STEM Education Organization — Serve on the advisory board for Higher Orbits, a nonprofit that inspires students through spaceflight-based STEM programs. Provide guidance on curriculum development, mission-based learning, and student engagement strategies for national initiatives linking classroom science with real-world aerospace exploration.
+        url: "https://higherorbits.org/"
+        dates: Present
+        details: National STEM education nonprofit that inspires students through spaceflight-based programs. Provide guidance on curriculum development, mission-based learning, and student engagement strategies linking classroom science with aerospace exploration.
 
       - position: Director
         company: Phoenix Neutrino Project
+        dates: Past
         details: Directed independent improv-film project uniting 40+ Valley performers in time-boxed collaborative storytelling and live production.
 
       - position: Technical Director
         company: The Torch Theatre
-        details: Phoenix, Arizona — Oversee technical production for live improv performances, including lighting, sound, and multimedia design in an intimate theatre setting; created Level 1 training curriculum for teaching improv comedy.
+        dates: Present
+        details: Phoenix, Arizona — Oversee technical production for live improv performances, including lighting, sound, and multimedia design; created Level 1 training curriculum for teaching improv comedy.
       
       - position: Technical Director
         company: The Phoenix Improv Festival
+        dates: Present
         details: Phoenix, Arizona — Lead technical operations for multi-day international improv festival, coordinating stage management, lighting, and sound for hundreds of attendees.
 
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
+      - degree: Ph.D. Student — Immersive Learning & Emerging Technologies
+        college: Arizona State University — School of Games, Arts, Media and Engineering (GAME)
+        dates: Present
+        details: Doctoral studies focused on immersive learning, curriculum design, and the development of meaningful learning experiences through emerging technologies.
+
       - degree: M.S., Instructional Design & Technology — Emphasis in Online Learning
         college: Walden University
         details: Master's degree with emphasis in Online Learning. Focused on curriculum development, emerging technology integration, and learner-centered design for online and immersive environments.
-
-      - degree: Graduate Coursework — AR/VR Design
-        college: Arizona State University — School of Games, Arts, Media and Engineering (GAME)
-        details: Completed graduate coursework focused on AR/VR design, immersive media, and interactive learning experiences within ASU's GAME program.
 
       - degree: Graduate Coursework — Professional Studies (Engineering Education)
         college: Rochester Institute of Technology (RIT)
@@ -165,10 +189,6 @@ params:
     title: Project Highlights
     icon: fas fa-project-diagram
     list:
-      - title: Interactive Educational Tools
-        url: "/projects/interactive-educational-tools/"
-        description: Collection of interactive learning resources including periodic tables, solar system models, and lunar phase demonstrations for classroom and online instruction.
-
       - title: Project Zephyr
         url: "/projects/zephyr/"
         description: Student-led stratospheric balloon mission with sensors, live tracking, and recovery.
@@ -192,6 +212,42 @@ params:
       - title: Chandler Cardboard Boat Regatta
         url: "/projects/chandler-cardboard-boat-regatta/"
         description: A district-wide STEM challenge where students designed and raced cardboard boats. I organized all logistics, developed instructional design materials, and coordinated safety and judging, turning engineering theory into a hands-on, community-centered event.
+
+  interactivetools:
+    title: Interactive Educational Tools
+    icon: fas fa-laptop-code
+    list:
+      - title: DreamPlot
+        url: "/projects/dreamplot/"
+        description: Browser-based curve-fitting tool for student data analysis — plot points, fit models in real time, predict values, and export reports.
+
+      - title: Lab Workbook
+        url: "/projects/labworkbook/"
+        description: Interactive chemistry mission workbook for atoms, structure, and bonding — guided acts, trainings, and Canvas-ready PDF export.
+
+      - title: Kepler's Laws Simulator
+        url: "/projects/kepler/"
+        description: Interactive 3D orbital mechanics simulation for exploring Kepler's laws through sandbox controls and solar-system presets.
+
+      - title: Lunar Impact Simulator
+        url: "/projects/lunar/"
+        description: Lunar (and Earth) impact crater simulator grounded in planetary science scaling laws for classroom exploration of impact physics.
+
+      - title: HearSay & Screen Reader Tools
+        url: "/projects/hearsay/"
+        description: Authoring tools that help make STEM course content pronounceable by screen readers — MathSay, pronunciation dictionaries, and preview workflows.
+
+      - title: Educational Image Accessibility Tool
+        url: "/projects/educational-image-accessibility-tool/"
+        description: Generate WCAG-aligned alt text, figure descriptions, long descriptions, and transcriptions for curriculum images.
+
+      - title: Learning Objective Generator
+        url: "/projects/learning-objective-generator/"
+        description: AI-powered tool that reverse-engineers measurable, standards-aligned learning objectives from course materials.
+
+      - title: Molarity to Mass Converter
+        url: "/projects/molarity-converter/"
+        description: Guided chemistry trainer for converting molarity (mol/L) to mass per volume (mg/L).
 
   skill:
     title: Skills
@@ -239,7 +295,7 @@ params:
     list:
       - title: University Curriculum
         url: "/projects/university-curriculum/"
-        description: Immersive, inquiry-driven curricula for Dreamscape Learn and Arizona State University spanning biology, chemistry, economics, sustainability, and astronomy.
+        description: Immersive, inquiry-driven curricula as Senior Curriculum Designer for Dreamscape Learn at Arizona State University, spanning biology, chemistry, economics, sustainability, and astronomy.
 
       - title: High School Curriculum
         url: "/projects/high-school-curriculum/"

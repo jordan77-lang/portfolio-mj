@@ -2,108 +2,41 @@
 title: "Interactive Educational Tools"
 date: 2024-01-10
 draft: false
-description: "Interactive learning resources designed for accessible, engaging STEM education across multiple platforms."
+description: "Interactive learning resources designed for accessible, engaging STEM education across digital tools and physical manipulatives."
 ---
 
-## Digital Educational Tools
+## Overview
 
-### [Learning Objective Generator](/projects/learning-objective-generator/)
-AI-powered tool that reverse‑engineers measurable, standards‑aligned learning objectives from course materials (outlines, assignments, lesson text).
+Browser-based trainers, simulations, accessibility authoring tools, and physical 3D manipulatives designed for STEM learning. The strongest launchable tools are featured on the [homepage](/#interactive-tools).
 
-Key features:
-- Applies Bloom's Taxonomy, ABCD Model, SMART Criteria, and Constructive Alignment
-- OpenAI‑assisted text analysis for automated objective generation
-- JSON-structured outputs for export and downstream use
-- Aligns to NGSS and CCSS standards
+## Featured tools
 
----
+- [DreamPlot](/projects/dreamplot/) — real-time curve fitting for student data
+- [Lab Workbook](/projects/labworkbook/) — chemistry mission workbook with PDF export
+- [Kepler's Laws Simulator](/projects/kepler/) — interactive 3D orbital mechanics
+- [Lunar Impact Simulator](/projects/lunar/) — crater physics exploration
+- [HearSay & Screen Reader Tools](/projects/hearsay/) — STEM accessibility authoring
+- [Educational Image Accessibility Tool](/projects/educational-image-accessibility-tool/) — alt text and figure descriptions
+- [Learning Objective Generator](/projects/learning-objective-generator/) — AI-assisted outcomes from course materials
+- [Molarity to Mass Converter](/projects/molarity-converter/) — chemistry unit conversion trainer
 
-### [Educational Image Accessibility Tool](/projects/educational-image-accessibility-tool/)
-Generate high‑quality alt text, figure descriptions, long descriptions, and transcriptions for curriculum images. Built around WCAG guidelines and educational standards.
+## More tools
 
-Key features:
-- Alt text, figure descriptions, long descriptions, and full transcriptions
-- Educator-focused guidance aligned to WCAG and instructional standards
-- Simple drag‑and‑drop with optional context to improve accuracy
-- Browser-based tool with copy‑ready outputs — no install required
-
----
-
-### [Relative Frequency Trainer](/projects/relative-frequency-trainer/)
-Interactive training tool that teaches students how to estimate probability using relative frequency through guided practice.
-
-Key features:
-- Step-by-step guided instruction
-- Interactive practice problems with immediate feedback
-- Mission-based training format for student engagement
-- Browser-based tool requiring no installation
-
----
-
-### [Interpreting Frequency Distributions](/projects/interpret-distributions/)
-Interactive training tool that teaches students how to interpret frequency distributions by identifying peaks and describing shape.
-
-Key features:
-- Step-by-step guided instruction
-- Interactive practice problems with immediate feedback
-- Mission-based training format for student engagement
-- Browser-based tool requiring no installation
-
----
-
-### [Molarity to Mass Converter](/projects/molarity-converter/)
-Interactive training tool that teaches chemistry students how to convert molarity (mol/L) to mass per volume (mg/L) through guided practice.
-
-Key features:
-- Step-by-step guided instruction
-- Interactive practice problems with immediate feedback
-- Mission-based training format for student engagement
-- Browser-based tool requiring no installation
-
-
----
-
-### [Interactive Periodic Table](/projects/interactive-periodic-table/)
-Explore element properties, atomic structure, and chemical families through simple visual interaction.
-
-Key features:
-- Detail-on-hover for element information
-- Family color-coding
-- Works well on tablets and classroom displays
-
----
-
-### [Articulate Rise Examples](/projects/articulate-rise-modules/)
-Professional eLearning modules with responsive design, interactive checks, and LMS integration.
-
-Key features:
-- Mobile-responsive design
-- Knowledge checks and quizzes
+- [ASRS Pension Estimator](/projects/asrs-estimator/) — guided educational retirement estimator
+- [Relative Frequency Trainer](/projects/relative-frequency-trainer/) — probability via relative frequency
+- [Interpreting Frequency Distributions](/projects/interpret-distributions/) — peaks and shape
+- [Interactive Periodic Table](/projects/interactive-periodic-table/) — element exploration
+- [Articulate Rise Examples](/projects/articulate-rise-modules/) — responsive eLearning modules
 
 ---
 
 ## 3D Physical Manipulatives
 
-These are physical models designed in Fusion 360 for hands-on classroom exploration.
-
 ### [Scale Solar System Models](/projects/solar-system-models/)
 3D-modeled manipulatives that demonstrate realistic distance and size relationships in the solar system.
 
-Design features:
-- Two versions: distance scale and size scale
-- Designed in Fusion 360 for 3D printing
-- Accurate proportions for classroom demonstrations
-
-
----
-
 ### [Moon Phase Model](/projects/moon-phase-model/)
 Physical 3D model designed to demonstrate Earth–Moon–Sun geometry and lunar phases.
-
-Design features:
-- 3D-modeled in Fusion 360
-- Shows phase relationships through physical manipulation
-- Demonstrates why we see different moon phases
 
 ---
 

@@ -3,6 +3,8 @@ title: "Interactive Periodic Table"
 date: 2024-01-10
 draft: false
 description: "Hover-responsive periodic table for exploring element properties and chemical families."
+launch_url: "/files/interactive-periodic-table.html"
+launch_label: "Launch Periodic Table"
 ---
 
 ## Overview
@@ -29,12 +31,7 @@ This interactive periodic table provides an engaging way for students to explore
 
 ## Interactive Periodic Table
 
-<div style="margin: 20px 0; padding: 40px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-  <h3 style="color: white; margin-bottom: 16px; font-size: 1.5em;">Full Interactive Periodic Table</h3>
-  <p style="color: rgba(255,255,255,0.9); margin-bottom: 24px;">Explore all 118 elements with hover effects showing atomic number, symbol, name, and atomic mass</p>
-  <a href="/files/interactive-periodic-table.html" target="_blank" style="display: inline-block; padding: 14px 32px; background: white; color: #667eea; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: transform 0.2s;">Launch Periodic Table →</a>
-  <p style="color: rgba(255,255,255,0.8); margin-top: 20px; font-size: 0.9em;">Opens in a new tab • Works on all devices • No login required</p>
-</div>
+Explore all 118 elements with hover effects showing atomic number, symbol, name, and atomic mass. Opens in a new tab — works on all devices, no login required.
 
 ### Features
 - **Complete Table**: All 118 elements from Hydrogen to Oganesson

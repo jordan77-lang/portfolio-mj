@@ -3,6 +3,8 @@ title: "Articulate Rise Course Modules"
 date: 2024-01-10
 draft: false
 description: "Professional eLearning modules created with Articulate Rise for responsive, interactive online education."
+launch_url: "/files/Test/story.html"
+launch_label: "Launch Polymer Structure Demo"
 ---
 
 ## Overview
@@ -17,8 +19,6 @@ Unlike static PDFs or video-only content, Rise modules provide a structured lear
 
 ### Polymer Structure and Density
 An interactive demonstration showing how polymer molecular structure affects packing efficiency and material density in plastics. Students explore the relationship between chain structure, crystallinity, and physical properties through guided interactions and visual models.
-
-**Try it out:**  [Polymer Structure Demo](/files/Test/story.html)
 
 Key features:
 - Visual molecular structure comparisons

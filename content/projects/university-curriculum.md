@@ -2,11 +2,18 @@
 title: "University Curriculum"
 date: 2025-10-28
 description: "Immersive, inquiry-driven university curricula for Dreamscape Learn and Arizona State University spanning biology, chemistry, economics, sustainability, and astronomy."
+role: "Senior Curriculum Designer for Dreamscape Learn at Arizona State University."
+challenge: |
+  Design university curricula that fuse VR narrative environments with rigorous STEM learning—spanning biology, chemistry, economics, sustainability, and astronomy—while staying accessible, consistent, and faculty-ready.
+approach: |
+  Built inquiry-driven, mission-based modules aligned to the Dreamscape Learn pedagogical framework: clear learning objectives, authentic data analysis, scientific reasoning, and story-driven contexts. Established production pipelines, accessibility standards, and faculty-facing implementation resources to support reliable delivery across courses.
+outcomes: |
+  Delivered interdisciplinary immersive curricula with stronger production consistency, accessibility supports (including AI-assisted image description tooling), learning-objective alignment tools, and faculty resources that help instructors implement mission-based learning at scale.
 ---
 
 ## Dreamscape Learn / Arizona State University
 
-Role: Curriculum Designer
+Role: Senior Curriculum Designer
 
 Summary:
 

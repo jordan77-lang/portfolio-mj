@@ -1,0 +1,9 @@
+{{ range .Site.Params.interactivetools.list }}
+<h4>
+  <a href="{{ .url }}">{{- .title -}}</a>
+</h4>
+<p class="markdownify">{{- .description | markdownify -}}</p>
+{{ end }}
+<p class="mt-4 mb-2">
+  <a href="{{ "/projects/interactive-educational-tools/" | relURL }}">See all interactive tools →</a>
+</p>

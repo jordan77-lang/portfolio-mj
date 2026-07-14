@@ -1,7 +1,8 @@
 {{ range .Site.Params.skill.list }}
+  {{ $skillName := .skill }}
   {{ if .items }}
   <div class="mb-4">
-    <div class="font-semibold">{{ .skill }}</div>
+    <div class="font-semibold">{{ $skillName }}</div>
     <ul class="list-disc pl-5 mt-1">
       {{ range .items }}
         <li>{{ . }}</li>
@@ -10,7 +11,12 @@
   </div>
   {{ else }}
   <div class="mb-3">
-    <div class="font-semibold">{{ .skill }}</div>
+    <div class="font-semibold mb-1">{{ $skillName }}</div>
+    {{ with .skillrating }}
+    <div class="w-full border border-gray-400 dark:border-gray-500 rounded-sm" style="height: 0.5rem;" role="meter" aria-label="{{ $skillName }} proficiency" aria-valuenow="{{ . }}" aria-valuemin="0" aria-valuemax="100">
+      <div class="bg-blue-500 dark:bg-yellow-600 h-full rounded-sm" style="width: {{ . }}%;"></div>
+    </div>
+    {{ end }}
   </div>
   {{ end }}
 {{ end }}

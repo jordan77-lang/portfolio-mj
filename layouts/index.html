@@ -6,37 +6,41 @@
         {{ partial "profilePhoto" . }}
         <div class="px-2 text-center">
           {{ partial "social" . }}
-          
         </div>
       </div>
     </div>
     {{ partial "footer" . }}
   </div>
   <div class="col-span-3 relative">
+    {{ partial "hero-tldr" . }}
     {{ range .Site.Params.showInAccordion }}
-    <div class="px-2">
-      <h2 class="accordion {{- if .expand }} active {{- end }}">
-        {{ $current := index $.Site.Params .item }}
-        <p
-         
+    {{ $current := index $.Site.Params .item }}
+    {{ $panelId := printf "%s-panel" .item }}
+    {{ $headerId := printf "%s-header" .item }}
+    <div class="px-2" {{ if eq .item "projects" }}id="projects"{{ else if eq .item "interactivetools" }}id="interactive-tools"{{ end }}>
+      <h2 class="accordion {{- if .expand }} active {{- end }}" id="{{ $headerId }}">
+        <button
+          type="button"
+          class="accordion-trigger w-full text-left"
           onclick="expandAccordion(this)"
-          style="cursor: pointer"
+          aria-expanded="{{ if .expand }}true{{ else }}false{{ end }}"
+          aria-controls="{{ $panelId }}"
         >
-          <i class="{{ $current.icon }}"></i>
-          {{ $current.title -}}
-        </p>
+          <i class="{{ $current.icon }}" aria-hidden="true"></i>
+          {{ $current.title }}
+        </button>
       </h2>
 
       <div
         class="panel overflow-hidden px-2 ml-2"
-        {{if $current.panelid}}
-        id="{{ $current.panelid }}"
-        {{ end }}
+        id="{{ $panelId }}"
+        role="region"
+        aria-labelledby="{{ $headerId }}"
       >
-        <div class="">{{ partial (print "accordion/" .item) $ }}</div>
+        <div>{{ partial (print "accordion/" .item) $ }}</div>
       </div>
     </div>
-    {{ end }}    
+    {{ end }}
   </div>
 </div>
 {{ end }}

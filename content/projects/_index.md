@@ -1,28 +1,20 @@
 ---
-title: "Career Highlights"
-description: "Innovative Programs & Student Success Stories"
-
+title: "Projects"
+description: "Signature programs, immersive STEM work, and interactive educational tools."
 ---
 
-## 📚 Curriculum Designed
+A curated selection of curriculum, community programs, immersive experiences, and tools built for teaching and learning.
 
-A selection of authored curricula across K–12 and higher ed.
+## Featured on the homepage
 
-- High School Curriculum — Engineering Program: /projects/high-school-curriculum/
-- University Curriculum — Dreamscape Learn/ASU: /projects/university-curriculum/
-- Project Zephyr Curriculum: /projects/project-zephyr-curriculum/
-- Taking Flight Event Curriculum: /projects/taking-flight-curriculum/
+- [Project Highlights](/#projects) — missions, AR/VR, aerospace, and community STEM events
+- [Interactive Educational Tools](/#interactive-tools) — simulations, trainers, and accessibility authoring tools
+- [Curriculum Designed](/#curriculumdesigned-header) — university, high school, and community curriculum
 
----
+## Interactive tools
 
-## 🚀 Signature Programs
+Browse the full collection: [Interactive Educational Tools](/projects/interactive-educational-tools/)
 
-- Silver Apple Award — Feature from 3TV/CBS 5: /projects/silver-apple-award/
-- HGTV: Over Your Head — On‑camera design/build: /projects/over-your-head/
-- Project Zephyr — Student space mission: /projects/zephyr/
-- Phoenix Neutrino — Live improv-film production: /projects/phoenix-neutrino/
-- Space Night — Community STEM celebration: /projects/space-night/
+## Collaborate
 
----
-
-Want to learn more or collaborate? [Email me](mailto:stramark@gmail.com).
+Want to learn more or collaborate? [Email me](mailto:stramark@gmail.com)

@@ -2,15 +2,13 @@
 title: "Educational Image Accessibility Tool"
 date: 2025-10-28
 description: "Generate high‑quality alt text, figure descriptions, long descriptions, and transcriptions for curriculum images."
+launch_url: "https://image-accessibility-tool.netlify.app/image-tool"
+launch_label: "Launch Image Accessibility Tool"
 ---
 
 ## Educational Image Accessibility Tool
 
 An educator-focused tool to create accessibility content for images: concise alt text, scientifically sound figure descriptions, long descriptions, and full-text transcriptions. Built around WCAG guidelines and institutional standards for education.
-
-### Live application
-- Try it out: https://image-accessibility-tool.netlify.app/image-tool
-
 
 ### What it does
 - Alt text (auto-validated to stay concise)

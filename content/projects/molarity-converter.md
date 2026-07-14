@@ -3,13 +3,11 @@ title: "Molarity to Mass Converter"
 date: 2024-12-04
 draft: false
 description: "Interactive training tool teaching chemistry students to convert molarity (mol/L) to mass per volume (mg/L)."
+launch_url: "/molarity-training/"
+launch_label: "Launch Interactive Tool"
 ---
 
 Interactive training tool that teaches chemistry students how to convert molarity (mol/L) to mass per volume (mg/L) through mission-based guided practice with immediate feedback.
-
-<div style="text-align: center; margin: 2em 0;">
-  <a href="/molarity-training/" style="display: inline-block; padding: 12px 24px; background-color: #2563eb; color: white; text-decoration: none; border-radius: 8px; font-weight: bold;">Launch Interactive Tool</a>
-</div>
 
 ## Key Features
 

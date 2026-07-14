@@ -1,7 +1,6 @@
 ---
 title: "About Me"
-featured_image: ""
-description: "20+ Years of STEM Education Excellence"
+description: "PhD student and Senior Curriculum Designer at ASU Dreamscape Learn — immersive learning, curriculum design, and STEM education."
 menu:
   main:
     weight: 2
@@ -9,224 +8,111 @@ menu:
 
 ## Professional Journey
 
-With over two decades of experience in STEM education, I've dedicated my career to inspiring the next generation of engineers, innovators, and problem-solvers. My approach combines **hands-on learning**, **real-world applications**, and **student-driven exploration** to create meaningful educational experiences.
+I'm a PhD student in ASU's GAME School and a Senior Curriculum Designer for Dreamscape Learn at Arizona State University. I design immersive AR and VR learning experiences, and I also serve as a Faculty Associate in the Mary Lou Fulton Teachers College Learning Design and Technologies program.
 
-## Teaching Philosophy
+My path started in Arizona classrooms. After twenty-four years teaching engineering, robotics, and cybersecurity, I now work at the intersection of doctoral research, university curriculum design, and graduate teaching—always with the same aim: learning that is clear, engaging, and built for every student.
 
-I believe in **project-based learning** where students:
-- Learn by doing, not just observing
-- Tackle real-world challenges
-- Develop critical thinking and problem-solving skills
-- Work collaboratively in teams
-- Build confidence through achievement
+## Current Roles
 
-## Current Role
+### Ph.D. Student · ASU School of Games, Arts, Media and Engineering (GAME)
+**Present**
 
-### Hamilton High School | Chandler Unified School District
-**Teacher** (2020-Present)
+My doctoral work focuses on immersive learning, curriculum design, and the development of meaningful learning experiences through emerging technologies. I'm especially interested in how story-driven and mission-based environments help learners connect complex concepts to applied practice.
 
-Teaching courses in:
-- **Cyber Security** - Preparing students for careers in network security and ethical hacking
-- **Engineering** - Hands-on design, prototyping, and manufacturing
-- **Investigative Science** - Scientific method and forensic analysis
+### Senior Curriculum Designer · Dreamscape Learn at Arizona State University
+**Present**
+
+I design curriculum for immersive learning experiences, including AR and VR environments, mission-based learning activities, instructional materials, assessments, and faculty-facing implementation resources. The work emphasizes pedagogically grounded experiences that connect rigorous content to applied, narrative contexts.
+
+### Faculty Associate · Mary Lou Fulton Teachers College — Learning Design and Technologies
+**Present**
+
+I support graduate students as they develop their understanding of learning design, instructional strategies, educational technology, and evidence-based approaches to designing effective learning experiences.
 
 ---
 
-## Previous Experience
+## Teaching Philosophy
 
-### Mesquite High School | Gilbert Public Schools
-**Teacher** (2000-2020)
+I believe in **project-based, story-driven learning** where students:
 
-Over 20 years, I built and led one of Arizona's premier STEM programs, teaching:
+- Learn by doing, not just observing
+- Tackle real-world and mission-based challenges
+- Develop critical thinking and problem-solving skills
+- Work collaboratively in teams
+- Build confidence through achievement and reflection
 
-**Engineering Courses:**
-- 3D Modeling and Prototyping
-- Computer Integrated Manufacturing
-- Aerospace Engineering
-- Robotics and Electronics
-- Woodworking and Construction
+That philosophy shaped my K–12 STEM programs and continues to guide immersive curriculum design at Dreamscape Learn.
 
-**Project Lead the Way (PLTW) Courses:**
-- Introduction to Engineering Design (IED)
-- Principles of Engineering (POE)
-- Aerospace Engineering (AE)
-- Engineering Design and Development (EDD)
+---
 
-### Key Accomplishments at Mesquite HS:
+## K–12 STEM Foundation
 
-**Lab Management**
-- Operated and maintained CNC equipment, woodshop, engineering lab, and technical theatre shops
-- Managed budgets exceeding $100,000 annually
-- Ensured student safety in high-tech manufacturing environments
+### Arizona Public Schools
+**STEM Teacher** (2000–2024)
 
-**Student Programs**
-- Founded and sponsored **SkillsUSA** chapter
-- Created **Maker's Club** with 50+ active members
-- Coached teams in **Vex Robotics** competitions
-- Supervised **Battlebots** and mobile robotics competitions
+Over two decades, I built and led STEM programs teaching Engineering, Robotics, Cyber Security, and Aerospace—including Project Lead The Way courses in Introduction to Engineering Design, Principles of Engineering, Aerospace Engineering, Engineering Design and Development, and Cyber Security.
 
-**Community Events**
-- Created and facilitated **Space Night**, an annual spring carnival celebrating space exploration
-- Attracted 500+ community members annually
-- Featured interactive exhibits, guest speakers, and student projects
+**Highlights:**
+
+- Founded and sponsored SkillsUSA; created Maker's Club
+- Coached VEX Robotics and competition teams
+- Created **Space Night**, an annual community STEM event with 500+ attendees
+- Managed CNC, woodshop, engineering lab, and technical theatre spaces
 
 ---
 
 ## Media & Public Speaking
 
-### HGTV - "Over Your Head"
-**Master Carpenter & On-Camera Host** (2008-2010)
+### HGTV — "Over Your Head"
+**Master Carpenter & On-Camera Host** (2008–2010)
 
-- On-camera talent for 3 seasons of nationally broadcast home improvement show
-- Designed, constructed, and remodeled homes for weekly episodes
-- Worked with professional production crews and celebrity guests
-- Sponsored by **Craftsman Tools** and **GMC**
-
-**Skills Developed:**
-- Public speaking and camera presence
-- Project management under tight deadlines
-- Communication with diverse audiences
-- Problem-solving in high-pressure situations
+- On-camera talent for three seasons of a nationally broadcast home improvement series
+- Designed and constructed renovations while mentoring homeowners on set
+- Developed public speaking, rapid project management, and communication skills that still inform teaching and facilitation
 
 ---
 
 ## Board Leadership
 
 ### Higher Orbits
-**Board Member** (Current)
+**Advisory Board Member**
 
-Serving on the board of directors for this nonprofit organization that:
-- Provides STEM education through space-themed programs
-- Connects students with astronauts and space professionals
-- Inspires careers in aerospace and engineering
-- Reaches thousands of students nationwide
+Serve on the advisory board of this nonprofit that inspires students through spaceflight-based STEM programs, connecting classrooms with astronauts, aerospace professionals, and mission-based learning at national scale.
 
 ---
 
 ## Awards & Recognition
 
-**Mesquite High School Teacher of the Year** (2019-2020)
-- Recognized for outstanding teaching and student impact
-
-**Best Teacher in Gilbert** - Get Out Magazine
-- Nominated by students and community (2018, 2019, 2020)
-
-**NEA Excellence in Public School Education Scholarship**
-- Full-tuition scholarship to Walden University (2013)
-- Awarded to educators demonstrating exceptional commitment to student success
-
-**HGTV Featured Educator**
-- One of few educators with national television platform
-- Brought practical skills education to mainstream audiences
+- **Silver Apple Award** — Arizona's Family (3TV/CBS 5), for excellence in STEM education
+- **Mesquite High School Teacher of the Year** (2019–2020)
+- **Best Teacher in Gilbert** — Get Out Magazine (student/community nominations)
+- **NEA Excellence in Public School Education Scholarship** — full-tuition scholarship to Walden University
 
 ---
 
-## Education & Professional Development
+## Education
 
-### Graduate Education
+**Ph.D. Student — Immersive Learning & Emerging Technologies**  
+Arizona State University — School of Games, Arts, Media and Engineering (GAME) · Present
 
-**Master of Science — Instructional Design & Technology — Emphasis in Online Learning**  
-Walden University (2013-2016)
-- Focus on curriculum development and educational technology
-- Research in project-based learning methodologies
-- Capstone: Digital curriculum design for engineering education
+**M.S., Instructional Design & Technology — Emphasis in Online Learning**  
+Walden University
 
-**Graduate Credits - Engineering Education**
-- Rochester Institute of Technology (RIT) - PLTW courses
-- Embry-Riddle Aeronautical University - Aerospace Engineering
-- Ongoing professional development in emerging technologies
+**B.F.A. in Secondary Education (Technical Theatre Emphasis)**  
+Arizona State University
 
-### Undergraduate Education
-
-**Bachelor of Fine Arts in Education**  
-Arizona State University (1995-1999)
-- Focus on secondary education and technical subjects
-- Student teaching in diverse urban and suburban schools
-
----
-
-## Certifications & Credentials
-
-### Project Lead the Way (PLTW)
-Certified to teach:
-- Introduction to Engineering Design (IED)
-- Principles of Engineering (POE)
-- Engineering Design and Development (EDD)
-- Aerospace Engineering (AE)
-- Cyber Security
-
-### Professional Licenses
-- Arizona Teaching Certificate - Secondary Education
-- Career and Technical Education (CTE) - Emerging Technologies
-- ESL Endorsement
-- Highly Qualified Teacher Status
-
----
-
-## Technical Expertise
-
-### Computer-Aided Design (CAD)
-- **Autodesk Inventor** - Advanced 3D modeling and assemblies
-- **SolidWorks** - Professional engineering design
-- **Vcarve Pro** - CNC toolpath generation
-- **AutoCAD** - Technical drawing and drafting
-
-### Manufacturing & Prototyping
-- **CNC Machining** - Mills, lathes, routers
-- **3D Printing** - FDM, SLA, design for additive manufacturing
-- **Laser Cutting/Engraving** - Vector design and operation
-- **Woodworking** - Table saws, jointers, planers, hand tools
-
-### Electronics & Programming
-- **Arduino** - Microcontroller programming and circuits
-- **Robotics** - Vex, LEGO, custom builds
-- **Circuit Design** - Breadboarding, PCB design basics
-- **Sensors & Actuators** - Integration and troubleshooting
-
-### Digital Media
-- **Adobe Photoshop** - Graphic design and photo editing
-- **Video Production** - Filming, editing, post-production
-- **Presentation Software** - PowerPoint, Google Slides, Prezi
-
-### Learning Management Systems
-- **Canvas** - Course design and student assessment
-- **Google Classroom** - Assignment management and collaboration
-- **Blackboard** - Traditional LMS administration
-- **Infinite Campus** - Gradebook and student information
-- **Buzz** - Standards-based grading platform
-
----
-
-## What I'm Looking For
-
-I'm interested in opportunities that allow me to:
-
-**Expand STEM Education**
-- Curriculum development and instructional design
-- Educational consulting for schools and districts
-- Professional development for fellow educators
-
-**Innovation & Leadership**
-- Program director or department head roles
-- Educational technology integration
-- Grant writing and program funding
-
-**Collaboration**
-- Partnerships with industry and higher education
-- STEM outreach and community programs
-- Educational nonprofits and foundations
+Additional graduate coursework in engineering education (RIT) and PLTW instructor certification across core engineering pathways.
 
 ---
 
 ## Get In Touch
 
-I'm always happy to discuss education, share resources, or explore collaboration opportunities.
+I'm always happy to discuss immersive learning, curriculum design, or collaboration.
 
 Email: [stramark@gmail.com](mailto:stramark@gmail.com)  
-Phone: (480) 678-2737  
-LinkedIn: [Connect with me](https://linkedin.com/in/mark-jordan)  
+LinkedIn: [Connect with me](https://www.linkedin.com/in/mark-jordan-769417a/)  
 Resume: [Download PDF](/files/Mark_Jordan_Resume.pdf)
 
 ---
 
-*"The best way to predict the future is to create it." - Abraham Lincoln*
+*"The best way to predict the future is to create it."*

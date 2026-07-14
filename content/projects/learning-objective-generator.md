@@ -4,6 +4,8 @@ date: 2025-11-04
 draft: false
 description: "AI-assisted tool that reverse-engineers measurable, standards-aligned learning objectives from course materials to accelerate curriculum development and accreditation alignment."
 tags: ["interactive tools", "AI", "instructional design", "assessment", "curriculum"]
+launch_url: "https://image-accessibility-tool.netlify.app/learning-objectives"
+launch_label: "Launch Learning Objective Generator"
 ---
 
 ## Overview
@@ -11,10 +13,6 @@ tags: ["interactive tools", "AI", "instructional design", "assessment", "curricu
 This web-based tool uses artificial intelligence to reverse‑engineer learning objectives from existing course materials such as outlines, assignments, and lesson text. By leveraging an OpenAI model and instructional design frameworks, it automatically generates measurable, standards‑aligned learning outcomes that support curriculum development and accreditation alignment.
 
 Built with modern web technologies and integrated through an API, the tool analyzes uploaded or pasted content to identify intended learning outcomes and align them with cognitive levels, performance expectations, and disciplinary standards.
-
-## Try it
-
-- Live tool: https://image-accessibility-tool.netlify.app/learning-objectives
 
 ---
 

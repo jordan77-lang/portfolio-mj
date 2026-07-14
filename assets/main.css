@@ -92,8 +92,12 @@
   }
   .accordion {
     @apply text-blue-600 dark:text-yellow-500 my-0;
-    > p {
-      @apply my-0 p-2 hover:bg-gray-300 rounded-sm dark:hover:bg-darker;
+    > p,
+    > .accordion-trigger {
+      @apply my-0 p-2 hover:bg-gray-300 rounded-sm dark:hover:bg-darker cursor-pointer;
+    }
+    > .accordion-trigger {
+      @apply bg-transparent border-0 text-inherit w-full text-left;
     }
   }
 

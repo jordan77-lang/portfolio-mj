@@ -5,10 +5,7 @@
   <title>{{ .Title }} - {{ .Site.Title }}</title>
   {{ end }}
   <meta charset="UTF-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="" />
   <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
   <meta name="author" content="{{ .Site.Params.author }}" />
@@ -17,7 +14,14 @@
   {{ $title := (cond .IsHome .Site.Title (printf "%s - %s" .Title .Site.Title)) }}
   {{ $desc := (cond (isset .Params "description") .Params.description .Site.Params.description) }}
   {{ $slug := (or .Slug (and .File .File.BaseFileName)) }}
-  {{ $ogImg := (cond $slug (printf "/images/og/%s.png" $slug) "/images/og/default.png") | absURL }}
+  {{ $ogCandidate := printf "images/og/%s.png" $slug }}
+  {{ $ogPath := "/images/profile.jpg" }}
+  {{ if and $slug (fileExists (printf "static/%s" $ogCandidate)) }}
+    {{ $ogPath = printf "/%s" $ogCandidate }}
+  {{ else if (fileExists "static/images/og/default.png") }}
+    {{ $ogPath = "/images/og/default.png" }}
+  {{ end }}
+  {{ $ogImg := $ogPath | absURL }}
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ $title }}" />
   <meta property="og:description" content="{{ $desc }}" />
@@ -37,11 +41,11 @@
   />
   <link
     rel="stylesheet"
-    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+    href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css"
   />
   <link
     rel="stylesheet"
-    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+    href="https://fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
   />
 
   {{ $css := resources.Get "main.css" | css.TailwindCSS }}
@@ -85,33 +89,33 @@
 
   <script>
     const expandAccordion = (elem) => {
+      const headerEl = elem.closest(".accordion") || elem.parentElement;
       const allPanels = Array.from(document.querySelectorAll(".panel"));
       const allAccordion = Array.from(document.querySelectorAll(".accordion"));
 
-      if (!elem.parentElement.classList.contains("active")) {
-        allAccordion.forEach((acc) => { acc.classList.remove("active"); });
-        elem.parentElement.classList.add("active");
-        allPanels.forEach(function (elem) { elem.style.maxHeight = null; });
-        let activePanel = elem.parentElement.nextElementSibling;
-        if (activePanel.id != "skill-panel" && document.querySelector("#skill-panel")) {
+      if (!headerEl.classList.contains("active")) {
+        allAccordion.forEach((acc) => {
+          acc.classList.remove("active");
+          const trigger = acc.querySelector(".accordion-trigger");
+          if (trigger) trigger.setAttribute("aria-expanded", "false");
+        });
+        headerEl.classList.add("active");
+        elem.setAttribute("aria-expanded", "true");
+        allPanels.forEach(function (panel) { panel.style.maxHeight = null; });
+        let activePanel = headerEl.nextElementSibling;
+        if (activePanel && activePanel.id != "skill-panel" && document.querySelector("#skill-panel")) {
           let skillBars = Array.from(document.querySelectorAll("#skill-percent"));
-          skillBars.forEach((elem) => { elem.style.width = "0"; });
+          skillBars.forEach((bar) => { bar.style.width = "0"; });
         }
-        activePanel.style.maxHeight = activePanel.scrollHeight + "px";
+        if (activePanel) activePanel.style.maxHeight = activePanel.scrollHeight + "px";
 
-        // Center the accordion header in the viewport after expansion
-        // so it remains visible and doesn't move off screen.
         try {
-          const headerEl = elem.parentElement;
-          const activePanel = headerEl.nextElementSibling;
-
           const doScrollToCenter = () => {
             const headerBox = headerEl.getBoundingClientRect();
             const target = headerBox.top + window.pageYOffset - ((window.innerHeight - headerBox.height) / 2);
             window.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
           };
 
-          // Prefer scrolling after the panel's height transition ends for accuracy
           let scrolled = false;
           const onTransitionEnd = (ev) => {
             if (ev && ev.propertyName !== 'max-height') return;
@@ -122,14 +126,11 @@
             activePanel && activePanel.removeEventListener('transitionend', onTransitionEnd);
           };
           activePanel && activePanel.addEventListener('transitionend', onTransitionEnd, { once: true });
-
-          // Fallback in case transitionend doesn't fire (e.g., very short content)
           setTimeout(() => { if (!scrolled) { scrolled = true; doScrollToCenter(); } }, 200);
         } catch (_) { /* no-op */ }
 
-        // Persist currently opened accordion key for this page
         try {
-          const key = (elem.parentElement.textContent || "").trim().toLowerCase().replace(/[^\w]+/g, "-");
+          const key = (headerEl.textContent || "").trim().toLowerCase().replace(/[^\w]+/g, "-");
           if (key) {
             window.sessionStorage.setItem("openAccordion:" + location.pathname, key);
           }
@@ -217,6 +218,8 @@
             Array.from(document.querySelectorAll(".accordion")).forEach(acc => acc.classList.remove("active"));
             Array.from(document.querySelectorAll(".panel")).forEach(p => p.style.maxHeight = null);
             match.classList.add("active");
+            const matchTrigger = match.querySelector(".accordion-trigger");
+            if (matchTrigger) matchTrigger.setAttribute("aria-expanded", "true");
             if (match.nextElementSibling) {
               match.nextElementSibling.style.maxHeight = match.nextElementSibling.scrollHeight + "px";
             }

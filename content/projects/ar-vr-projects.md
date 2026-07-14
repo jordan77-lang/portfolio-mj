@@ -3,11 +3,18 @@ title: "AR/VR Projects"
 date: 2025-10-29
 description: "Immersive augmented and virtual reality experiences for education and entertainment"
 tags: ["ar", "vr", "augmented-reality", "virtual-reality", "3d-modeling", "unity"]
+role: "Designer and developer of AR/VR prototypes for immersive learning and engagement."
+challenge: |
+  Explore how extended reality can make learning more tangible—moving beyond demos to experiences that support spatial reasoning, presence, and interaction across mobile and WebXR platforms.
+approach: |
+  Prototype across pipelines: photogrammetry and digital twins for AR, Three.js/WebXR viewers for VR spaces, and early Gaussian splat workflows for shared social environments. Each project tests a different instructional or engagement question while remaining deployable as a browser or mobile experience.
+outcomes: |
+  Published interactive AR digital twin experiences, Robot and Castle VR viewers, and ongoing WebXR Gaussian splat experiments—artifacts that demonstrate applied immersive design for education and engagement.
 ---
 
 ## Overview
 
-As part of my exploration into immersive learning technologies, I've developed several AR and VR projects that demonstrate the potential of extended reality (XR) for education and engagement. These projects combine 3D modeling, real-time rendering, and interactive experiences.
+As part of my exploration into immersive learning technologies—and aligned with my doctoral work in ASU's GAME School—I've developed several AR and VR projects that demonstrate the potential of extended reality (XR) for education and engagement. These projects combine 3D modeling, real-time rendering, and interactive experiences.
 
 ## Featured Projects
 

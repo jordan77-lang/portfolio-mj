@@ -3,6 +3,13 @@ title: "Project Zephyr"
 tags: ["aerospace", "weather-balloon", "engineering", "payload", "telemetry"]
 featured_image: ""
 description: "High-Altitude Balloon Mission | Student-Led STEM Exploration"
+role: "Curriculum designer, program lead, and student mentor for a multi-year high-altitude balloon STEM program."
+challenge: |
+  Bring authentic aerospace engineering into a public high school setting—complete with sensors, FAA coordination, live tracking, and recovery—without losing the clarity and scaffolding students need to succeed.
+approach: |
+  Structured the mission as a full systems-engineering cycle: payload design, sensor integration, flight prediction, launch operations, chase/recovery, and post-flight analysis. Students owned technical decisions while receiving instructional supports for safety, documentation, and communication.
+outcomes: |
+  Students flew stratospheric missions with live telemetry, practiced FAA coordination and field recovery, and presented technical findings—building a transferable pathway into aerospace, robotics, and data-driven STEM fields.
 ---
 
 ## Overview
